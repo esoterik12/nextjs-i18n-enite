@@ -1,0 +1,246 @@
+{
+  "navigation": {
+    "home": "Home",
+    "contact": "Contact",
+    "conditions": "Conditions",
+    "partyPacks": "Party Packs",
+    "allProducts": "Products"
+  },
+  "page": {
+    "home": {
+      "title": "e-nite",
+      "subTitle": "Find your perfect party setup in the Lausanne area.",
+      "description": "E-Nite has been providing the essential ingredients for a fantastic party since 2008.",
+      "actionButtonText": "Discover our Packs!"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "This is the contact page"
+    },
+    "conditions": {
+      "title": "Our conditions",
+      "description": "This is the conditions page"
+    }
+  },
+  "products": {
+    "title": "View our Products",
+    "description": "View individual e-nite products and add them to your booking.",
+    "addToOrderButton": "Add to Order",
+    "data": [
+      {
+        "productId": 1,
+        "productTitle": "Starter",
+        "productImage": "/e-nite/Pack-1-Starter.jpg",
+
+        "productPrice": 195.0,
+        "productDescription": "This Pack has everything you need to transform any space or room into a mini club. All you need is your iPhone/iPod/laptop (or any other music source) and the party may begin!",
+        "equipmentList": [
+          "Two Behringer Speakers (2 x 250W RMS)",
+          "One Behringer Amplifier",
+          "Behringer Mixboard/Mixer",
+          "Dispatcher Light Switch",
+          "1 Lightstand JB",
+          "Smoke Machine 1000W Antari + liquid + remote",
+          "ADJ Revo 4 LED + remote",
+          "ADJ Galaxian LED & Laser + remote",
+          "Martin Moonlight",
+          "Stroboscope",
+          "UV Blacklight LED",
+          "Power & audio cables",
+          "Extension cords"
+        ]
+      },
+      {
+        "productId": 2,
+        "productTitle": "Sound",
+        "productImage": "/e-nite/Pack-2-Sound.jpg",
+
+        "productPrice": 95.0,
+        "productDescription": "All you need to play loud music like a DJ with this simple but effective kit.",
+        "equipmentList": [
+          "Two Behringer Speakers (2 x 250W RMS)",
+          "One Amplifier Behringer",
+          "Behringer Mixboard/Mixer",
+          "1 wired Behringer Microphone",
+          "XLR 6m cable",
+          "Audio & Power cables"
+        ]
+      },
+      {
+        "productId": 3,
+        "productTitle": "Lightshow",
+        "productImage": "/e-nite/Pack-3-Lightshow.jpg",
+
+        "productPrice": 160.0,
+        "productDescription": "This pack will provide you and yours guests a beautiful and impressive light-show.",
+        "equipmentList": [
+          "Double Full Light-stand JB",
+          "Smoke Machine 1000W Antari + Remote",
+          "Dispatcher Light Controller Switch",
+          "Black light UV Tube LED",
+          "Stroboscope",
+          "2 x Moonlight Eurolite",
+          "American DJ Revo 4 LED + Remote",
+          "American DJ Galaxian LED & Laser + remote",
+          "Laser Double RGY",
+          "Traffic Lights",
+          "Extension cords"
+        ]
+      },
+      {
+        "productId": 4,
+        "productTitle": "Fiesta",
+        "productImage": "/e-nite/Pack-4-Fiesta.jpg",
+
+        "productPrice": 295.0,
+        "productDescription": "A complete and professional Sound & Light kit with an added double Beer Tap. What more do you want?",
+        "equipmentList": [
+          "Portable double beer tap",
+          "Gas Aligal for the beer tap",
+          "Two Behringer Speakers",
+          "One Amplifier Behringer",
+          "Wired Behringer Microphone",
+          "Mixboard BST",
+          "Dispatcher Light Switch",
+          "Moonlight JB Twin Ball",
+          "Lightstand JB",
+          "Smoke Machine 1000W Antari + remote",
+          "Stroboscope",
+          "Moonlight Eurolite",
+          "American DJ Revo 4",
+          "Laser double RGY",
+          "UV Blacklight LED",
+          "Power Cords",
+          "Extension cables and all necessary accessories"
+        ]
+      },
+      {
+        "productId": 5,
+        "productTitle": "Microphones",
+        "productImage": "/e-nite/Pack-5-Microphones.jpg",
+
+        "productPrice": 35.0,
+        "productDescription": "A comprehensive set of microphones suitable for karaoke nights, live performances, or even public speaking engagements!",
+        "equipmentList": [
+          "3 Behringer Microphones",
+          "3 Microphone Stands",
+          "3 Microphone Clips",
+          "3 XLR Cables",
+          "1 Microphone Travelling Case"
+        ]
+      }
+    ]
+  },
+  "conditions": {
+    "title": "General Terms and Conditions",
+    "description": "This document outlines the terms and conditions concerning the rental equipment and services provided. These regulations ensure smooth operations and clear business conditions for both the service provider and the client.",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance",
+        "content": "It is crucial to read and agree to our terms of service before engaging in any business. Should you have any questions regarding the points mentioned, please reach out through our contact form or send us an email."
+      },
+      "equipment": {
+        "title": "Equipment",
+        "content": [
+          "The rental equipment is inspected before and after each hire.",
+          "Clients are provided with professional equipment, which must be handled with care.",
+          "A receipt must be signed upon equipment handover.",
+          "Cancellations within 48 hours of the rental will incur a fee of 60% of the rental cost.",
+          "We reserve the right to refuse any rental requests."
+        ]
+      },
+      "reception": {
+        "title": "Reception of Equipment",
+        "content": [
+          "It is possible to come pick up the equipment directly in Epalinges (near Lausanne).",
+          "To do so, please contact us for a meeting but generally the possible hours are:",
+          "Weekdays: from 6:30 am to 7:30 am and from 6:00 pm to 8:00 pm",
+          "Weekend: from 11:00 am to 1:00 pm and from 4:00 pm to 7:00 pm",
+          "To return the equipment the same times are used."
+        ]
+      },
+      "delivery": {
+        "title": "Delivery Services",
+        "content": [
+          "Prices displayed on our Delivery Services page are only valid for Lausanne and surrounding region.",
+          "An extra fee will be charged for deliveries outside Lausanne; price on demand.",
+          "For example, a delivery to Geneva canton: supplement of CHF 60.00."
+        ]
+      },
+      "prices": {
+        "title": "Prices",
+        "content": [
+          "All prices are in Swiss Francs (CHF). All taxes are included.",
+          "Rental prices displayed allow you to keep the equipment for 24 hours (excluding Sundays), unless agreed differently.",
+          "If you rent the equipment for more than one day, the following multipliers apply:"
+        ],
+        "multipliers": {
+          "1 day": 1.0,
+          "2 days": 1.25,
+          "3 days": 1.75,
+          "4 days": 2.0,
+          "5 days": 2.25,
+          "6 days": 2.5,
+          "7 days": 2.75,
+          "8 days": 3.0,
+          "9 days": 3.25,
+          "10 days": 3.5,
+          "11 days": 3.75,
+          "12 days": 4.0,
+          "2 weeks": 4.5,
+          "3 weeks": 4.5,
+          "4 weeks": 5.0
+        }
+      },
+      "clientInfo": {
+        "title": "Client Information",
+        "description": "Before any equipment is handed over, the provider reserves the right to ask for the following client informations:",
+        "content": [
+          "Photo of ID document or Passport",
+          "First and Last Names",
+          "Home Address",
+          "Mobile Phone Number",
+          "Type of Event, ex: private party, wedding, birthday, etc.",
+          "Place of event"
+        ]
+      },
+      "payment": {
+        "title": "Payment",
+        "content": "Three payment methods are accepted:",
+        "details": ["Wire transfer", "Via PayPal: +3.4% extra charge", "Cash"],
+        "closing": "A proof of payment must be given the day the equipment is received for methods 1 and 2."
+      },
+      "deposit": {
+        "title": "Deposit",
+        "details": [
+          "A deposit of CHF 200.00 will be asked for the Sound & Light and Beer Tap equipments.",
+          "Alternatively, you may leave an official photo ID or passport instead of a cash deposit.",
+          "We reserve the right to modify this amount at any time.",
+          "Please understand this is a standard formality to protect our rental equipment."
+        ]
+      },
+      "returns": {
+        "title": "Returns",
+        "details": [
+          "The equipment must be returned to us within 36 hours during the normal return hours (please see the “Reception of Equipment” section above), unless our Delivery Services have been hired.",
+          "The equipment will then be checked and the deposit will be returned to you.",
+          "E-NiTE Services has 48 hours to check that the equipment is in working state, after the effective return date.",
+          "If the equipment is damaged in any way, we reserve the right to keep part, or the entirety, of the deposit to repair or replace the equipment. If this costs more than the deposit, the client will be billed accordingly.",
+          "Part of the deposit may be retained if any equipment is returned dirty.",
+          "Part of the deposit may also be retained if any equipment is returned late - (up to CHF 100.-/hour)."
+        ]
+      },
+      "liability": {
+        "title": "Liability",
+        "details": [
+          "We are not responsible for any misuse of any of the rental equipment in any manner which not the intended use.",
+          "Neither the provider nor the client, nor any affiliate, shall have any liability with respect to any special, indirect, incidental, or consequential damages suffered or incurred by the provider or the rental equipment in connection with this agreement or any of the transactions contemplated by this agreement and the aforementioned points."
+        ]
+      },
+      "closing": {
+        "title": "Contact Us",
+        "content": "If you have any questions or need further clarification, please do not hesitate to contact us through our contact form or email."
+      }
+    }
+  }
+}
