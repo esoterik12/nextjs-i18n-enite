@@ -127,6 +127,434 @@
       }
     ]
   },
+  "allProducts": {
+    "title": "Zeigen Sie unsere vollständige Produktliste an",
+    "description": "Sehen Sie sich einzelne e-nite-Produkte an und fügen Sie sie Ihrer Buchung hinzu.",
+    "addToOrderButton": "Hinzufügen",
+    "productsList": [
+      {
+        "id": 101,
+        "title": "JBL PartyBox 300/310",
+        "image": "/e-nite/JBP-Partybox-300.jpg",
+        "price": 70,
+        "priceForTwo": 120,
+        "maxQuantity": 2,
+        "description": "Portable active speaker from JBL with built-in battery and light effects. 14 hours battery life or mains power connection. Charge your phone directly from the speaker USB port. You can rent 2 and connect them together via a cable. Connections: Bluetooth, Jack, Mini-Jack, RCA.",
+        "specs": "≈240W / 16Kg / 31 x 69 x 32 cm",
+        "type": "sound",
+        "demoLink": "https://www.youtube.com/watch?v=MnWWDDLlYfM&width=960&height=480"
+      },
+      {
+        "id": 102,
+        "title": "Speakers 15-inch and Amplifier",
+        "image": "/e-nite/speaker15Amplifier.png",
+        "price": 90,
+        "maxQuantity": 1,
+        "description": "A set of two Behringer powerful 15-inch speakers with the appropriate amplifier. Loud enough for any large room. Comes with all necessary cables to plug in your laptop, iPod, phone, etc.",
+        "specs": "(2 x 250W RMS / 2 x 1000W peak / 2 x 22.60 kg + 1 x 8.50 kg)",
+        "type": "sound"
+      },
+      {
+        "id": 103,
+        "title": "Speakers 12-inch and Amplifier",
+        "image": "/e-nite/speaker12Amplifier.png",
+        "price": 90,
+        "maxQuantity": 1,
+        "description": "A set of two Yamaha powerful 12″ speakers with the appropriate amplifier. Loud enough for any medium sized room. Comes with all necessary cables to plug in your laptop, iPod, phone, etc.",
+        "specs": "(2 x 200W RMS / 2 x 600W peak / 2 x 20.80 kg + 1 x 15.0 kg)",
+        "type": "sound"
+      },
+      {
+        "id": 104,
+        "title": "Speakers 12-inch and Amplifier",
+        "image": "/e-nite/NSX-Amp-Speaker-Set.jpg",
+        "price": 65,
+        "maxQuantity": 1,
+        "description": "A set of two NSX 12″ speakers with the appropriate NSX amplifier. Loud enough for any small to medium-sized room. Comes with jack cable to plug in your laptop, iPod, phone, etc.",
+        "specs": "(2 x ≈100W RMS / 2 x 250W max)",
+        "type": "sound"
+      },
+      {
+        "id": 105,
+        "title": "Speaker Stands",
+        "image": "/e-nite/Speaker-Stands.jpg",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "Pair of speaker stands to support the two speakers, up to 50 Kg per stand. Standard 35mm top hat. Comes with carrying bag.",
+        "specs": "Height : 1.0-1.8m",
+        "type": "sound"
+      },
+      {
+        "id": 106,
+        "title": "Mixboard Behringer - Audio Mixer",
+        "image": "/e-nite/Behringer-X1204USB-1.jpg",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "Used to tune, modify and select music before it is sent to the amp and speakers. Useful to manage different audio sources such as iPods, iPhones, laptops, etc…",
+        "type": "sound"
+      },
+      {
+        "id": 107,
+        "title": "Mixboard BST - Audio Mixer",
+        "image": "/e-nite/Mixboard-new.png",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "Used to tune, modify and select music before it is sent to the amp and speakers. Useful to manage different audio sources such as iPods, iPhones, laptops, etc…",
+        "type": "sound"
+      },
+      {
+        "id": 108,
+        "title": "Mixboard 7CH - Audio Mixer",
+        "image": "/e-nite/Mixboard-Leory.jpeg",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "Used to tune, modify and select music before it is sent to the amp and speakers. Useful to manage different audio sources such as iPods, iPhones, laptops, etc…",
+        "type": "sound"
+      },
+      {
+        "id": 109,
+        "title": "Wireless Microphones",
+        "image": "/e-nite/Wireless-Microphone-1.jpg",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "Two wireless microphones with one receiver, which can plug into the mixboard. Batteries included.",
+        "specs": "Range: ~50-100 meters",
+        "type": "sound"
+      },
+      {
+        "id": 110,
+        "title": "Standard Microphone",
+        "image": "/e-nite/Microphone-Behringer-XM1800S-300x300.jpg",
+        "price": 5,
+        "maxQuantity": 1,
+        "description": "A standard wired microphone which will plug straight into the mixboard/mixer. Perfect for speeches and karaoke. Comes with 6 m XLR cable.",
+        "type": "sound"
+      },
+      {
+        "id": 111,
+        "title": "Microphone Stand",
+        "image": "/e-nite/Microphone-Stand.jpg",
+        "price": 5,
+        "maxQuantity": 1,
+        "description": "Standard microphone stand.",
+        "specs": "Adjustable height from 1 to 1.5 meters.",
+        "type": "sound"
+      },
+      {
+        "id": 112,
+        "title": "Sound Level Meter",
+        "image": "/e-nite/Decibel-Meter.jpg",
+        "price": 5,
+        "maxQuantity": 1,
+        "description": "A hand-held instrument to measure the level of sound of your event, measured in decibels. Batteries are included.",
+        "type": "sound"
+      },
+      {
+        "id": 113,
+        "title": "ADJ Revo 4 LED",
+        "image": "/e-nite/Revo-4-768x768.png",
+        "price": 30,
+        "maxQuantity": 1,
+        "description": "This LED light is one of our favorites, with 256 razor sharp Red, Green, Blue & White Beams that produce unique and exciting LED patterns that may be projected on a wall, ceiling or dance floor – great with or without fog. Can be controlled through DMX or with the various preconfigured “stand-alone” programs. Delivered in a neat carrying case and with the wired UC3 remote-control.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=Skp7pu__RrY&width=960&height=480"
+      },
+      {
+        "id": 114,
+        "title": "ADJ Galaxian Gem LED",
+        "image": "/e-nite/ADJ-Galaxian-Gem-LED-768x584.jpg",
+        "price": 30,
+        "maxQuantity": 1,
+        "description": "The American DJ Galaxian Gem LED is a 2-FX-IN-1 lighting effect with Dual RGBW LED Moonflowers plus a “Galaxian style” laser effect with 100’s of green beams all in one case. Can be controlled through DMX or with the various preconfigured “stand-alone” programs. Delivered with the wired UC3 remote-control.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=WVNJ571BqVI&width=960&height=480"
+      },
+      {
+        "id": 115,
+        "title": "Cameo MoonFlower HP LED",
+        "image": "/e-nite/Cameo-MoonFlower-HP-LED-768x768.jpg",
+        "price": 25,
+        "maxQuantity": 1,
+        "description": "The Cameo MoonFlower HP is a classic LED moonlight that will light up your room or dance floor with colourful and fast-moving rays. It can be controlled through DMX or with the various preconfigured “stand-alone” programs.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=whDXtUkXxGY&width=960&height=480"
+      },
+      {
+        "id": 116,
+        "title": "ADJ Vertigo Tri LED",
+        "image": "/e-nite/ADJ-Vertigo-Tri-LED-768x768.jpg",
+        "price": 20,
+        "maxQuantity": 1,
+        "description": "The American DJ Vertigo Tri LED is a classic mushroom style LED moonlight that will light up a large zone or your room or dance floor. It can be controlled through DMX or with the various preconfigured “stand-alone” programs.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=ooB9wGAkQkA&width=960&height=480"
+      },
+      {
+        "id": 117,
+        "title": "Eurolite LED PUS-5",
+        "image": "/e-nite/Eurolite-LED-PUS-5-Hybrid-Flower-Effect.jpg",
+        "price": 25,
+        "maxQuantity": 1,
+        "description": "The EUROLITE LED PUS-5 is a cool LED moonlight that colours and strobe effects to your dance floor. It can be controlled through DMX or with the various preconfigured “stand-alone” programs.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=3aoUysIydfY&width=960&height=480"
+      },
+      {
+        "id": 118,
+        "title": "Eurolite LED D-400",
+        "image": "/e-nite/Eurolite-LED-D-400.jpg",
+        "price": 20,
+        "maxQuantity": 1,
+        "description": "The EUROLITE LED D-400 is a “mushroom-style” LED moonlight that adds colour effects to a large area of your dance floor. It can be controlled through DMX or with the various preconfigured “stand-alone” programs.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=MN14XyepLaI&width=960&height=480"
+      },
+      {
+        "id": 119,
+        "title": "Double Mini Moon LED",
+        "image": "/e-nite/Double-Mini-Moon.jpg",
+        "price": 20,
+        "maxQuantity": 1,
+        "description": "This LED light is simple but very effective for the price! Plug it in and it will react to the music. 128 LEDs for a total of 20W.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=C1xWWQPtxBA&width=960&height=480"
+      },
+      {
+        "id": 120,
+        "title": "Laser Double RGY",
+        "image": "/e-nite/Laser-Double-RGY.jpg",
+        "price": 30,
+        "maxQuantity": 1,
+        "description": "This double RGY laser is one of our most impressive light with more than 300 laser effects. Can be controlled through DMX or with the various preconfigured “stand-alone” programs. Laser Power: 260mW.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=FqdkcvI3eK8&width=960&height=480"
+      },
+      {
+        "id": 121,
+        "title": "Laser Single RGB",
+        "image": "/e-nite/Laser-Single-RGB.webp",
+        "price": 30,
+        "maxQuantity": 1,
+        "description": "This single red, green and blue laser is compact but still have hundreds of laser effects. It can be controlled through DMX or with the various preconfigured “stand-alone” programs. Laser Power: 500mW.",
+        "type": "light"
+      },
+      {
+        "id": 122,
+        "title": "Laser JB Smooth Scan-Blue",
+        "image": "/e-nite/Laser-JB-Blue-768x768.jpg",
+        "price": 30,
+        "maxQuantity": 1,
+        "description": "An eye-catching blue laser using high quality 15kHz scanners instead of ordinary stepper motors that produces very smooth and soft movements of the 80 pre-programmed patterns such as numbers, drawings, words, etc… Can be controlled through DMX, with “stand-alone” programs or simply with the wireless IR remote-control.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=PgTNw0G2ktc&width=960&height=480"
+      },
+      {
+        "id": 123,
+        "title": "Stroboscope",
+        "image": "/e-nite/stroboscope.png",
+        "price": 15,
+        "maxQuantity": 1,
+        "description": "Classic DJ light: high frequency flashing white light for great special effects.",
+        "type": "light"
+      },
+      {
+        "id": 124,
+        "title": "Eurolite LED Mini Strobe Cluster SMD 48",
+        "image": "/e-nite/eurolite-led-mini-strobe-cluster-smd-48-768x768.jpg",
+        "price": 15,
+        "maxQuantity": 1,
+        "description": "Classic DJ light: high frequency flashing white light for great special effects - LED version.",
+        "type": "light"
+      },
+      {
+        "id": 125,
+        "title": "Stroboscope Cameo LED",
+        "image": "/e-nite/Cameo-Flash-Bar-150.png",
+        "price": 25,
+        "maxQuantity": 1,
+        "description": "Classic DJ light: high frequency flashing white light for great special effects, LED version. Many display options. Autonomous or DMX modes.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=5Nxd3n114AI&width=960&height=480"
+      },
+      {
+        "id": 126,
+        "title": "Stroboscope LED",
+        "image": "/e-nite/Stroboscope-LED-White-Crop.jpg",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "Classic DJ light: high frequency flashing white light for great special effects, LED version.",
+        "type": "light"
+      },
+      {
+        "id": 127,
+        "title": "Briteq Spot",
+        "image": "/e-nite/Briteq-768x816.jpg",
+        "price": 15,
+        "maxQuantity": 1,
+        "description": "Briteq LED projector PAR spotlight, useful for stages and ambiance/decoration lighting. You also have the possibility to connect multiple PAR spots together for synchronised lighting, using the supplied DMX XLR cables.  Double bar to hang spot on light stand, or position it on the ground. Power: 21 Watts.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=_W10Jd13GNM&width=960&height=480"
+      },
+      {
+        "id": 128,
+        "title": "Eurolite Spot PAR Big",
+        "image": "/e-nite/Eurolite-LED-Big-PARty-Crop-768x941.jpg",
+        "price": 20,
+        "maxQuantity": 1,
+        "description": "Eurolite LED projector PAR spotlight, useful for stages and ambiance/decoration lighting. You also have the possibility to connect multiple PAR spots together for synchronised lighting, using the supplied DMX  XLR cables. Power: 54 Watts.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=O6SUj9P8Yaw&width=960&height=480"
+      },
+      {
+        "id": 129,
+        "title": "Eurolite Spot PAR Small",
+        "image": "/e-nite/Eurolite-LED-PARty-1-768x768.jpg",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "Eurolite LED projector PAR spotlight, useful for stages and ambiance/decoration lighting. You also have the possibility to connect multiple PAR spots together for synchronised lighting, using the supplied DMX  XLR cables. Power: 12 Watts.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=fJKxgmbVv4A#&width=960&height=480"
+      },
+      {
+        "id": 130,
+        "title": "Red Gyro Police Beacon LED",
+        "image": "/e-nite/JB-Systems-LED-Warning-Light-RED.jpg",
+        "price": 5,
+        "maxQuantity": 1,
+        "description": "Red Gyro Police Beacon LED",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=gSjxvYQcLeo&width=960&height=480"
+      },
+      {
+        "id": 131,
+        "title": "Gyro Police Beacon LED Blue",
+        "image": "/e-nite/JB-Systems-LED-Warning-Light-BLUE.jpg",
+        "price": 5,
+        "maxQuantity": 1,
+        "description": "Gyro Police Beacon LED Blue",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=gSjxvYQcLeo&width=960&height=480"
+      },
+      {
+        "id": 132,
+        "title": "Dispatcher",
+        "image": "/e-nite/Disptacher-ADJ-768x111.jpg",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "Light controller box to independently switch on and off the lights.",
+        "type": "light"
+      },
+      {
+        "id": 133,
+        "title": "UV Blacklight LED",
+        "image": "/e-nite/Blacklight-LED.jpg",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "This powerful UV LED black light neon will add a cool effect to your event; everything white will stand out in the dark.",
+        "type": "light"
+      },
+      {
+        "id": 134,
+        "title": "UV Blacklight",
+        "image": "/e-nite/Blacklight-new-1-768x209.jpg",
+        "price": 5,
+        "maxQuantity": 1,
+        "description": "This UV black light neon will add a cool effect to your event; everything white will stand out in the dark.",
+        "type": "light"
+      },
+      {
+        "id": 135,
+        "title": "Moonlight Mushroom LED",
+        "image": "/e-nite/Mushroom-Light-LED-VaryTec-768x814.jpg",
+        "price": 20,
+        "maxQuantity": 1,
+        "description": "This powerful LED mushroom-style Moonlight will project colourful patterns in all directions thanks to the 224 LEDs. DMX or “stand-alone” modes.",
+        "type": "light",
+        "demoLink": "https://www.youtube.com/watch?v=4A1mVxVUsCc&width=960&height=480"
+      },
+      {
+        "id": 136,
+        "title": "Moonlight Mushroom",
+        "image": "/e-nite/Mushroom-Light-new-768x811.png",
+        "price": 15,
+        "maxQuantity": 1,
+        "description": "This halogen mushroom-style Moonlight will project colourful patterns in all directions. DMX or “stand-alone” modes.",
+        "type": "light"
+      },
+      {
+        "id": 137,
+        "title": "Moonlight Eurolite",
+        "image": "/e-nite/Moonlight-Eurolite.jpg",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "This light projects moving small coloured patterns in a certain direction.",
+        "type": "light"
+      },
+      {
+        "id": 138,
+        "title": "Moonlight Martin Starflash",
+        "image": "/e-nite/Martin-new.png",
+        "price": 15,
+        "maxQuantity": 1,
+        "description": "This Martin Starflash “Triple Bar Edition” moonlight is similar to the Moonlight Eurolite, but is slightly more powerful.",
+        "type": "light"
+      },
+      {
+        "id": 139,
+        "title": "Moonlight Color 300",
+        "image": "/e-nite/Moonlight-Color-300-768x739.png",
+        "price": 15,
+        "maxQuantity": 1,
+        "description": "More powerful than the basic Moonlight Martin, this light only projects orange patterns.",
+        "type": "light"
+      },
+      {
+        "id": 140,
+        "title": "Traffic Light",
+        "image": "/e-nite/Traffic-Light-2.jpg",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "A 6-Channel disco spotlight sequencer. This classic fun light, similar to traffic lights, is a colourful ambiance light and really fun at any party; a guaranteed success every time. Comes with a modulator (light speed and sound sensitivity controller).",
+        "type": "light"
+      },
+      {
+        "id": 141,
+        "title": "Smoke Machine ADJ",
+        "image": "/e-nite/Smoke-ADJ-VF1300-Remotes-768x537.jpg",
+        "price": 25,
+        "maxQuantity": 1,
+        "description": "This ADJ VF1300 1300W smoke/fog machine adds a great effect to all the moonlights and creates and great atmosphere. Comes with 2 remotes (1 wired and 1 wireless) and the required smoke fluid.",
+        "type": "light"
+      },
+      {
+        "id": 142,
+        "title": "Smoke Machine Antari",
+        "image": "/e-nite/Smoke-Machine-Antari-new.png",
+        "price": 25,
+        "maxQuantity": 1,
+        "description": "This ADJ VF1300 1300W smoke/fog machine adds a great effect to all the moonlights and creates and great atmosphere. Comes with 2 remotes (1 wired and 1 wireless) and the required smoke fluid.",
+        "type": "light"
+      },
+      {
+        "id": 143,
+        "title": "Double Light Stand",
+        "image": "/e-nite/light-stand-new.jpg",
+        "price": 25,
+        "maxQuantity": 1,
+        "description": "Two JB light stands with a central cross-bar for all your lights. The two light stands with the T-Bar can be used individually without the cross-bar.",
+        "type": "light"
+      },
+      {
+        "id": 144,
+        "title": "Single Light Stand",
+        "image": "/e-nite/Light-Stand-Single-768x768.jpg",
+        "price": 10,
+        "maxQuantity": 1,
+        "description": "Single JB light stand with a central T-Bar to hang all the lights.",
+        "type": "light"
+      }
+    ]
+  },
   "conditions": {
     "title": "Allgemeine Geschäftsbedingungen",
     "description": "Dieses Dokument enthält die Allgemeinen Geschäftsbedingungen für die Vermietung von Ausrüstung und Dienstleistungen. Diese Bestimmungen gewährleisten reibungslose Abläufe und klare Geschäftsbedingungen sowohl für den Dienstleister als auch für den Kunden.",

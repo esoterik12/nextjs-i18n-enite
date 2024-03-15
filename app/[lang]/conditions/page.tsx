@@ -11,7 +11,7 @@ export default async function About({
   const { conditions } = await getDictionary(lang)
 
   return (
-    <section className='py-24'>
+    <section className='py-20'>
       <div className='container'>
         <h1 className='m-4 text-3xl font-bold'>{conditions.title}</h1>
         <p className='text-gray-500'>{conditions.description}</p>

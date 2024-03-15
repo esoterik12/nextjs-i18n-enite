@@ -14,6 +14,19 @@ export interface IProductItem {
   productImage: string
 }
 
+export interface ISingleProductItem {
+  id: number
+  title: string
+  image: string
+  price: number
+  priceForTwo?: number
+  maxQuantity: number
+  description: string
+  specs?: string
+  type: string
+  demoLink?: string
+}
+
 export interface ICartItem {
   id: number
   title: string
