@@ -34,21 +34,7 @@
         "productPrice": 195.0,
         "productImage": "/e-nite/Pack-1-Starter.jpg",
         "productDescription": "Dieses Paket hat alles, was Sie brauchen, um jeden Raum in einen Mini-Club zu verwandeln. Alles, was Sie brauchen, ist Ihr iPhone/iPod/Laptop (oder jede andere Musikquelle) und die Party kann beginnen!",
-        "equipmentList": [
-          "Zwei Behringer Lautsprecher (2 x 250W RMS)",
-          "Ein Behringer Verstärker",
-          "Behringer Mixboard/Mixer",
-          "Dispatcher Lichtschalter",
-          "1 Lichtständer JB",
-          "Rauchmaschine 1000W Antari + Flüssigkeit + Fernbedienung",
-          "ADJ Revo 4 LED + Fernbedienung",
-          "ADJ Galaxian LED & Laser + Fernbedienung",
-          "Martin Moonlight",
-          "Stroboskop",
-          "UV Schwarzlicht LED",
-          "Strom- und Audiokabel",
-          "Verlängerungskabel"
-        ]
+        "equipmentList": [102, 106, 132, 144, 142, 113, 114, 138, 123, 133]
       },
       {
         "productId": 2,
@@ -56,14 +42,7 @@
         "productImage": "/e-nite/Pack-2-Sound.jpg",
         "productPrice": 95.0,
         "productDescription": "Alles, was Sie brauchen, um laute Musik wie ein DJ mit diesem einfachen, aber effektiven Kit abzuspielen.",
-        "equipmentList": [
-          "Zwei Behringer Lautsprecher (2 x 250W RMS)",
-          "Ein Behringer Verstärker",
-          "Behringer Mixboard/Mixer",
-          "1 verkabeltes Behringer Mikrofon",
-          "XLR 6m Kabel",
-          "Audio- und Stromkabel"
-        ]
+        "equipmentList": [102, 106, 132, 110]
       },
       {
         "productId": 3,
@@ -72,17 +51,7 @@
         "productPrice": 160.0,
         "productDescription": "Dieses Paket bietet Ihnen und Ihren Gästen eine schöne und beeindruckende Lichtshow.",
         "equipmentList": [
-          "Doppelter voller Lichtständer JB",
-          "Rauchmaschine 1000W Antari + Fernbedienung",
-          "Dispatcher Lichtsteuerungsschalter",
-          "Schwarzes UV-Röhren-LED-Licht",
-          "Stroboskop",
-          "2 x Moonlight Eurolite",
-          "American DJ Revo 4 LED + Fernbedienung",
-          "American DJ Galaxian LED & Laser + Fernbedienung",
-          "Laser Doppel-RGY",
-          "Ampel",
-          "Verlängerungskabel"
+          102, 106, 132, 144, 142, 113, 114, 138, 123, 133, 143, 137, 120, 140
         ]
       },
       {
@@ -91,25 +60,7 @@
         "productImage": "/e-nite/Pack-4-Fiesta.jpg",
         "productPrice": 295.0,
         "productDescription": "Ein komplettes und professionelles Sound & Light-Kit mit einem doppelten Bierhahn. Was will man mehr?",
-        "equipmentList": [
-          "Tragbarer Doppelbierhahn",
-          "Gas Aligal für den Bierhahn",
-          "Zwei Behringer Lautsprecher",
-          "Ein Behringer Verstärker",
-          "Verkabeltes Behringer Mikrofon",
-          "Mixboard BST",
-          "Dispatcher Lichtschalter",
-          "Moonlight JB Twin Ball",
-          "Lichtständer JB",
-          "Rauchmaschine 1000W Antari + Fernbedienung",
-          "Stroboskop",
-          "Moonlight Eurolite",
-          "American DJ Revo 4",
-          "Doppelter Laser RGY",
-          "UV Schwarzlicht LED",
-          "Stromkabel",
-          "Verlängerungskabel und alle notwendigen Zubehörteile"
-        ]
+        "equipmentList": [143, 142, 132, 133, 123, 137, 113, 114, 120, 140]
       },
       {
         "productId": 5,
@@ -117,13 +68,7 @@
         "productImage": "/e-nite/Pack-5-Microphones.jpg",
         "productPrice": 35.0,
         "productDescription": "Ein umfassendes Set von Mikrofonen, geeignet für Karaoke-Nächte, Live-Auftritte oder sogar öffentliche Redeanlässe!",
-        "equipmentList": [
-          "3 Behringer Mikrofone",
-          "3 Mikrofonständer",
-          "3 Mikrofonclips",
-          "3 XLR-Kabel",
-          "1 Mikrofon-Reisekoffer"
-        ]
+        "equipmentList": [109, 110, 111]
       }
     ]
   },

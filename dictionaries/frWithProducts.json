@@ -1,137 +1,86 @@
 {
   "navigation": {
-    "home": "Startseite",
+    "home": "Accueil",
     "contact": "Contact",
-    "conditions": "Conditionen",
-    "partyPacks": "Partypakete",
-    "allProducts": "Produkte"
+    "conditions": "Conditions",
+    "partyPacks": "Nos Packs",
+    "allProducts": "Produits"
   },
   "page": {
     "home": {
       "title": "e-nite",
-      "subTitle": "Finden Sie Ihr perfektes Party-Setup im Raum Lausanne.",
-      "description": "E-Nite bietet seit 2008 die wesentlichen Zutaten für eine fantastische Party.",
-      "actionButtonText": "Entdecken Sie unsere Packs!"
+      "subTitle": "Trouvez votre configuration de fête parfaite dans la région de Lausanne.",
+      "description": "E-Nite fournit les ingrédients essentiels pour une fête fantastique depuis 2008.",
+      "actionButtonText": "Découvrez nos packs !"
     },
     "contact": {
-      "title": "Über uns",
-      "description": "Dies ist die Contact-Seite"
+      "title": "Contactez Nous",
+      "description": "This is the contact page"
     },
     "conditions": {
-      "title": "Über conditions",
-      "description": "Dies ist die conditions-Seite"
+      "title": "Nos conditions",
+      "description": "Ce sont les conditions"
     }
   },
   "products": {
-    "title": "Unsere Produkte anzeigen",
-    "description": "Sehen Sie sich einzelne Produkte von E-NiTE an und fügen Sie sie Ihrer Buchung hinzu.",
-    "addToOrderButton": "Hinzufügen",
+    "title": "Voir nos Produits",
+    "description": "Consultez les produits individuels d'E-NiTE et ajoutez-les à votre réservation.",
+    "addToOrderButton": "Ajouter à la commande",
     "data": [
       {
         "productId": 1,
         "productTitle": "Starter",
-      
-        "productPrice": 195.0,
         "productImage": "/e-nite/Pack-1-Starter.jpg",
-        "productDescription": "Dieses Paket hat alles, was Sie brauchen, um jeden Raum in einen Mini-Club zu verwandeln. Alles, was Sie brauchen, ist Ihr iPhone/iPod/Laptop (oder jede andere Musikquelle) und die Party kann beginnen!",
-        "equipmentList": [
-          "Zwei Behringer Lautsprecher (2 x 250W RMS)",
-          "Ein Behringer Verstärker",
-          "Behringer Mixboard/Mixer",
-          "Dispatcher Lichtschalter",
-          "1 Lichtständer JB",
-          "Rauchmaschine 1000W Antari + Flüssigkeit + Fernbedienung",
-          "ADJ Revo 4 LED + Fernbedienung",
-          "ADJ Galaxian LED & Laser + Fernbedienung",
-          "Martin Moonlight",
-          "Stroboskop",
-          "UV Schwarzlicht LED",
-          "Strom- und Audiokabel",
-          "Verlängerungskabel"
-        ]
+        "productPrice": 195.0,
+        "productDescription": "Ce pack a tout ce dont vous avez besoin pour transformer n'importe quel espace ou pièce en mini-club. Tout ce dont vous avez besoin est votre iPhone/iPod/ordinateur portable (ou toute autre source de musique) et la fête peut commencer!",
+        "equipmentList": [102, 106, 132, 144, 142, 113, 114, 138, 123, 133]
       },
       {
         "productId": 2,
         "productTitle": "Sound",
         "productImage": "/e-nite/Pack-2-Sound.jpg",
+
         "productPrice": 95.0,
-        "productDescription": "Alles, was Sie brauchen, um laute Musik wie ein DJ mit diesem einfachen, aber effektiven Kit abzuspielen.",
-        "equipmentList": [
-          "Zwei Behringer Lautsprecher (2 x 250W RMS)",
-          "Ein Behringer Verstärker",
-          "Behringer Mixboard/Mixer",
-          "1 verkabeltes Behringer Mikrofon",
-          "XLR 6m Kabel",
-          "Audio- und Stromkabel"
-        ]
+        "productDescription": "Tout ce dont vous avez besoin pour jouer de la musique forte comme un DJ avec ce kit simple mais efficace.",
+        "equipmentList": [102, 106, 132, 110]
       },
       {
         "productId": 3,
         "productTitle": "Lightshow",
         "productImage": "/e-nite/Pack-3-Lightshow.jpg",
+
         "productPrice": 160.0,
-        "productDescription": "Dieses Paket bietet Ihnen und Ihren Gästen eine schöne und beeindruckende Lichtshow.",
+
+        "productDescription": "Ce pack offrira à vous et à vos invités un spectacle de lumière magnifique et impressionnant.",
         "equipmentList": [
-          "Doppelter voller Lichtständer JB",
-          "Rauchmaschine 1000W Antari + Fernbedienung",
-          "Dispatcher Lichtsteuerungsschalter",
-          "Schwarzes UV-Röhren-LED-Licht",
-          "Stroboskop",
-          "2 x Moonlight Eurolite",
-          "American DJ Revo 4 LED + Fernbedienung",
-          "American DJ Galaxian LED & Laser + Fernbedienung",
-          "Laser Doppel-RGY",
-          "Ampel",
-          "Verlängerungskabel"
+          102, 106, 132, 144, 142, 113, 114, 138, 123, 133, 143, 137, 120, 140
         ]
       },
       {
         "productId": 4,
         "productTitle": "Fiesta",
         "productImage": "/e-nite/Pack-4-Fiesta.jpg",
+
         "productPrice": 295.0,
-        "productDescription": "Ein komplettes und professionelles Sound & Light-Kit mit einem doppelten Bierhahn. Was will man mehr?",
-        "equipmentList": [
-          "Tragbarer Doppelbierhahn",
-          "Gas Aligal für den Bierhahn",
-          "Zwei Behringer Lautsprecher",
-          "Ein Behringer Verstärker",
-          "Verkabeltes Behringer Mikrofon",
-          "Mixboard BST",
-          "Dispatcher Lichtschalter",
-          "Moonlight JB Twin Ball",
-          "Lichtständer JB",
-          "Rauchmaschine 1000W Antari + Fernbedienung",
-          "Stroboskop",
-          "Moonlight Eurolite",
-          "American DJ Revo 4",
-          "Doppelter Laser RGY",
-          "UV Schwarzlicht LED",
-          "Stromkabel",
-          "Verlängerungskabel und alle notwendigen Zubehörteile"
-        ]
+        "productDescription": "Un kit complet et professionnel de son et de lumière avec un double robinet à bière ajouté. Que demander de plus ?",
+        "equipmentList": [143, 142, 132, 133, 123, 137, 113, 114, 120, 140]
       },
       {
         "productId": 5,
-        "productTitle": "Mikrofone",
+        "productTitle": "Microphones",
         "productImage": "/e-nite/Pack-5-Microphones.jpg",
+
         "productPrice": 35.0,
-        "productDescription": "Ein umfassendes Set von Mikrofonen, geeignet für Karaoke-Nächte, Live-Auftritte oder sogar öffentliche Redeanlässe!",
-        "equipmentList": [
-          "3 Behringer Mikrofone",
-          "3 Mikrofonständer",
-          "3 Mikrofonclips",
-          "3 XLR-Kabel",
-          "1 Mikrofon-Reisekoffer"
-        ]
+        "productDescription": "Un ensemble complet de microphones adapté aux soirées karaoké, aux performances live, ou même aux engagements de prise de parole en public !",
+        "equipmentList": [109, 110, 111]
       }
     ]
   },
   "allProducts": {
-    "title": "Zeigen Sie unsere vollständige Produktliste an",
-    "description": "Sehen Sie sich einzelne e-nite-Produkte an und fügen Sie sie Ihrer Buchung hinzu.",
-    "includedText": "Diese Produkte sind in Ihrem aktuell ausgewählten Paket enthalten.",
-    "addToOrderButton": "Hinzufügen",
+    "title": "Consultez notre liste complète de produits",
+    "description": "Consultez les produits individuels d'e-nite et ajoutez-les à votre commande.",
+    "includedText": "Ces produits sont inclus dans le pack actuellement sélectionné.",
+    "addToOrderButton": "Ajouter à la commande",
     "productsList": [
       {
         "id": 101,
@@ -557,118 +506,118 @@
     ]
   },
   "conditions": {
-    "title": "Allgemeine Geschäftsbedingungen",
-    "description": "Dieses Dokument enthält die Allgemeinen Geschäftsbedingungen für die Vermietung von Ausrüstung und Dienstleistungen. Diese Bestimmungen gewährleisten reibungslose Abläufe und klare Geschäftsbedingungen sowohl für den Dienstleister als auch für den Kunden.",
+    "title": "Conditions de Vente",
+    "description": "Voici le règlement et conditions concernant les services que nous vous proposons. Ces formalités ont été mises en place pour assurer que les termes de locations soient clairs pour le prestataire et les clients, pour assurer que tout se déroule dans les meilleures conditions possibles.",
     "sections": {
       "acceptance": {
-        "title": "Akzeptanz",
-        "content": "Es ist entscheidend, unsere Nutzungsbedingungen zu lesen und zu akzeptieren, bevor Sie Geschäfte tätigen. Wenn Sie Fragen zu den genannten Punkten haben, kontaktieren Sie uns bitte über unser Kontaktformular oder senden Sie uns eine E-Mail."
+        "title": "Acceptation",
+        "content": "Avant tout business, il est important pour vous de lire les conditions ci-dessous et de les accepter. Si vous avez des questions sur certains des points veuillez nous contacter ou nous envoyer un e-mail."
       },
       "equipment": {
-        "title": "Ausrüstung",
+        "title": "Équipement ",
         "content": [
-          "Die Mietausrüstung wird vor und nach jeder Vermietung überprüft.",
-          "Kunden erhalten professionelle Ausrüstung, die sorgfältig behandelt werden muss.",
-          "Beim Übergeben der Ausrüstung ist ein Beleg zu unterschreiben.",
-          "Stornierungen innerhalb von 48 Stunden vor der Vermietung werden mit einer Gebühr in Höhe von 60% der Mietkosten berechnet.",
-          "Wir behalten uns das Recht vor, jede Vermietungsanfrage abzulehnen."
+          "L'équipement est inspecté et vérifié avant et après chaque location.",
+          "L'équipement qui vous est prêté est professionnel, et doit donc être manipulé avec attention et respect.",
+          "Le client devra signer une quittance à la réception du matériel..",
+          "Tout annulation de réservation dans les 48h avant la location sera facturée à 60% du tarif.",
+          "Nous nous réservons le droit de refuser toute location."
         ]
       },
       "reception": {
-        "title": "Empfang der Ausrüstung",
+        "title": "Réception du matériel",
         "content": [
-          "Es ist möglich, die Ausrüstung direkt in Epalinges (in der Nähe von Lausanne) abzuholen.",
-          "Dazu kontaktieren Sie uns bitte für einen Termin, aber üblicherweise sind folgende Zeiten möglich:",
-          "Wochentage: von 6:30 Uhr bis 7:30 Uhr und von 18:00 Uhr bis 20:00 Uhr",
-          "Wochenende: von 11:00 Uhr bis 13:00 Uhr und von 16:00 Uhr bis 19:00 Uhr",
-          "Zur Rückgabe der Ausrüstung werden dieselben Zeiten verwendet."
+          "Il est possible de venir prendre le matériel de location directement sur place à Epalinges, Vaud.",
+          "Pour ce faire il faut convenir d'un RDV, mais généralement les heures possibles sont:",
+          "La semaine: de 06h30 à 07h30 et de 18h00 à 20h00",
+          "Le weekend: de 11h00 à 13h00 et de 16h00 à 19h00",
+          "Les retours se font aux mêmes heures."
         ]
       },
       "delivery": {
-        "title": "Lieferservices",
+        "title": "Services de livraisons",
         "content": [
-          "Die auf unserer Seite für Lieferservices angezeigten Preise gelten nur für Lausanne und die umliegende Region.",
-          "Für Lieferungen außerhalb von Lausanne wird eine zusätzliche Gebühr erhoben; Preis auf Anfrage.",
-          "Beispiel: Eine Lieferung in den Kanton Genf: Aufschlag von CHF 60.00."
+          "Les prix affichés pour les Services de livraisons sont uniquement valables pour Lausanne et sa région.",
+          "Un supplément sera demandé pour les localités plus éloignées, prix sur demande.",
+          "Par exemple, livraison dans le canton de Genève : supplément de CHF 60.00."
         ]
       },
       "prices": {
-        "title": "Preise",
+        "title": "Prix",
         "content": [
-          "Alle Preise sind in Schweizer Franken (CHF) angegeben. Alle Steuern sind inbegriffen.",
-          "Die Mietpreise erlauben es Ihnen, die Ausrüstung für 24 Stunden (außer sonntags) zu behalten, sofern nicht anders vereinbart.",
-          "Wenn Sie die Ausrüstung für mehr als einen Tag mieten, gelten die folgenden Multiplikatoren:"
+          "Prix en CHF, taxes comprises.",
+          "Les prix indiqués sont valables uniquement pour un événement d'une durée maximum de 24 heures (sans compter le dimanche), sauf arrangement contraire.",
+          "Si vous souhaitez louer l’équipement pour une durée prolongée, les coefficients suivants s'appliquent aux tarifs de base "
         ],
         "multipliers": {
-          "1 Tag": 1.0,
-          "2 Tage": 1.25,
-          "3 Tage": 1.75,
-          "4 Tage": 2.0,
-          "5 Tage": 2.25,
-          "6 Tage": 2.5,
-          "7 Tage": 2.75,
-          "8 Tage": 3.0,
-          "9 Tage": 3.25,
-          "10 Tage": 3.5,
-          "11 Tage": 3.75,
-          "12 Tage": 4.0,
-          "2 Wochen": 4.5,
-          "3 Wochen": 4.5,
-          "4 Wochen": 5.0
+          "1 jour": 1.0,
+          "2 jours": 1.25,
+          "3 jours": 1.75,
+          "4 jours": 2.0,
+          "5 jours": 2.25,
+          "6 jours": 2.5,
+          "7 jours": 2.75,
+          "8 jours": 3.0,
+          "9 jours": 3.25,
+          "10 jours": 3.5,
+          "11 jours": 3.75,
+          "12 jours": 4.0,
+          "2 semaines": 4.5,
+          "3 semaines": 4.5,
+          "4 semaines": 5.0
         }
       },
       "clientInfo": {
-        "title": "Kundeninformationen",
-        "description": "Bevor Ausrüstung übergeben wird, behält sich der Anbieter das Recht vor, folgende Kundeninformationen anzufordern:",
+        "title": "Données Client",
+        "description": "Before any equipment is handed over, the provider reserves the right to ask for the following client informations:",
         "content": [
-          "Foto des Ausweisdokuments oder Reisepasses",
-          "Vor- und Nachname",
-          "Adresse",
-          "Handynummer",
-          "Art des Ereignisses, z. B. private Feier, Hochzeit, Geburtstag usw.",
-          "Veranstaltungsort"
+          "Photo de votre carte d'identité ou passeport",
+          "Nom et prénom(s)",
+          "Adresse du domicile",
+          "Numéro de téléphone",
+          "Type d'événement: fête, mariage, anniversaire, etc.",
+          "Lieu de l'événement"
         ]
       },
       "payment": {
-        "title": "Zahlung",
-        "content": "Drei Zahlungsmethoden werden akzeptiert:",
-        "details": ["Überweisung", "Via PayPal: +3,4% Aufschlag", "Bargeld"],
-        "closing": "Ein Zahlungsnachweis muss am Tag der Ausrüstungsübergabe für die Zahlungsmethoden 1 und 2 vorgelegt werden."
-      },
-      "paymentclosing": {
-        "title": "Payment Closing",
-        "content": "A proof of payment must be given the day the equipment is received for methods 1 and 2."
+        "title": "Paiement",
+        "content": "Trois moyens de paiements acceptés:",
+        "details": [
+          "Par virement bancaire.",
+          "Via PayPal (surcoût de +3.4%)",
+          "En cash le jour de réception du matériel"
+        ],
+        "closing": "Une preuve de paiement sera demandée avant la réception du matériel pour les méthodes 1 et 2."
       },
       "deposit": {
-        "title": "Kaution",
+        "title": "Deposit",
         "details": [
-          "Für Sound- & Licht- sowie Bierzapfanlagen wird eine Kaution in Höhe von CHF 200.00 erhoben.",
-          "Alternativ können Sie anstelle einer Bargeldkaution einen offiziellen Lichtbildausweis oder Reisepass hinterlegen.",
-          "Wir behalten uns das Recht vor, diesen Betrag jederzeit zu ändern.",
-          "Bitte haben Sie Verständnis dafür, dass dies eine Standardformalität ist, um unsere Mietgeräte zu schützen."
+          "Un dépôt de 200,00 CHF sera demandé pour le matériel Son & Lumière et les tireuses à bière.",
+          "Alternativement, vous pouvez laisser une pièce d'identité officielle ou un passeport au lieu d'un dépôt en espèces.",
+          "Nous nous réservons le droit de modifier ce montant à tout moment.",
+          "Veuillez comprendre que ceci est une formalité standard pour protéger notre matériel de location."
         ]
       },
       "returns": {
-        "title": "Rückgaben",
+        "title": "Retours",
         "details": [
-          "Die Ausrüstung muss innerhalb von 36 Stunden während der normalen Rückgabzeiten an uns zurückgegeben werden (siehe oben Abschnitt „Empfang der Ausrüstung“), sofern unsere Lieferservices nicht in Anspruch genommen wurden.",
-          "Die Ausrüstung wird dann überprüft und die Kaution wird Ihnen zurückerstattet.",
-          "E-NiTE Services hat 48 Stunden Zeit, um zu überprüfen, ob die Ausrüstung funktionstüchtig ist, nach dem effektiven Rückgabedatum.",
-          "Wenn die Ausrüstung auf irgendeine Weise beschädigt ist, behalten wir uns das Recht vor, einen Teil oder die gesamte Kaution zur Reparatur oder zum Ersatz der Ausrüstung einzubehalten. Wenn dies mehr kostet als die Kaution, wird dem Kunden entsprechend in Rechnung gestellt.",
-          "Ein Teil der Kaution kann einbehalten werden, wenn die Ausrüstung schmutzig zurückgegeben wird.",
-          "Ein Teil der Kaution kann auch einbehalten werden, wenn die Ausrüstung verspätet zurückgegeben wird - (bis zu CHF 100.-/Stunde)."
+          "La totalité du matériel doit nous être rendu dans les 36 heures aux heures convenues (voir rubrique « Réception du matériel »), à moins d'avoir utilisé les Services de Livraisons.",
+          "L'équipement sera ensuite vérifié, et votre caution vous sera rendue.",
+          "E-NiTE Services dispose de 48 heures pour vérifier l'état et le fonctionnement du matériel après le retour.",
+          "Si l'équipement est endommagé de quelconque manière, nous réservons le droit de garder une partie, voir la totalité, de la caution pour la réparation ou le remplacement du matériel en question. Les frais supplémentaires seront facturés au client.",
+          "Ceci est également valable si le matériel nous est retourné non-nettoyé / sale.",
+          "Une partie de la caution peut être gardée si l'équipement est rendu tardivement (jusqu'à CHF 100.-/heure)."
         ]
       },
       "liability": {
-        "title": "Haftung",
+        "title": "Responsabilité ",
         "details": [
-          "Wir übernehmen keine Verantwortung für den Missbrauch von Mietgeräten auf eine Weise, die nicht der vorgesehenen Verwendung entspricht.",
-          "Weder der Anbieter noch der Kunde oder ein verbundenes Unternehmen haften für besondere, indirekte, zufällige oder Folgeschäden, die dem Anbieter oder der Mietausrüstung im Zusammenhang mit dieser Vereinbarung oder einer der in dieser Vereinbarung vorgesehenen Transaktionen entstehen."
+          "Nous ne sommes, en aucun cas, responsables pour toutes utilisation incorrecte de l'équipement de location.",
+          "Le prestataire ne pourra en aucun cas être responsable du préjudice subi par le client et résultant d'une inexécution par ce dernier de ses obligations, tel que le non-respect par le client des consignes d'utilisation et de fonctionnement du matériel de location et/ou résultant d'un mauvais usage par ce dernier du matériel de location."
         ]
       },
       "closing": {
-        "title": "Kontaktieren Sie uns",
-        "content": "Wenn Sie Fragen haben oder weitere Klärungen benötigen, zögern Sie bitte nicht, uns über unser Kontaktformular oder per E-Mail zu kontaktieren."
+        "title": "Contact",
+        "content": "Des questions? Contactez-nous."
       }
     }
   }

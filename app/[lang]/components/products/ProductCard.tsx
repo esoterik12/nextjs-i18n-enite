@@ -36,7 +36,7 @@ const ProductCard = ({ product, addButtonText }: IProductCardTypes) => {
       </div>
       <div className='mt-4 flex items-center justify-center'>
         <AddToOrderButton product={product}>
-          <p>{addButtonText}</p>
+          <p className='m-2 ml-4 mr-4 font-medium text-white'>{addButtonText}</p>
         </AddToOrderButton>
       </div>
     </div>

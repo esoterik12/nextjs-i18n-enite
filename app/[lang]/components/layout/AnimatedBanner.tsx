@@ -27,6 +27,7 @@ export default function AnimatedBanner({
             className='-translate-y-20 transform'
             alt='banner'
             src='/e-nite/enite-sky-webp.webp'
+            priority
             width={2000}
             height={1000}
           />

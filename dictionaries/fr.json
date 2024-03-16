@@ -134,6 +134,7 @@
   "allProducts": {
     "title": "Consultez notre liste complète de produits",
     "description": "Consultez les produits individuels d'e-nite et ajoutez-les à votre commande.",
+    "includedText": "Ces produits sont inclus dans le pack actuellement sélectionné.",
     "addToOrderButton": "Ajouter à la commande",
     "productsList": [
       {

@@ -1,6 +1,5 @@
 import { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/utils/dictionary'
-import Image from 'next/image'
 import ProductCard from '../components/products/ProductCard'
 
 // similar to home page, this page gets the page content with getDictionary function passing in the lang param
@@ -32,6 +31,8 @@ export default async function PacksPage({
           style={{ width: '30%', height: 'auto' }}
         /> */}
       </div>
+
+      {/* ADD: All packs include required power and extension cables */}
     </section>
   )
 }

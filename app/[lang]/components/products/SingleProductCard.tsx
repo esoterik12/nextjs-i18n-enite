@@ -3,20 +3,18 @@ import AddToOrderButton from '../buttons/AddToOrderButton'
 import { ISingleProductItem } from '@/lib/types'
 
 interface IProductCardTypes {
-  product: ISingleProductItem,
+  product: ISingleProductItem
   addButtonText: string
 }
 
-
 const SingleProductCard = ({ product, addButtonText }: IProductCardTypes) => {
-
   // Created to match types of <AddToOrderButton> component
   const singleProductCartItem = {
     productId: product.id,
     productTitle: product.title,
     productPrice: product.price,
     productDescription: product.description,
-    productImage: product.image,
+    productImage: product.image
   }
 
   return (
@@ -46,7 +44,9 @@ const SingleProductCard = ({ product, addButtonText }: IProductCardTypes) => {
       </div>
       <div className='mt-4 flex items-center justify-center'>
         <AddToOrderButton product={singleProductCartItem}>
-          <p>{addButtonText}</p>
+          <p className='m-2 ml-4 mr-4 font-medium text-white'>
+            {addButtonText}
+          </p>
         </AddToOrderButton>
       </div>
     </div>

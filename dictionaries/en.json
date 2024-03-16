@@ -132,8 +132,9 @@
     ]
   },
   "allProducts": {
-    "title": "View our Complete Product List",
+    "title": "View our complete product list",
     "description": "View individual e-nite products and add them to your booking.",
+    "includedText": "These products are included in your currently selected pack.",
     "addToOrderButton": "Add to Order",
     "productsList": [
       {
