@@ -16,19 +16,32 @@ const AddToOrderButton = ({
 }) => {
   const cart = useSelector((state: RootStateType) => state.cart)
 
+  // Checks if the item is either in the cart currently or in one of the packs added to the cart
   const isInCart = useMemo(() => {
-    return cart.items.some(item => item.id === product.productId)
+    const itemAdded = cart.items.some(item => item.id === product.productId)
+    const includedInPack = cart.packItems.some(item => item === product.productId)
+    return itemAdded || includedInPack
   }, [cart, product.productId])
 
-  console.log('isInCart: ', isInCart)
-
   const dispatch = useDispatch()
-  const productItem = {
+  let productItem = {
     id: product.productId,
     title: product.productTitle,
     quantity: 1,
     price: product.productPrice,
-    image: product.productImage
+    image: product.productImage,
+    equipmentList: product.equipmentList
+  }
+
+  // This uses different functions to manage different context functions depending on whether
+  // The item is a pack or a product. This is due to packs also having the equipmentList property
+  // This can probably be refactored into a single function down the like in RTK
+  function addProductOrPack() {
+    if (product.equipmentList) {
+      dispatch(cartActions.addPackToCart(productItem))
+    } else {
+      dispatch(cartActions.addItemToCart(productItem))
+    }
   }
 
   return (
@@ -36,7 +49,7 @@ const AddToOrderButton = ({
       <button
         disabled={isInCart}
         type='button'
-        onClick={() => dispatch(cartActions.addItemToCart(productItem))}
+        onClick={() => addProductOrPack()}
         className='rounded-xl bg-gray-900 transition-colors duration-300 ease-in-out hover:bg-gray-600 disabled:bg-green-500'
       >
         {isInCart && (

@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import Image from 'next/image'
 import { Fragment } from 'react'
 import { formatCurrency } from '@/lib/utils/currency'
@@ -25,7 +25,7 @@ const ShoppingCart = () => {
     .reduce((total, item) => total + item.totalPrice, 0)
     .toFixed(2)
 
-  const removeItemHandler = (id: string) => {
+  const removeItemHandler = (id: number) => {
     dispatch(cartActions.removeItemFromCart(id))
   }
 
@@ -109,76 +109,44 @@ const ShoppingCart = () => {
 
                                   <div className='ml-4 flex flex-1 flex-col'>
                                     <div>
-                                      <div className='flex justify-between text-base font-medium text-gray-500'>
-                                        <h3>
-                                          <a
-                                            href={`/products/${item.id}`}
-                                          >
-                                            {' '}
-                                            {item.title}{' '}
+                                      <div className='flex justify-between text-base font-medium text-gray-600'>
+                                        <p className='font-light'>
+                                          <a href={`/products/${item.id}`}>
+                                            {item.title}
                                           </a>
-                                        </h3>
-                                        <p className='ml-4'>
+                                        </p>
+                                        <p className='ml-4 text-black'>
                                           {formatCurrency({
                                             amount: item.price
                                           })}
                                         </p>
                                       </div>
-                                      <button
-                                        type='button'
-                                        // onClick={() =>
-                                        //   addItem(item.product.slug)
-                                        // }
-                                        className='m-3 h-6 w-6 rounded-full text-gray-400 transition duration-300 ease-in-out hover:text-green-500  disabled:text-gray-200'
-                                      >
-                                        <svg
-                                          xmlns='http://www.w3.org/2000/svg'
-                                          fill='none'
-                                          viewBox='0 0 24 24'
-                                          strokeWidth={1.5}
-                                          stroke='currentColor'
-                                          className='h-6 w-6'
-                                        >
-                                          <path
-                                            strokeLinecap='round'
-                                            strokeLinejoin='round'
-                                            d='M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z'
-                                          />
-                                        </svg>
-                                      </button>{' '}
-                                      <button
-                                        type='button'
-                                        // onClick={() => minusItem(item.id)}
-                                        className='h-6 w-6 rounded-full  text-gray-400  transition duration-300 ease-in-out hover:text-red-400  disabled:text-gray-200'
-                                      >
-                                        <svg
-                                          xmlns='http://www.w3.org/2000/svg'
-                                          fill='none'
-                                          viewBox='0 0 24 24'
-                                          strokeWidth={1.5}
-                                          stroke='currentColor'
-                                          className='h-6 w-6'
-                                        >
-                                          <path
-                                            strokeLinecap='round'
-                                            strokeLinejoin='round'
-                                            d='M15 12H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z'
-                                          />
-                                        </svg>
-                                      </button>
                                     </div>
 
-                                    <div className='flex flex-1 items-end justify-between text-sm'>
-                                      <p className='text-gray-500'>
-                                        Quantity: {item.quantity}
-                                      </p>
+                                    <div className='mt-10 flex items-end justify-end text-sm'>
                                       <div className='flex'>
                                         <button
                                           type='button'
-                                          // onClick={() => (item.id)}
-                                          className='font-medium text-pink-600 transition-colors duration-300 ease-in-out hover:text-pink-500 disabled:text-gray-500'
+                                          onClick={() =>
+                                            removeItemHandler(item.id)
+                                          }
+                                          className='text-pink-600 transition-colors duration-300 ease-in-out hover:text-pink-300 disabled:text-gray-500'
                                         >
-                                          Remove
+                                          {/* Minus symbol */}
+                                          <svg
+                                            xmlns='http://www.w3.org/2000/svg'
+                                            fill='none'
+                                            viewBox='0 0 24 24'
+                                            strokeWidth={1.5}
+                                            stroke='currentColor'
+                                            className='h-7 w-7'
+                                          >
+                                            <path
+                                              strokeLinecap='round'
+                                              strokeLinejoin='round'
+                                              d='M15 12H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z'
+                                            />
+                                          </svg>
                                         </button>
                                       </div>
                                     </div>
@@ -192,15 +160,15 @@ const ShoppingCart = () => {
 
                     <div className='border-t border-gray-200 px-4 py-6 sm:px-6'>
                       <div className='flex justify-between text-base font-medium text-gray-900'>
-                        <p>Subtotal</p>
+                        <p>Total</p>
                         <p>{totalAmount}</p>
                       </div>
 
-
-                      <div className='flex mt-4 mb-6'>
+                      <div className='mb-6 mt-4 flex'>
                         <button
                           type='button'
                           className='font-medium text-pink-600 transition-colors duration-300 ease-in-out hover:text-pink-300 disabled:text-gray-500'
+                          onClick={() => dispatch(cartActions.clearCart())}
                         >
                           Clear Cart
                         </button>
@@ -210,7 +178,7 @@ const ShoppingCart = () => {
                         onClick={handleCheckout}
                         className='flex h-12 w-full items-center justify-center rounded-md border border-transparent bg-sky-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-sky-700 disabled:cursor-not-allowed disabled:opacity-75'
                       >
-                        Sign in to Checkout
+                        Complete Order
                       </button>
                     </div>
                   </div>

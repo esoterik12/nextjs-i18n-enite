@@ -11,7 +11,31 @@
       "title": "e-nite",
       "subTitle": "Trouvez votre configuration de fête parfaite dans la région de Lausanne.",
       "description": "E-Nite fournit les ingrédients essentiels pour une fête fantastique depuis 2008.",
-      "actionButtonText": "Découvrez nos packs !"
+      "actionButtonText": "Découvrez nos packs!",
+      "servicesContent": {
+        "title": "Économisez du temps et de l'argent avec nos",
+        "titleHighlight": "Services de fête",
+        "deliveryLink": "Livraison",
+        "deliveryTextEnd": "et récupération pour tout notre équipement.",
+        "photographerTextStart": "Créez des souvenirs avec notre ",
+        "photographerLink": "photographe",
+        "djTextStart": "Choisissez un ",
+        "djLink": "DJ professionnel",
+        "djTextEnd": " qui correspond à votre style!"
+      }
+    },
+    "landingPageTop": {
+      "title": "Nos Packs de Fête",
+      "subTitle": "Votre solution ultime de location d'équipements de fête",
+      "description": "Chez e-nite, nous croyons que chaque fête devrait être inoubliable. C'est pourquoi nous offrons une large gamme d'équipements musicaux de haute qualité à louer, accompagnés de services professionnels de DJ et de photographie pour rendre vos événements vraiment spéciaux. Que vous planifiez une petite réunion ou une grande célébration, nous avons tout ce dont vous avez besoin pour faire de votre soirée un succès.",
+      "buttonLink": "Découvrez nos Packs"
+    },
+    "landingPageMid": {
+      "title": "Personnalisez votre commande",
+      "subTitle": "Adaptez votre configuration de fête idéale à partir de notre vaste collection d'équipements de musique et de lumière.",
+      "description": "Continuez à faire couler la bonne ambiance avec un robinet à bière dédié.",
+      "buttonLink": "Decouvrez nos produits"
+
     },
     "contact": {
       "title": "Contactez Nous",
@@ -52,9 +76,7 @@
         "productPrice": 160.0,
 
         "productDescription": "Ce pack offrira à vous et à vos invités un spectacle de lumière magnifique et impressionnant.",
-        "equipmentList": [
-          102, 106, 132, 144, 142, 113, 114, 138, 123, 133, 143, 137, 120, 140
-        ]
+        "equipmentList": [143, 142, 132, 133, 123, 137, 113, 114, 120, 140]
       },
       {
         "productId": 4,
@@ -63,7 +85,10 @@
 
         "productPrice": 295.0,
         "productDescription": "Un kit complet et professionnel de son et de lumière avec un double robinet à bière ajouté. Que demander de plus ?",
-        "equipmentList": [143, 142, 132, 133, 123, 137, 113, 114, 120, 140]
+
+        "equipmentList": [
+          102, 106, 132, 144, 142, 113, 114, 138, 123, 133, 143, 137, 120, 140
+        ]
       },
       {
         "productId": 5,

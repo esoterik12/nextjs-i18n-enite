@@ -11,7 +11,30 @@
       "title": "e-nite",
       "subTitle": "Find your perfect party setup in the Lausanne area.",
       "description": "E-Nite has been providing the essential ingredients for a fantastic party since 2008.",
-      "actionButtonText": "Discover our Packs!"
+      "actionButtonText": "Discover our Packs!",
+      "servicesContent": {
+        "title": "Save time and money with our",
+        "titleHighlight": "Party Services",
+        "deliveryLink": "Delivery",
+        "deliveryTextEnd": "and pick up for all our equipment.",
+        "photographerTextStart": "Create memories with our ",
+        "photographerLink": "photographer",
+        "djTextStart": "Choose a ",
+        "djLink": "professional DJ",
+        "djTextEnd": " that fits your style!"
+      }
+    },
+    "landingPageTop": {
+      "title": "Our Party Packs",
+      "subTitle": "Your Ultimate Party Equipment Rental Solution",
+      "description": "t e-nite, we believe every party should be unforgettable. That's why we offer a wide range of high-quality musical equipment for rent, alongside professional DJ and photography services to make your events truly special. Whether you're planning a small gathering or a large celebration, we have everything you need to make your night a hit.",
+      "buttonLink": "Explore Our Packs"
+    },
+    "landingPageMid": {
+      "title": "Customize your order",
+      "subTitle": "Tailor your perfect party setup from our massive collection of music and light equipment.",
+      "description": "Keep the good times flowing with a dedicated beer tap.",
+      "buttonLink": "Explore Our Products"
     },
     "contact": {
       "title": "Contact Us",
@@ -31,7 +54,6 @@
         "productId": 1,
         "productTitle": "Starter",
         "productImage": "/e-nite/Pack-1-Starter.jpg",
-
         "productPrice": 195.0,
         "productDescription": "This Pack has everything you need to transform any space or room into a mini club. All you need is your iPhone/iPod/laptop (or any other music source) and the party may begin!",
         "equipmentList": [
@@ -54,7 +76,6 @@
         "productId": 2,
         "productTitle": "Sound",
         "productImage": "/e-nite/Pack-2-Sound.jpg",
-
         "productPrice": 95.0,
         "productDescription": "All you need to play loud music like a DJ with this simple but effective kit.",
         "equipmentList": [
@@ -70,7 +91,6 @@
         "productId": 3,
         "productTitle": "Lightshow",
         "productImage": "/e-nite/Pack-3-Lightshow.jpg",
-
         "productPrice": 160.0,
         "productDescription": "This pack will provide you and yours guests a beautiful and impressive light-show.",
         "equipmentList": [
@@ -91,7 +111,6 @@
         "productId": 4,
         "productTitle": "Fiesta",
         "productImage": "/e-nite/Pack-4-Fiesta.jpg",
-
         "productPrice": 295.0,
         "productDescription": "A complete and professional Sound & Light kit with an added double Beer Tap. What more do you want?",
         "equipmentList": [
@@ -118,7 +137,6 @@
         "productId": 5,
         "productTitle": "Microphones",
         "productImage": "/e-nite/Pack-5-Microphones.jpg",
-
         "productPrice": 35.0,
         "productDescription": "A comprehensive set of microphones suitable for karaoke nights, live performances, or even public speaking engagements!",
         "equipmentList": [

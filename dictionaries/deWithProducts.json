@@ -11,7 +11,30 @@
       "title": "e-nite",
       "subTitle": "Finden Sie Ihr perfektes Party-Setup im Raum Lausanne.",
       "description": "E-Nite bietet seit 2008 die wesentlichen Zutaten für eine fantastische Party.",
-      "actionButtonText": "Entdecken Sie unsere Packs!"
+      "actionButtonText": "Entdecken Sie unsere Packs!",
+      "servicesContent": {
+        "title": "Sparen Sie Zeit und Geld mit unseren",
+        "titleHighlight": "Party-Dienstleistungen",
+        "deliveryLink": "Lieferung",
+        "deliveryTextEnd": "und Abholung für alle unsere Geräte.",
+        "photographerTextStart": "Erstellen Sie Erinnerungen mit unserem ",
+        "photographerLink": "Fotograf",
+        "djTextStart": "Wählen Sie einen ",
+        "djLink": "professionellen DJ",
+        "djTextEnd": "der zu Ihrem Stil passt!"
+      }
+    },
+    "landingPageTop": {
+      "title": "Unsere Party-Pakete",
+      "subTitle": "Ihre ultimative Lösung für Party-Equipment-Vermietung",
+      "description": "Bei e-nite glauben wir, dass jede Party unvergesslich sein sollte. Deshalb bieten wir eine breite Palette an hochwertigem Musikequipment zur Miete an, zusammen mit professionellen DJ- und Fotografie-Services, um Ihre Veranstaltungen wirklich besonders zu machen. Ob Sie eine kleine Zusammenkunft oder eine große Feier planen, wir haben alles, was Sie brauchen, um Ihre Nacht zum Erfolg zu machen.",
+      "buttonLink": "Entdecken Sie unsere Pakete"
+    },
+    "landingPageMid": {
+      "title": "Passen Sie Ihre Bestellung an",
+      "subTitle": "Stellen Sie Ihre perfekte Party-Ausstattung aus unserer umfangreichen Sammlung von Musik- und Lichtausrüstung zusammen.",
+      "description": "Halten Sie die gute Stimmung am Laufen mit einem eigenen Bierzapfhahn.",
+      "buttonLink": "Entdecken Sie unsere Produkte"
     },
     "contact": {
       "title": "Über uns",
@@ -30,7 +53,7 @@
       {
         "productId": 1,
         "productTitle": "Starter",
-      
+
         "productPrice": 195.0,
         "productImage": "/e-nite/Pack-1-Starter.jpg",
         "productDescription": "Dieses Paket hat alles, was Sie brauchen, um jeden Raum in einen Mini-Club zu verwandeln. Alles, was Sie brauchen, ist Ihr iPhone/iPod/Laptop (oder jede andere Musikquelle) und die Party kann beginnen!",
@@ -50,9 +73,8 @@
         "productImage": "/e-nite/Pack-3-Lightshow.jpg",
         "productPrice": 160.0,
         "productDescription": "Dieses Paket bietet Ihnen und Ihren Gästen eine schöne und beeindruckende Lichtshow.",
-        "equipmentList": [
-          102, 106, 132, 144, 142, 113, 114, 138, 123, 133, 143, 137, 120, 140
-        ]
+
+        "equipmentList": [143, 142, 132, 133, 123, 137, 113, 114, 120, 140]
       },
       {
         "productId": 4,
@@ -60,7 +82,9 @@
         "productImage": "/e-nite/Pack-4-Fiesta.jpg",
         "productPrice": 295.0,
         "productDescription": "Ein komplettes und professionelles Sound & Light-Kit mit einem doppelten Bierhahn. Was will man mehr?",
-        "equipmentList": [143, 142, 132, 133, 123, 137, 113, 114, 120, 140]
+        "equipmentList": [
+          102, 106, 132, 144, 142, 113, 114, 138, 123, 133, 143, 137, 120, 140
+        ]
       },
       {
         "productId": 5,

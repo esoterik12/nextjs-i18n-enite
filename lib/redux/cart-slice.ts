@@ -3,6 +3,7 @@ import { ISliceState, ICartItem } from "../types";
 
 const initialState: ISliceState = {
   items: [],
+  packItems: [],
   totalQuantity: 0,
   changed: false,
   cartOpen: false,
@@ -21,6 +22,13 @@ const cartSlice = createSlice({
     replaceCart(state, action) {
       state.totalQuantity = action.payload.totalQuantity;
       state.items = action.payload.items;
+    },
+    clearCart(state) {
+      state.totalQuantity = 0;
+      state.items = [];
+      state.packItems = [];
+      state.changed = false;
+      state.cartOpen = false;
     },
     addItemToCart(state, action) {
       const newItem: ICartItem = action.payload;
@@ -43,6 +51,28 @@ const cartSlice = createSlice({
         existingItem.totalPrice = existingItem.totalPrice + newItem.price;
       }
     },
+    addPackToCart(state, action) {
+      const newPack: ICartItem = action.payload
+      const existingItem: ICartItem | undefined = state.items.find(
+        (item) => item.id === newPack.id
+      )
+      state.totalQuantity++;
+      state.changed = true
+      if (!existingItem) {
+        state.items.push({
+          id: newPack.id,
+          price: newPack.price,
+          quantity: 1,
+          totalPrice: newPack.price,
+          title: newPack.title,
+          image: newPack.image
+        })
+        if (newPack.equipmentList) {
+          state.packItems.push(...newPack.equipmentList)
+        }
+      }
+    },
+    // Does not work for packs with packItems
     removeItemFromCart(state, action) {
       state.totalQuantity--;
       const id = action.payload;

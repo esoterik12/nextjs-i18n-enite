@@ -20,7 +20,7 @@ export default async function AllProductsPage({
 
         {/* Product included div */}
         <div className='flex w-60 flex-row  border-1 p-1 mt-6 lg:mt-0'>
-          <div className='mr-4 mt-4'>
+          <div className='mr-3 mt-4'>
             <CheckMark classes='h-8 w-8 text-green-500' />
           </div>
           <p className='text-sm text-gray-500 lg:text-center'>{allProducts.includedText}</p>

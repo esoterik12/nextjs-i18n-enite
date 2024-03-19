@@ -2,3 +2,30 @@ Error boundries
 
 Add beer tap to products - including to Fiesta json array of id 
 packs need additional info about inclusions such as cables and stands and carrying cases
+
+Immediate Todos:
+  -Cart Number on navbar
+
+Todos:
+  -Add Services Page
+    -Beer taps, DJs, etc
+  -Landing Page:
+    -Choose the perfect party pack,
+      -Supplement with additional products
+      -Choose services: djs, beer, delivery
+      -Inspo: https://www.landingfolio.com/inspiration/post/product-video-examples
+  -Contact page (client side)
+    -Show cart on page
+    -Check services
+  -Checkout Component (could be featured on contact page if cart is full)
+  -Checkout page (takes you to contact page? or checkout component that is in contact page)
+  -i18n on ShoppingCart
+  -Footer
+    -Add i18n support in JSON
+    -Connect Links
+
+Long Term:
+  -Admin Dashboard
+
+Completed:
+  -Adjust banner image - too large

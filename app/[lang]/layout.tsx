@@ -1,12 +1,12 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Locale, i18n } from '@/i18n.config' // IMPORTS
+import { Locale, i18n } from '@/i18n.config'
 import Header from './components/layout/NavHeader'
-
 import { Inter } from 'next/font/google'
 import CartProvider from '@/lib/redux/CartProvider'
 import ShoppingCart from './components/products/ShoppingCart'
-import ShoppingCartFR from './components/products/ShoppingCartFR'
+import Footer from './components/layout/Footer'
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -32,10 +32,12 @@ export default function RootLayout({
     <html lang={params.lang}>
       <body className={inter.className}>
         <CartProvider>
-          {params.lang === 'en' && <ShoppingCart />}
-          {params.lang === 'fr' && <ShoppingCartFR />}
+        <ShoppingCart />
+          {/* {params.lang === 'en' && <ShoppingCart />}
+          {params.lang === 'fr' && <ShoppingCartFR />} */}
           <Header lang={params.lang} />
           <main>{children}</main>
+          <Footer />
         </CartProvider>
       </body>
     </html>

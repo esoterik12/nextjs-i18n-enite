@@ -9,24 +9,24 @@ export default function AnimatedBanner({
 }) {
   return (
     <div className='relative mx-auto'>
-      <div className='absolute z-10 flex h-full w-full flex-col items-center justify-center bg-black bg-opacity-50 text-white'>
+      <div className='absolute z-10 flex h-full w-full flex-col items-center justify-center bg-black bg-opacity-60 text-white'>
         {children}
       </div>
-      <div className='max-h-48 overflow-hidden'>
+      <div className='max-h-40 overflow-hidden'>
         <motion.div
-          initial={{ rotate: 0, scale: 1.1 }} // Starting angle
-          animate={{ rotate: -20, scale: 1.3 }} // End angle
+          initial={{ x: 0, y: 30, rotate: 2, scale: 1.18 }} // Starting angle
+          animate={{ x: 0, y: -80, rotate: -10, scale: 1.4}} // End angle
           transition={{
-            duration: 40,
+            duration: 35,
             repeat: Infinity,
-            repeatType: 'mirror', 
+            repeatType: 'mirror',
             ease: 'easeInOut'
           }}
         >
           <Image
             className='-translate-y-20 transform'
             alt='banner'
-            src='/e-nite/enite-sky-webp.webp'
+            src='/e-nite/enite-sky-webp-small-webp.webp'
             priority
             width={2000}
             height={1000}

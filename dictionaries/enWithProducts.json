@@ -11,7 +11,30 @@
       "title": "e-nite",
       "subTitle": "Find your perfect party setup in the Lausanne area.",
       "description": "E-Nite has been providing the essential ingredients for a fantastic party since 2008.",
-      "actionButtonText": "Discover our Packs!"
+      "actionButtonText": "Discover our Packs!",
+      "servicesContent": {
+        "title": "Save time and money with our",
+        "titleHighlight": "Party Services",
+        "deliveryLink": "Delivery",
+        "deliveryTextEnd": "and pick up for all our equipment.",
+        "photographerTextStart": "Create memories with our ",
+        "photographerLink": "photographer",
+        "djTextStart": "Choose a ",
+        "djLink": "professional DJ",
+        "djTextEnd": " that fits your style!"
+      }
+    },
+    "landingPageTop": {
+      "title": "Our Party Packs",
+      "subTitle": "Your Ultimate Party Equipment Rental Solution",
+      "description": "At e-nite, we believe every party should be unforgettable. That's why we offer a wide range of high-quality musical equipment for rent, alongside professional DJ and photography services to make your events truly special. Whether you're planning a small gathering or a large celebration, we have everything you need to make your night a hit.",
+      "buttonLink": "Explore Our Packs"
+    },
+    "landingPageMid": {
+      "title": "Customize your order",
+      "subTitle": "Tailor your perfect party setup from our massive collection of music and light equipment.",
+      "description": "Keep the good times flowing with a dedicated beer tap.",
+      "buttonLink": "Explore Our Products"
     },
     "contact": {
       "title": "Contact Us",
@@ -52,9 +75,7 @@
 
         "productPrice": 160.0,
         "productDescription": "This pack will provide you and yours guests a beautiful and impressive light-show.",
-        "equipmentList": [
-          102, 106, 132, 144, 142, 113, 114, 138, 123, 133, 143, 137, 120, 140
-        ]
+        "equipmentList": [143, 142, 132, 133, 123, 137, 113, 114, 120, 140]
       },
       {
         "productId": 4,
@@ -63,7 +84,10 @@
 
         "productPrice": 295.0,
         "productDescription": "A complete and professional Sound & Light kit with an added double Beer Tap. What more do you want?",
-        "equipmentList": [143, 142, 132, 133, 123, 137, 113, 114, 120, 140]
+
+        "equipmentList": [
+          102, 106, 132, 144, 142, 113, 114, 138, 123, 133, 143, 137, 120, 140
+        ]
       },
       {
         "productId": 5,

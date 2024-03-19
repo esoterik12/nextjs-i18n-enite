@@ -11,7 +11,30 @@
       "title": "e-nite",
       "subTitle": "Finden Sie Ihr perfektes Party-Setup im Raum Lausanne.",
       "description": "E-Nite bietet seit 2008 die wesentlichen Zutaten für eine fantastische Party.",
-      "actionButtonText": "Entdecken Sie unsere Packs!"
+      "actionButtonText": "Entdecken Sie unsere Packs!",
+      "servicesContent": {
+        "title": "Sparen Sie Zeit und Geld mit unseren",
+        "titleHighlight": "Party-Dienstleistungen",
+        "deliveryLink": "Lieferung",
+        "deliveryTextEnd": "und Abholung für alle unsere Geräte.",
+        "photographerTextStart": "Erstellen Sie Erinnerungen mit unserem ",
+        "photographerLink": "Fotograf",
+        "djTextStart": "Wählen Sie einen ",
+        "djLink": "professionellen DJ",
+        "djTextEnd": "der zu Ihrem Stil passt!"
+      }
+    },
+    "landingPageTop": {
+      "title": "Unsere Party-Pakete",
+      "subTitle": "Ihre ultimative Lösung für Party-Equipment-Vermietung",
+      "description": "Bei e-nite glauben wir, dass jede Party unvergesslich sein sollte. Deshalb bieten wir eine breite Palette an hochwertigem Musikequipment zur Miete an, zusammen mit professionellen DJ- und Fotografie-Services, um Ihre Veranstaltungen wirklich besonders zu machen. Ob Sie eine kleine Zusammenkunft oder eine große Feier planen, wir haben alles, was Sie brauchen, um Ihre Nacht zum Erfolg zu machen.",
+      "buttonLink": "Entdecken Sie unsere Pakete"
+    },
+    "landingPageMid": {
+      "title": "Passen Sie Ihre Bestellung an",
+      "subTitle": "Stellen Sie Ihre perfekte Party-Ausstattung aus unserer umfangreichen Sammlung von Musik- und Lichtausrüstung zusammen.",
+      "description": "Halten Sie die gute Stimmung am Laufen mit einem eigenen Bierzapfhahn.",
+      "buttonLink": "Entdecken Sie unsere Produkte"
     },
     "contact": {
       "title": "Über uns",
