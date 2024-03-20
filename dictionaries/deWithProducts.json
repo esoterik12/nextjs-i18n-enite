@@ -6,6 +6,26 @@
     "partyPacks": "Partypakete",
     "allProducts": "Produkte"
   },
+  "footer": {
+    "productsHeader": "Produkte",
+    "productsLinks": {
+      "partyPacksLink": "Party-Pakete",
+      "productsLink": "Einzelprodukte",
+      "guidesLink": "Anleitungen"
+    },
+    "servicesHeader": "Dienstleistungen",
+    "servicesLinks": {
+      "deliveryLink": "Lieferung",
+      "djsLink": "DJs",
+      "photographers": "Fotografen"
+    },
+    "companyHeader": "Unternehmen",
+    "companyLinks": {
+      "contactLink": "Kontakt",
+      "conditionsLink": "Bedingungen",
+      "aboutLink": "Über uns"
+    }
+  },
   "page": {
     "home": {
       "title": "e-nite",

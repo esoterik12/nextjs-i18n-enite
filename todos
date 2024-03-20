@@ -5,6 +5,7 @@ packs need additional info about inclusions such as cables and stands and carryi
 
 Immediate Todos:
   -Cart Number on navbar
+  -Add individual product info to JSON
 
 Todos:
   -Add Services Page
@@ -23,6 +24,7 @@ Todos:
   -Footer
     -Add i18n support in JSON
     -Connect Links
+  -Clean Up Images
 
 Long Term:
   -Admin Dashboard

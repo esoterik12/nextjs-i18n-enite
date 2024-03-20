@@ -1,27 +1,7 @@
-import React from 'react'
 import IconFacebook from '../icons/social-icons/IconFacebook'
 import IconInstagram from '../icons/social-icons/IconInstagram'
-
-const sections = [
-  {
-    title: 'Products',
-    items: ['Party Packs', 'Individual Products', 'Guides']
-  },
-  {
-    title: 'Services',
-    items: ['Delivery', 'DJs', 'Photographers']
-  },
-  {
-    title: 'Company',
-    items: ['Contact', 'Conditions']
-  }
-]
-
-interface ISocialItems {
-  name: string
-  icon: React.ReactNode
-  link: string
-}
+import { Locale } from '@/i18n.config'
+import { getDictionary } from '@/lib/utils/dictionary'
 
 const items = [
   {
@@ -38,27 +18,69 @@ const items = [
   }
 ]
 
-const Footer = async () => {
+export default async function Footer({ lang }: { lang: Locale }) {
+  const { footer } = await getDictionary(lang)
+
   return (
     <div className='py-y mt-6 w-full px-2 text-gray-400'>
       <div className='mx-auto flex max-w-[1240px] grid-cols-2 flex-row justify-between border-b-2 border-gray-600 py-8 md:grid-cols-6'>
         <div className='flex flex-row gap-8'>
-          {sections.map((section, index) => (
-            <div key={index}>
-              <p className='pt-2 font-semibold uppercase text-sm text-gray-300'>{section.title}</p>
-              <ul>
-                {section.items.map((item, i) => (
-                  <li
-                    key={i}
-                    className='py-1 text-gray-500 hover:cursor-pointer text-sm hover:text-gray-400'
-                  >
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          <div>
+            {/* Products Footer Section */}
+            <p className='pt-2 text-sm font-semibold uppercase text-gray-300'>
+              {footer.productsHeader}
+            </p>
+            <ul>
+              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                {footer.productsLinks.partyPacksLink}
+              </li>
+              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                {footer.productsLinks.productsLink}
+              </li>
+              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                {footer.productsLinks.guidesLink}
+              </li>
+            </ul>
+          </div>
+
+          {/* Services Footer Section */}
+          <div>
+            <p className='pt-2 text-sm font-semibold uppercase text-gray-300'>
+              {footer.servicesHeader}
+            </p>
+            <ul>
+              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                {footer.servicesLinks.deliveryLink}
+              </li>
+              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                {footer.servicesLinks.djsLink}
+              </li>
+              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                {footer.servicesLinks.photographers}
+              </li>
+            </ul>
+          </div>
+
+          {/* Company Footer Section */}
+          <div>
+            <p className='pt-2 text-sm font-semibold uppercase text-gray-300'>
+              {footer.companyHeader}
+            </p>
+            <ul>
+              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                {footer.companyLinks.contactLink}
+              </li>
+              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                {footer.companyLinks.conditionsLink}
+              </li>
+              <li className='hver:cursor-pointer py-1 text-sm text-gray-500 hover:text-gray-400'>
+                {footer.companyLinks.aboutLink}
+              </li>
+            </ul>
+          </div>
         </div>
+
+        {/* Socials and Contact Footer Section */}
         <div className='flex flex-col justify-end'>
           <div className='flex justify-end  gap-2 pt-4 text-4xl'>
             {items.map(item => {
@@ -71,12 +93,10 @@ const Footer = async () => {
       </div>
 
       <div className='mx-auto flex max-w-[1240px] flex-col justify-between px-2 py-4 text-center text-gray-400 sm:flex-row'>
-        <p className='text-sm py-4'>
+        <p className='py-4 text-sm'>
           2024 <span className='font-bold'>e-nite</span>, All Rights Reserved
         </p>
       </div>
     </div>
   )
 }
-
-export default Footer

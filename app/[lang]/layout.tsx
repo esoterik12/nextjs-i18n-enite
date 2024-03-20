@@ -37,7 +37,7 @@ export default function RootLayout({
           {params.lang === 'fr' && <ShoppingCartFR />} */}
           <Header lang={params.lang} />
           <main>{children}</main>
-          <Footer />
+          <Footer lang={params.lang} />
         </CartProvider>
       </body>
     </html>

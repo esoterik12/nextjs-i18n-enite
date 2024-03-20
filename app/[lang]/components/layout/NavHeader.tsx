@@ -9,6 +9,7 @@ import CartButton from '../buttons/CartButton'
 export default async function Header({ lang }: { lang: Locale }) {
   // gets navigation page destructured from getDictionary return object
   const { navigation } = await getDictionary(lang)
+  const { footer } = await getDictionary(lang)
 
   return (
     <header className='z-10 py-3'>
