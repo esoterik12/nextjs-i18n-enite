@@ -1,8 +1,6 @@
 import { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/utils/dictionary'
 import ProductCard from '../components/products/ProductCard'
-import Link from 'next/link'
-// similar to home page, this page gets the page content with getDictionary function passing in the lang param
 
 export default async function PacksPage({
   params: { lang }
@@ -12,7 +10,7 @@ export default async function PacksPage({
   const { products } = await getDictionary(lang)
 
   return (
-    <section className='py-24'>
+    <section className='py-6'>
 
       <div className='container'>
         <h1 className='text-3xl font-bold'>{products.title}</h1>
@@ -27,14 +25,6 @@ export default async function PacksPage({
             addButtonText={products.addToOrderButton}
           />
         ))}
-        {/* <Image 
-          src='/e-nite/Briteq.jpg'
-          alt="image"
-          width={400}
-          height={400}
-          priority
-          style={{ width: '30%', height: 'auto' }}
-        /> */}
       </div>
 
       {/* ADD: All packs include required power and extension cables */}

@@ -4,7 +4,9 @@
     "contact": "Contact",
     "conditions": "Conditionen",
     "partyPacks": "Partypakete",
-    "allProducts": "Produkte"
+    "allProducts": "Produkte",
+    "services": "Dienst"
+
   },
   "footer": {
     "productsHeader": "Produkte",
@@ -598,6 +600,56 @@
         "type": "light"
       }
     ]
+  },
+  "services": {
+    "delivery": {
+      "title": "Lieferdienste",
+      "subtitle": "Hier sind die verschiedenen Typen von Diensten, die wir anbieten, um Ihnen die Organisation Ihrer Veranstaltungen zu erleichtern. Die untenstehenden Preise gelten für Lieferungen in Lausanne und der umliegenden Region. Für weiter entfernte Orte gelten zusätzliche Gebühren, bitte schauen Sie auf unserer Seite „Bedingungen“ für weitere Informationen.",
+      "description": "Wenn Sie Fragen zu unseren Lieferdiensten haben, zögern Sie bitte nicht, uns zu kontaktieren.",
+      "addToOrderButton": "Zur Bestellung hinzufügen",
+      "deliveryData": [
+        {
+          "productId": 1001,
+          "productTitle": "Lieferung & Installation eines Bierzapfhahns",
+          "productImage": "/e-nite/Beer-Delivery.jpg",
+          "servicePrice": 90,
+          "returnPrice": 80,
+          "productDescription": "Mit diesem Service liefern wir den Bierzapfhahn und das nötige Gas direkt zu Ihrem Veranstaltungsort. Wir werden auch den Bierzapfhahn installieren und einrichten, um sicherzustellen, dass alles reibungslos funktioniert. Wenn Sie möchten, dass wir am nächsten Tag alles zurückholen, bitte fügen Sie die Rücknahmegebühr hinzu."
+        },
+        {
+          "productId": 1002,
+          "productTitle": "Lieferung & Installation von Pack 1",
+          "productImage": "/e-nite/Pack-1-Starter.jpg",
+          "servicePrice": 260,
+          "returnPrice": 120,
+          "productDescription": "Wenn Sie diesen Service wählen, liefern wir alle Ausrüstungen von Pack 1 zu Ihrem Veranstaltungsort und nehmen uns die Zeit, die Ausrüstung einzurichten (dauert ungefähr 2-3 Stunden). Wenn Sie möchten, dass wir am nächsten Tag alles zurückholen, bitte fügen Sie den Rücknahmepreis hinzu."
+        },
+        {
+          "productId": 1003,
+          "productTitle": "Lieferung & Installation von Pack 2",
+          "productImage": "/e-nite/Pack-2-Sound.jpg",
+          "servicePrice": 140,
+          "returnPrice": 80,
+          "productDescription": "Wenn Sie diesen Service wählen, liefern wir alle Ausrüstungen von Pack 2 zu Ihrem Veranstaltungsort und nehmen uns die Zeit, die Ausrüstung einzurichten. Wenn Sie möchten, dass wir am nächsten Tag alles zurückholen, bitte fügen Sie den Rücknahmepreis hinzu."
+        },
+        {
+          "productId": 1004,
+          "productTitle": "Lieferung & Installation von Pack 3",
+          "productImage": "/e-nite/Pack-3-Lightshow.jpg",
+          "servicePrice": 280,
+          "returnPrice": 140,
+          "productDescription": "Wenn Sie diesen Service wählen, liefern wir alle Ausrüstungen von Pack 3 zu Ihrem Veranstaltungsort und nehmen uns die Zeit, die Ausrüstung einzurichten (dauert ungefähr 2-3 Stunden). Wenn Sie möchten, dass wir am nächsten Tag alles zurückholen, bitte fügen Sie den Rücknahmepreis hinzu."
+        },
+        {
+          "productId": 1005,
+          "productTitle": "Lieferung & Installation von Pack 4",
+          "productImage": "/e-nite/Pack-4-Fiesta.jpg",
+          "servicePrice": 320,
+          "returnPrice": 180,
+          "productDescription": "Wenn Sie diesen Service wählen, liefern wir alle Ausrüstungen von Pack 4 zu Ihrem Veranstaltungsort und nehmen uns die Zeit, die Ausrüstung einzurichten (dauert ungefähr 2-3 Stunden). Wenn Sie möchten, dass wir am nächsten Tag alles zurückholen, bitte fügen Sie den Rücknahmepreis hinzu."
+        }
+      ]
+    }
   },
   "conditions": {
     "title": "Allgemeine Geschäftsbedingungen",

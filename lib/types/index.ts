@@ -38,6 +38,16 @@ export interface IPackProductsJson {
   data: IProductItem[]
 }
 
+// Delivery Card Type:
+export interface IDeliveryCardItem {
+  productId: number
+  productTitle: string
+  productImage: string
+  servicePrice: number
+  returnPrice: number
+  productDescription: string
+}
+
 // Cart Context:
 export interface ICartItem {
   id: number

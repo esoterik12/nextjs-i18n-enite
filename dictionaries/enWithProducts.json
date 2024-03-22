@@ -4,7 +4,8 @@
     "contact": "Contact",
     "conditions": "Conditions",
     "partyPacks": "Party Packs",
-    "allProducts": "Products"
+    "allProducts": "Products",
+    "services": "Services"
   },
   "footer": {
     "productsHeader": "Products",
@@ -549,6 +550,56 @@
         "type": "light"
       }
     ]
+  },
+  "services": {
+    "delivery": {
+      "title": "Delivery Services",
+      "subtitle": "Here are the different types of services we offer to help you save time organizing your events. The prices below are valid for Lausanne deliveries and its surrounding region. Additional charges will apply for more remote locations, please check our Conditions page for more information.",
+      "description": "If you have any questions concerning our delivery services please do not hesitate to contact us.",
+      "addToOrderButton": "Add to Order",
+      "deliveryData": [
+        {
+          "productId": 1001,
+          "productTitle": "Beer Tap Delivery & Installation",
+          "productImage": "/e-nite/Beer-Delivery.jpg",
+          "servicePrice": 90,
+          "returnPrice": 80,
+          "productDescription": "This service will have us deliver the beer tap and necessary gas straight to your event location. We will also install the beer tap and set it up to make sure it works smoothly. If you want us to come and take all the equipment back the next day, please add the return fee."
+        },
+        {
+          "productId": 1002,
+          "productTitle": "Pack 1 Delivery & Installation",
+          "productImage": "/e-nite/Pack-1-Starter.jpg",
+          "servicePrice": 260,
+          "returnPrice": 120,
+          "productDescription": "If you choose this service, we will deliver all the equipment of Pack 1 to your event location, and take the time to set up the equipment (requires approximately 2-3 hours).  If you want us to take all the equipment back the next day, please add the return price."
+        },
+        {
+          "productId": 1003,
+          "productTitle": "Pack 2 Delivery & Installation",
+          "productImage": "/e-nite/Pack-2-Sound.jpg",
+          "servicePrice": 140,
+          "returnPrice": 80,
+          "productDescription": "If you choose this service, we will deliver all the equipment of Pack 2 to your event location, and take the time to set up the equipment.  If you want us to take all the equipment back the next day, please add the return price."
+        },
+        {
+          "productId": 1004,
+          "productTitle": "Pack 3 Delivery & Installation",
+          "productImage": "/e-nite/Pack-3-Lightshow.jpg",
+          "servicePrice": 280,
+          "returnPrice": 140,
+          "productDescription": "If you choose this service, we will deliver all the equipment of Pack 3 to your event location, and take the time to set up the equipment (requires approximately 2-3 hours).  If you want us to take all the equipment back the next day, please add the return price."
+        },
+        {
+          "productId": 1005,
+          "productTitle": "Pack 4 Delivery & Installation",
+          "productImage": "/e-nite/Pack-4-Fiesta.jpg",
+          "servicePrice": 320,
+          "returnPrice": 180,
+          "productDescription": "If you choose this service, we will deliver all the equipment of Pack 4 to your event location, and take the time to set up the equipment (requires approximately 2-3 hours).  If you want us to take all the equipment back the next day, please add the return price."
+        }
+      ]
+    }
   },
   "conditions": {
     "title": "General Terms and Conditions",

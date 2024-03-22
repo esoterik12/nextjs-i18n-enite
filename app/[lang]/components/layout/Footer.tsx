@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import IconFacebook from '../icons/social-icons/IconFacebook'
 import IconInstagram from '../icons/social-icons/IconInstagram'
 import { Locale } from '@/i18n.config'
@@ -22,24 +23,30 @@ export default async function Footer({ lang }: { lang: Locale }) {
   const { footer } = await getDictionary(lang)
 
   return (
-    <div className='py-y mt-6 w-full px-2 text-gray-400'>
-      <div className='mx-auto flex max-w-[1240px] grid-cols-2 flex-row justify-between border-b-2 border-gray-600 py-8 md:grid-cols-6'>
-        <div className='flex flex-row gap-8'>
+    <div className='py-y container mt-6 w-full  text-gray-400'>
+      <div className='mx-auto flex  grid-cols-2 flex-col justify-between border-b-2 border-gray-600 py-8 sm:flex-row md:grid-cols-6'>
+        <div className='flex flex-row gap-4'>
           <div>
             {/* Products Footer Section */}
             <p className='pt-2 text-sm font-semibold uppercase text-gray-300'>
               {footer.productsHeader}
             </p>
             <ul>
-              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
-                {footer.productsLinks.partyPacksLink}
-              </li>
-              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
-                {footer.productsLinks.productsLink}
-              </li>
-              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
-                {footer.productsLinks.guidesLink}
-              </li>
+              <Link href='/packs'>
+                <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                  {footer.productsLinks.partyPacksLink}
+                </li>
+              </Link>
+              <Link href='/products'>
+                <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                  {footer.productsLinks.productsLink}
+                </li>
+              </Link>
+              <Link href='/guides'>
+                <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                  {footer.productsLinks.guidesLink}
+                </li>
+              </Link>
             </ul>
           </div>
 
@@ -49,15 +56,21 @@ export default async function Footer({ lang }: { lang: Locale }) {
               {footer.servicesHeader}
             </p>
             <ul>
-              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
-                {footer.servicesLinks.deliveryLink}
-              </li>
-              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
-                {footer.servicesLinks.djsLink}
-              </li>
-              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
-                {footer.servicesLinks.photographers}
-              </li>
+              <Link href='/services'>
+                <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                  {footer.servicesLinks.deliveryLink}
+                </li>{' '}
+              </Link>
+              <Link href='/services'>
+                <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                  {footer.servicesLinks.djsLink}
+                </li>{' '}
+              </Link>
+              <Link href='/services'>
+                <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                  {footer.servicesLinks.photographers}
+                </li>{' '}
+              </Link>
             </ul>
           </div>
 
@@ -67,28 +80,36 @@ export default async function Footer({ lang }: { lang: Locale }) {
               {footer.companyHeader}
             </p>
             <ul>
-              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
-                {footer.companyLinks.contactLink}
-              </li>
-              <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
-                {footer.companyLinks.conditionsLink}
-              </li>
-              <li className='hver:cursor-pointer py-1 text-sm text-gray-500 hover:text-gray-400'>
-                {footer.companyLinks.aboutLink}
-              </li>
+              <Link href='/contact'>
+                <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                  {footer.companyLinks.contactLink}
+                </li>
+              </Link>
+
+              <Link href='/conditions'>
+                <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                  {footer.companyLinks.conditionsLink}
+                </li>
+              </Link>
+
+              <Link href='/about'>
+                <li className='hver:cursor-pointer py-1 text-sm text-gray-500 hover:text-gray-400'>
+                  {footer.companyLinks.aboutLink}
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
 
         {/* Socials and Contact Footer Section */}
-        <div className='flex flex-col justify-end'>
-          <div className='flex justify-end  gap-2 pt-4 text-4xl'>
+        <div className='flex flex-col justify-start md:justify-end'>
+          <div className='flex justify-start gap-2  pt-4 text-4xl md:justify-end'>
             {items.map(item => {
               return <item.icon key={item.id} />
             })}
           </div>
-          <p className='mt-2 text-right text-lg'>contact@e-nite.com</p>
-          <p className='mt-1 text-right text-lg'>+41 79 754 24 38</p>
+          <p className='mt-2 text-lg sm:text-right'>contact@e-nite.com</p>
+          <p className='mt-1 text-lg sm:text-right'>+41 79 754 24 38</p>
         </div>
       </div>
 

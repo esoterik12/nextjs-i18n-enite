@@ -11,7 +11,7 @@ export default async function AllProductsPage({
   const { allProducts } = await getDictionary(lang)
 
   return (
-    <section className='py-24'>
+    <section className='py-6'>
       <div className='container lg:flex justify-between'>
         <div>
           <h1 className='text-3xl font-bold'>{allProducts.title}</h1>

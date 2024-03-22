@@ -4,7 +4,8 @@
     "contact": "Contact",
     "conditions": "Conditions",
     "partyPacks": "Nos Packs",
-    "allProducts": "Produits"
+    "allProducts": "Produits",
+    "services": "Services"
   },
   "footer": {
     "productsHeader": "Produits",
@@ -549,6 +550,56 @@
         "type": "light"
       }
     ]
+  },
+  "services": {
+    "delivery": {
+      "title": "Services de Livraison",
+      "subtitle": "Voici les différents types de services que nous offrons pour vous aider à économiser du temps dans l'organisation de vos événements. Les prix ci-dessous sont valables pour les livraisons à Lausanne et sa région environnante. Des frais supplémentaires s'appliqueront pour des lieux plus éloignés, veuillez consulter notre page Conditions pour plus d'informations.",
+      "description": "Si vous avez des questions concernant nos services de livraison, n'hésitez pas à nous contacter.",
+      "addToOrderButton": "Ajouter à la commande",
+      "deliveryData": [
+        {
+          "productId": 1001,
+          "productTitle": "Livraison et Installation de Pompe à Bière",
+          "productImage": "/e-nite/Beer-Delivery.jpg",
+          "servicePrice": 90,
+          "returnPrice": 80,
+          "productDescription": "Ce service nous permettra de livrer la pompe à bière et le gaz nécessaire directement à l'emplacement de votre événement. Nous installerons également la pompe à bière et la préparerons pour assurer son bon fonctionnement. Si vous souhaitez que nous reprenions tout le matériel le lendemain, veuillez ajouter les frais de retour."
+        },
+        {
+          "productId": 1002,
+          "productTitle": "Livraison et Installation du Pack 1",
+          "productImage": "/e-nite/Pack-1-Starter.jpg",
+          "servicePrice": 260,
+          "returnPrice": 120,
+          "productDescription": "Si vous choisissez ce service, nous livrerons tout l'équipement du Pack 1 à l'emplacement de votre événement, et prendrons le temps de configurer l'équipement (nécessite environ 2-3 heures). Si vous souhaitez que nous reprenions tout l'équipement le lendemain, veuillez ajouter le prix du retour."
+        },
+        {
+          "productId": 1003,
+          "productTitle": "Livraison et Installation du Pack 2",
+          "productImage": "/e-nite/Pack-2-Sound.jpg",
+          "servicePrice": 140,
+          "returnPrice": 80,
+          "productDescription": "Si vous choisissez ce service, nous livrerons tout l'équipement du Pack 2 à l'emplacement de votre événement, et prendrons le temps de configurer l'équipement. Si vous souhaitez que nous reprenions tout l'équipement le lendemain, veuillez ajouter le prix du retour."
+        },
+        {
+          "productId": 1004,
+          "productTitle": "Livraison et Installation du Pack 3",
+          "productImage": "/e-nite/Pack-3-Lightshow.jpg",
+          "servicePrice": 280,
+          "returnPrice": 140,
+          "productDescription": "Si vous choisissez ce service, nous livrerons tout l'équipement du Pack 3 à l'emplacement de votre événement, et prendrons le temps de configurer l'équipement (nécessite environ 2-3 heures). Si vous souhaitez que nous reprenions tout l'équipement le lendemain, veuillez ajouter le prix du retour."
+        },
+        {
+          "productId": 1005,
+          "productTitle": "Livraison et Installation du Pack 4",
+          "productImage": "/e-nite/Pack-4-Fiesta.jpg",
+          "servicePrice": 320,
+          "returnPrice": 180,
+          "productDescription": "Si vous choisissez ce service, nous livrerons tout l'équipement du Pack 4 à l'emplacement de votre événement, et prendrons le temps de configurer l'équipement (nécessite environ 2-3 heures). Si vous souhaitez que nous reprenions tout l'équipement le lendemain, veuillez ajouter le prix du retour."
+        }
+      ]
+    }
   },
   "conditions": {
     "title": "Conditions de Vente",

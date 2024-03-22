@@ -1,13 +1,12 @@
 import { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/utils/dictionary'
-import Image from 'next/image'
 import IconTelephone from '../components/icons/IconTelephone'
 import IconEmail from '../components/icons/IconEmail'
 import IconAddress from '../components/icons/IconAddress'
 
 // similar to home page, this page gets the page content with getDictionary function passing in the lang param
 
-export default async function About({
+export default async function ContactPage({
   params: { lang }
 }: {
   params: { lang: Locale }
@@ -15,7 +14,7 @@ export default async function About({
   const { page } = await getDictionary(lang)
 
   return (
-    <section className='py-24'>
+    <section className='py-6'>
       <div className='container'>
         <h1 className='text-3xl font-bold'>{page.contact.title}</h1>
         <p className='text-gray-500'>{page.contact.description}</p>

@@ -36,6 +36,11 @@ export default async function Header({ lang }: { lang: Locale }) {
               </NavLink>
             </li>{' '}
             <li>
+              <NavLink href={`/${lang}/services`}>
+                {navigation.services}
+              </NavLink>
+            </li>{' '}
+            <li>
               <NavLink href={`/${lang}/conditions`}>
                 {navigation.conditions}
               </NavLink>

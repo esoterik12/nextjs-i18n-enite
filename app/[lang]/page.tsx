@@ -4,6 +4,7 @@ import AnimatedBanner from './components/layout/AnimatedBanner'
 import LandingPageTop from './components/page-content/LandingTop'
 import LandingPageMid from './components/page-content/LandingMid'
 import Image from 'next/image'
+import Link from 'next/link'
 
 // getting lang params
 export default async function Home({
@@ -38,7 +39,7 @@ export default async function Home({
           height={100}
           className='mb-6'
         />
-        <p className='text-2xl mb-4 text-gray-700'>
+        <p className='mb-4 text-2xl text-gray-700'>
           <span className='inline-block bg-gradient-to-r from-red-700 via-red-500 to-red-400 bg-clip-text text-transparent'>
             {page.home.subTitle}
           </span>
@@ -58,11 +59,13 @@ export default async function Home({
         <h1 className='mb-2 text-4xl font-semibold'>
           {page.home.servicesContent.title}
         </h1>
-        <h1 className='mb-4 text-4xl font-bold'>
-          <span className='inline-block bg-gradient-to-r from-red-700 via-red-500 to-red-400 bg-clip-text text-transparent'>
-            {page.home.servicesContent.titleHighlight}
-          </span>
-        </h1>
+        <Link href='/services'>
+          <h1 className='mb-4 text-4xl font-bold'>
+            <span className='inline-block bg-gradient-to-r from-red-700 via-red-500 to-red-400 bg-clip-text text-transparent hover:scale-105 transition duration-300 ease-in-out'>
+              {page.home.servicesContent.titleHighlight}
+            </span>
+          </h1>
+        </Link>
         <p className='mb-1 text-xl'>
           <span className='inline-block bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-500 bg-clip-text font-semibold text-transparent'>
             {page.home.servicesContent.deliveryLink}
