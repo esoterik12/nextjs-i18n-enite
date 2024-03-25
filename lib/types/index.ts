@@ -41,6 +41,7 @@ export interface IPackProductsJson {
 // Delivery Card Type:
 export interface IDeliveryCardItem {
   productId: number
+  returnId: number
   productTitle: string
   productImage: string
   servicePrice: number

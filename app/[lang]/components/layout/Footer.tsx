@@ -24,7 +24,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
 
   return (
     <div className='py-y container mt-6 w-full  text-gray-400'>
-      <div className='mx-auto flex  grid-cols-2 flex-col justify-between border-b-2 border-gray-600 py-8 sm:flex-row md:grid-cols-6'>
+      <div className='mx-auto flex grid-cols-2 flex-col justify-between border-b-2 border-gray-600 py-8 sm:flex-row md:grid-cols-6'>
         <div className='flex flex-row gap-4'>
           <div>
             {/* Products Footer Section */}
@@ -108,8 +108,8 @@ export default async function Footer({ lang }: { lang: Locale }) {
               return <item.icon key={item.id} />
             })}
           </div>
-          <p className='mt-2 text-lg sm:text-right'>contact@e-nite.com</p>
-          <p className='mt-1 text-lg sm:text-right'>+41 79 754 24 38</p>
+          <p className='mt-2 text-md sm:text-right'>contact@e-nite.com</p>
+          <p className='mt-1 text-md sm:text-right'>+41 79 754 24 38</p>
         </div>
       </div>
 

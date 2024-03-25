@@ -5,7 +5,7 @@ import { cartActions } from '@/lib/redux/cart-slice'
 import { IProductItem } from '@/lib/types'
 import { useSelector } from 'react-redux'
 import { RootStateType } from '@/lib/redux'
-import CheckMark from '../icons/CheckMark'
+import CheckMark from '../icons/IconCheckMark'
 
 const AddToOrderButton = ({
   product,
@@ -50,10 +50,10 @@ const AddToOrderButton = ({
         disabled={isInCart}
         type='button'
         onClick={() => addProductOrPack()}
-        className='rounded-xl bg-gray-900 transition-colors duration-300 ease-in-out hover:bg-gray-600 disabled:bg-green-500'
+        className='rounded-xl bg-gray-900 transition-colors duration-300 ml-2 mr-2 ease-in-out hover:bg-gray-600 disabled:bg-green-500'
       >
         {isInCart && (
-          <div className='m-2 ml-4 mr-4 font-medium text-white'>
+          <div className='m-2 font-medium text-white'>
             <CheckMark classes='h-6 w-6' />
           </div>
         )}

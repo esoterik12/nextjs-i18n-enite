@@ -1,22 +1,30 @@
 import Image from 'next/image'
 import AddToOrderButton from '../buttons/AddToOrderButton'
 import { IDeliveryCardItem } from '@/lib/types'
+import SelectIcon from '../icons/SelectIcon'
 
 interface IDeliveryCardTypes {
   product: IDeliveryCardItem
   addButtonText: string
+  deliveryOnlyText: string
+  additonalReturnText: string
 }
 
-const DeliveryCard = ({ product, addButtonText }: IDeliveryCardTypes) => {
+const DeliveryCard = ({
+  product,
+  addButtonText,
+  deliveryOnlyText,
+  additonalReturnText
+}: IDeliveryCardTypes) => {
   const deliveryReturnProduct = {
-    productId: product.productId,
+    productId: product.returnId,
     productTitle: product.productTitle,
     productPrice: product.servicePrice + product.returnPrice,
     productDescription: product.productDescription,
     productImage: product.productImage
   }
 
-  const deliveryServiceProduct = {
+  const deliveryOnlyProduct = {
     productId: product.productId,
     productTitle: product.productTitle,
     productPrice: product.servicePrice,
@@ -26,27 +34,52 @@ const DeliveryCard = ({ product, addButtonText }: IDeliveryCardTypes) => {
 
   return (
     <div className='flex min-w-[295px] flex-col justify-between rounded-3xl p-6 shadow-md transition duration-300 ease-in-out hover:shadow-lg'>
-      <div className='flex flex-row justify-between'>
-        <div className='flex-col w-3/4'>
+      <div className='flex flex-col justify-between md:flex-row'>
+        {/* Text Left Side */}
+        <div className='mt-6 w-3/4 flex-col'>
           <h2 className='text-[26px] font-bold capitalize'>
             {product.productTitle}
           </h2>
-          <p className='text-[24px] font-extrabold'>
-            <span className='self-start text-[12px] font-semibold'>CHF</span>{' '}
-            {product.servicePrice}{' '}
-            <span className='mt-4 self-start text-[12px] font-medium'>
-              /day
-            </span>
+          <p className='ml-6 text-[16px] font-semibold'>
+            <AddToOrderButton product={deliveryOnlyProduct}>
+              <SelectIcon
+                iconSelection='plus'
+                iconClasses='h-6 m-2 text-white'
+              />
+            </AddToOrderButton>
+            {deliveryOnlyText}{' '}
+            <span className='self-start text-[12px] font-semibold text-gray-400'>
+              CHF
+            </span>{' '}
+            <span className='text-[26px] font-bold'>
+              {product.servicePrice}
+            </span>{' '}
           </p>
-          <p className='text-[24px] font-extrabold'>
-            <span className='self-start text-[12px] font-semibold'>CHF</span>{' '}
-            {product.returnPrice}{' '}
-            <span className='mt-4 self-start text-[12px] font-medium'>
-              /day
-            </span>
+          <p className=' ml-6 text-[16px] font-semibold'>
+            <AddToOrderButton product={deliveryReturnProduct}>
+              <SelectIcon
+                iconSelection='plus'
+                iconClasses='h-6 m-2 text-white'
+              />
+            </AddToOrderButton>
+            {additonalReturnText}{' '}
+            <span className='self-start text-[12px] font-semibold text-gray-400'>
+              CHF
+            </span>{' '}
+            <span className='text-[26px] font-bold'>
+              +{product.returnPrice}
+            </span>{' '}
           </p>
+
+          <div className='relative ml-6 flex w-full'>
+            <p className='mt-6 flex text-[14px]'>
+              {product.productDescription}
+            </p>
+          </div>
         </div>
-        <div className='relative mb-6 mt-2 block h-96 w-full object-contain'>
+
+        {/* Image Right Side */}
+        <div className='relative block h-96 w-full object-contain'>
           <Image
             src={product.productImage}
             alt={product.productTitle}
@@ -58,16 +91,16 @@ const DeliveryCard = ({ product, addButtonText }: IDeliveryCardTypes) => {
         </div>
       </div>
 
-      <div className='relative mt-2 flex w-full'>
-        <p className='mt-6 flex text-[14px]'>{product.productDescription}</p>
-      </div>
-      <div className='mt-4 flex items-center justify-center'>
+      {/* <div className='mt-4 flex items-center justify-center md:mt-0'>
+        <AddToOrderButton product={deliveryOnlyProduct}>
+          <SelectIcon iconSelection='plus' iconClasses='h-6 m-2 text-white' />
+        </AddToOrderButton>
         <AddToOrderButton product={deliveryReturnProduct}>
           <p className='m-2 ml-4 mr-4 font-medium text-white'>
             {addButtonText}
           </p>
         </AddToOrderButton>
-      </div>
+      </div> */}
     </div>
   )
 }

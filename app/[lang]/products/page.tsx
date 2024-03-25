@@ -1,7 +1,7 @@
 import { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/utils/dictionary'
 import SingleProductCard from '../components/products/SingleProductCard'
-import CheckMark from '../components/icons/CheckMark'
+import CheckMark from '../components/icons/IconCheckMark'
 
 export default async function AllProductsPage({
   params: { lang }

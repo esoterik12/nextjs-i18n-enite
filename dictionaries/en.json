@@ -600,22 +600,75 @@
     ]
   },
   "services": {
+    "title": "Our Services",
+    "description": "View all the professional services provided by e-nite to take your event to the next level.",
+    "servicesList": [
+      {
+        "serviceTitle": "Delivery and Installation",
+        "serviceDescription": "If you don't have time to come pick up the equipment or have time to set it up yourself, we would be glad to do it for you.",
+        "linkText": "Learn more",
+        "linkColor": "red",
+        "image": "/e-nite/Pack-2-Sound.jpg",
+        "pageLink": "/services/delivery",
+        "icon": "delivery"
+      },
+      {
+        "serviceTitle": "Professional DJs",
+        "serviceDescription": "Choose from one of our partnered Animator or DJ to get your party started!",
+        "linkText": "Learn more",
+        "linkColor": "blue",
+        "image": "/e-nite/DJ-Funky-Chap.jpg",
+        "pageLink": "/services/djs",
+        "icon": "music"
+      },
+      {
+        "serviceTitle": "Live Shows",
+        "serviceDescription": "Choose from one of our partnered artists and showmen to make your event something people will remember!",
+        "linkText": "Learn more",
+        "linkColor": "red",
+        "image": "/e-nite/Jan-HimSelf-1.jpg",
+        "pageLink": "/services/liveshows",
+        "icon": "show"
+      },
+      {
+        "serviceTitle": "Photographers",
+        "serviceDescription": "Need a photographer to immortalize your event? Discover our qualified photographer that will take care of all your photo and paper needs.",
+        "linkText": "Learn more",
+        "linkColor": "blue",
+        "image": "/e-nite/e-nite-photographer-transformed.jpeg",
+        "pageLink": "/services/photographer",
+        "icon": "photo"
+      },
+      {
+        "serviceTitle": "Party Bracelets",
+        "serviceDescription": "Discover our new 100% customizable silicone wristbands, the perfect touch to make your event unique!",
+        "linkText": "Learn more",
+        "linkColor": "red",
+        "image": "/e-nite/party-bracelets.jpg",
+        "pageLink": "/services/bracelets",
+        "icon": "stars"
+      }
+    ],
     "delivery": {
       "title": "Delivery Services",
       "subtitle": "Here are the different types of services we offer to help you save time organizing your events. The prices below are valid for Lausanne deliveries and its surrounding region. Additional charges will apply for more remote locations, please check our Conditions page for more information.",
       "description": "If you have any questions concerning our delivery services please do not hesitate to contact us.",
       "addToOrderButton": "Add to Order",
+      "deliveryOnly": "Delivery Only: ",
+      "additionalReturn": "Additional Return Cost: ",
       "deliveryData": [
         {
           "productId": 1001,
+          "returnId": 1002,
           "productTitle": "Beer Tap Delivery & Installation",
-          "productImage": "/e-nite/Beer-Delivery.jpg",
+          "productImage": "/e-nite/Beer-Delivery2.jpg",
           "servicePrice": 90,
           "returnPrice": 80,
           "productDescription": "This service will have us deliver the beer tap and necessary gas straight to your event location. We will also install the beer tap and set it up to make sure it works smoothly. If you want us to come and take all the equipment back the next day, please add the return fee."
         },
         {
-          "productId": 1002,
+          "productId": 1003,
+          "returnId": 1004,
           "productTitle": "Pack 1 Delivery & Installation",
           "productImage": "/e-nite/Pack-1-Starter.jpg",
           "servicePrice": 260,
@@ -623,7 +676,8 @@
           "productDescription": "If you choose this service, we will deliver all the equipment of Pack 1 to your event location, and take the time to set up the equipment (requires approximately 2-3 hours).  If you want us to take all the equipment back the next day, please add the return price."
         },
         {
-          "productId": 1003,
+          "productId": 1005,
+          "returnId": 1006,
           "productTitle": "Pack 2 Delivery & Installation",
           "productImage": "/e-nite/Pack-2-Sound.jpg",
           "servicePrice": 140,
@@ -631,7 +685,8 @@
           "productDescription": "If you choose this service, we will deliver all the equipment of Pack 2 to your event location, and take the time to set up the equipment.  If you want us to take all the equipment back the next day, please add the return price."
         },
         {
-          "productId": 1004,
+          "productId": 1007,
+          "returnId": 1008,
           "productTitle": "Pack 3 Delivery & Installation",
           "productImage": "/e-nite/Pack-3-Lightshow.jpg",
           "servicePrice": 280,
@@ -639,7 +694,8 @@
           "productDescription": "If you choose this service, we will deliver all the equipment of Pack 3 to your event location, and take the time to set up the equipment (requires approximately 2-3 hours).  If you want us to take all the equipment back the next day, please add the return price."
         },
         {
-          "productId": 1005,
+          "productId": 1009,
+          "returnId": 1010,
           "productTitle": "Pack 4 Delivery & Installation",
           "productImage": "/e-nite/Pack-4-Fiesta.jpg",
           "servicePrice": 320,

@@ -10,7 +10,7 @@ export default async function DeliveryPage({
   const { services } = await getDictionary(lang)
 
   return (
-    <section className='py-6'>
+    <section className='py-6 px-6'>
       <div className='container'>
         <h1 className='text-3xl font-bold'>{services.delivery.title}</h1>
         <p className='mb-2 text-gray-500'>{services.delivery.subtitle}</p>
@@ -23,6 +23,8 @@ export default async function DeliveryPage({
             product={item}
             key={item.productId}
             addButtonText={services.delivery.addToOrderButton}
+            deliveryOnlyText={services.delivery.deliveryOnly}
+            additonalReturnText={services.delivery.additionalReturn}
           />
         ))}
       </div>
