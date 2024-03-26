@@ -10,6 +10,7 @@ import IconStars from './IconStars'
 import IconTelephone from './IconTelephone'
 import IconPlus from './IconPlus'
 import IconCart from './IconCart'
+import IconHome from './IconHome'
 // Socials:
 import IconFacebook from './social-icons/IconFacebook'
 import IconGithub from './social-icons/IconGithub'
@@ -54,6 +55,9 @@ export default function SelectIcon({
     case 'telephone':
       icon = <IconTelephone classes={iconClasses} />
       break
+    case 'home':
+      icon = <IconHome classes={iconClasses} />
+      break
     case 'plus':
       icon = <IconPlus classes={iconClasses} />
       break
@@ -61,7 +65,7 @@ export default function SelectIcon({
       icon = <IconCart classes={iconClasses} />
       break
     default:
-      icon = <p>Error: No Icon</p>
+      icon = <p className='text-red-500'>Error: No Icon Found</p>
   }
 
   return <>{icon}</>

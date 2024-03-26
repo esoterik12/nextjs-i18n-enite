@@ -7,10 +7,7 @@ import Image from 'next/image'
 
 const ImageTabs = ({ productsData }: { productsData: IProductItem[] }) => {
   return (
-    <Tab.Group
-      as='div'
-      className=' flex flex-1 flex-col lg:mt-0 lg:self-start'
-    >
+    <Tab.Group as='div' className=' flex flex-1 flex-col lg:mt-0 lg:self-start'>
       <div className='mx-auto mt-6  w-full max-w-2xl '>
         {/* Icons for image selection */}
         <Tab.List className='grid grid-cols-5 gap-3'>
@@ -21,17 +18,27 @@ const ImageTabs = ({ productsData }: { productsData: IProductItem[] }) => {
             >
               {({ selected }) => (
                 <>
-                  <p className='absolute font-bold inset-0 overflow-hidden rounded-md'>
-                    {product.productTitle}
-                  </p>
-                  <p className='mt-4 '>{product.productPrice} <span className='text-[10px]'>CHF / day</span></p>
-                  <span
-                    className={clsx(
-                      selected ? 'ring-sky-500' : 'ring-transparent',
-                      'pointer-events-none absolute inset-0 rounded-md ring-2 ring-offset-2'
-                    )}
-                    aria-hidden='true'
-                  />
+                  <div className='hidden  sm:block'>
+                    <p className='absolute inset-0  overflow-hidden rounded-md font-bold '>
+                      {product.productTitle}
+                    </p>
+                    <p className='mt-4 '>
+                      {product.productPrice}{' '}
+                      <span className='text-[10px]'>CHF / day</span>
+                    </p>
+                    <span
+                      className={clsx(
+                        selected ? 'ring-sky-500' : 'ring-transparent',
+                        'pointer-events-none absolute inset-0 rounded-md ring-2 ring-offset-2'
+                      )}
+                      aria-hidden='true'
+                    />
+                  </div>
+                  <div className='block sm:hidden'>
+                    <p className='overflow absolute inset-0 flex mt-1 justify-center rounded-md align-middle font-bold '>
+                      Pack #{product.productId}
+                    </p>
+                  </div>
                 </>
               )}
             </Tab>
