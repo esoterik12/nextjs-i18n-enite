@@ -40,39 +40,45 @@ const DeliveryCard = ({
           <h2 className='text-[26px] font-bold capitalize'>
             {product.productTitle}
           </h2>
-          <p className='ml-6 text-[16px] font-semibold'>
+          {/* Delivery Only Section */}{' '}
+          <div className='m-3 flex flex-row '>
+            {' '}
             <AddToOrderButton product={deliveryOnlyProduct}>
               <SelectIcon
                 iconSelection='plus'
                 iconClasses='h-6 m-2 text-white'
               />
             </AddToOrderButton>
-            {deliveryOnlyText}{' '}
-            <span className='self-start text-[12px] font-semibold text-gray-400'>
-              CHF
-            </span>{' '}
-            <span className='text-[26px] font-bold'>
-              {product.servicePrice}
-            </span>{' '}
-          </p>
-          <p className=' ml-6 text-[16px] font-semibold'>
+            <p className='ml-3 text-[16px] font-semibold'>
+              {deliveryOnlyText}{' '}
+              <span className='self-start text-[12px] font-semibold text-gray-400'>
+                CHF
+              </span>{' '}
+              <span className='text-[26px] font-bold'>
+                {product.servicePrice}
+              </span>{' '}
+            </p>
+          </div>
+          {/* Additional Return Section */}
+          <div className='m-3 flex flex-row '>
             <AddToOrderButton product={deliveryReturnProduct}>
               <SelectIcon
                 iconSelection='plus'
                 iconClasses='h-6 m-2 text-white'
               />
             </AddToOrderButton>
-            {additonalReturnText}{' '}
-            <span className='self-start text-[12px] font-semibold text-gray-400'>
-              CHF
-            </span>{' '}
-            <span className='text-[26px] font-bold'>
-              +{product.returnPrice}
-            </span>{' '}
-          </p>
-
+            <p className=' ml-3 text-[16px] font-semibold'>
+              {additonalReturnText}{' '}
+              <span className='self-start text-[12px] font-semibold text-gray-400'>
+                CHF
+              </span>{' '}
+              <span className='text-[26px] font-bold'>
+                +{product.returnPrice}
+              </span>{' '}
+            </p>
+          </div>
           <div className='relative ml-6 flex w-full'>
-            <p className='mt-6 flex text-[14px]'>
+            <p className='mt-4 flex text-[14px]'>
               {product.productDescription}
             </p>
           </div>

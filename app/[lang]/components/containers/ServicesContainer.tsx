@@ -40,7 +40,7 @@ export default function ServicesContainer({
         <div className='mt-2 '>
           <Link href={link}>
             <p className={`text-md mt-2 inline-block bg-gradient-to-r from-${linkColor}-700 via-${linkColor}-600 to-${linkColor}-500 bg-clip-text font-normal text-transparent transition duration-300 ease-in-out hover:scale-105 hover:font-semibold`}>
-              {buttonText}{' '}
+              {buttonText}
             </p>
           </Link>
         </div>

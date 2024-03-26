@@ -61,29 +61,35 @@ export default async function Home({
         </h1>
         <Link href='/services'>
           <h1 className='mb-4 text-4xl font-bold'>
-            <span className='inline-block bg-gradient-to-r from-red-700 via-red-500 to-red-400 bg-clip-text text-transparent hover:scale-105 transition duration-300 ease-in-out'>
+            <span className='inline-block bg-gradient-to-r from-red-700 via-red-500 to-red-400 bg-clip-text text-transparent transition duration-300 ease-in-out hover:scale-105'>
               {page.home.servicesContent.titleHighlight}
             </span>
           </h1>
         </Link>
         <p className='mb-1 text-xl'>
-          <span className='inline-block bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-500 bg-clip-text font-semibold text-transparent'>
-            {page.home.servicesContent.deliveryLink}
-          </span>{' '}
+          <Link href={'/services/delivery'}>
+            <span className='inline-block bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-500 bg-clip-text font-semibold text-transparent transition duration-300 ease-in-out hover:scale-105'>
+              {page.home.servicesContent.deliveryLink}
+            </span>
+          </Link>{' '}
           {page.home.servicesContent.deliveryTextEnd}
         </p>
         <p className='mb-1 text-xl'>
-          {page.home.servicesContent.photographerTextStart}
-          <span className='inline-block bg-gradient-to-r from-red-700 via-red-500 to-red-400 bg-clip-text font-semibold text-transparent'>
-            {page.home.servicesContent.photographerLink}
-          </span>
+          <Link href={'/services/photographer'}>
+            {page.home.servicesContent.photographerTextStart}
+            <span className='inline-block bg-gradient-to-r from-red-700 via-red-500 to-red-400 bg-clip-text font-semibold text-transparent transition duration-300 ease-in-out hover:scale-105'>
+              {page.home.servicesContent.photographerLink}
+            </span>
+          </Link>
           .
         </p>
         <p className='mb-8 text-xl'>
-          {page.home.servicesContent.djTextStart}
-          <span className='inline-block bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-300 bg-clip-text font-semibold text-transparent'>
-            {page.home.servicesContent.djLink}
-          </span>{' '}
+          <Link href={'/services/djs'}>
+            {page.home.servicesContent.djTextStart}
+            <span className='inline-block bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-300 bg-clip-text font-semibold text-transparent transition duration-300 ease-in-out hover:scale-105'>
+              {page.home.servicesContent.djLink}
+            </span>
+          </Link>{' '}
           {page.home.servicesContent.djTextEnd}
         </p>
       </div>
@@ -92,35 +98,17 @@ export default async function Home({
       <LandingPageMid landingPageMid={page.landingPageMid} />
 
       {/* Get Started Call to Action */}
-      <div className='container mb-12 mt-12 flex flex-col text-center'>
-        <h1 className='mb-2 text-4xl font-semibold'>
-          {page.home.servicesContent.title}
-        </h1>
-        <h1 className='mb-4 text-4xl font-bold'>
-          <span className='inline-block bg-gradient-to-r from-red-700 via-red-500 to-red-400 bg-clip-text text-transparent'>
-            {/* {page.home.servicesContent.titleHighlight} */}
-          </span>
-        </h1>
-        <p className='mb-1 text-xl'>
-          <span className='inline-block bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-500 bg-clip-text font-semibold text-transparent'>
-            {page.home.servicesContent.deliveryLink}
-          </span>{' '}
-          {page.home.servicesContent.deliveryTextEnd}
+      <div className='container mb-12 mt-24 flex flex-col text-center'>
+        <Link href='/contact'>
+          <h1 className='mb-2 inline-block bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-300 bg-clip-text text-4xl font-semibold text-transparent transition duration-300 ease-in-out hover:scale-105'>
+            Contact us with inquiries!
+          </h1>
+        </Link>
+        <p className='mb-1 text-lg'></p>
+        <p className='mb-1 text-lg'>
+          Ensure you have read the conditions before placing an order.
         </p>
-        <p className='mb-1 text-xl'>
-          {page.home.servicesContent.photographerTextStart}
-          <span className='inline-block bg-gradient-to-r from-red-700 via-red-500 to-red-400 bg-clip-text font-semibold text-transparent'>
-            {page.home.servicesContent.photographerLink}
-          </span>
-          .
-        </p>
-        <p className='mb-8 text-xl'>
-          {page.home.servicesContent.djTextStart}
-          <span className='inline-block bg-gradient-to-r from-blue-600 via-blue-500 to-indigo-300 bg-clip-text font-semibold text-transparent'>
-            {page.home.servicesContent.djLink}
-          </span>{' '}
-          {page.home.servicesContent.djTextEnd}
-        </p>
+        <p className='mb-8 text-lg'></p>
       </div>
     </section>
   )

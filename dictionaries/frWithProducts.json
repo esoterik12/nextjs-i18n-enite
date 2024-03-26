@@ -68,8 +68,11 @@
     }
   },
   "products": {
-    "title": "Voir nos Produits",
-    "description": "Consultez les produits individuels d'E-NiTE et ajoutez-les à votre réservation.",
+    "title": "Découvrez nos Packs de Fête",
+    "subtitle": "Nous avons créé des packs complets spécialement formatés qui non seulement répondront immédiatement à vos besoins, mais vous aideront également à économiser du temps et de l'argent",
+    "description": "Tous les câbles d'alimentation, rallonges et accessoires sont inclus dans la location.",
+    "allProductsDescription": "Vous pouvez compléter n'importe quel pack avec l'équipement trouvé sur la page des Produits.",
+    "allProductsLink": "Nos Produits",
     "addToOrderButton": "Ajouter à la commande",
     "data": [
       {
@@ -772,5 +775,15 @@
         "content": "Des questions? Contactez-nous."
       }
     }
+  },
+  "about": {
+    "title": "À Propos de Nous",
+    "description": "Que ce soit un anniversaire, un mariage, un barbecue, une disco, une fête de fin d'année ou juste une petite fête entre amis et famille, vous êtes au bon endroit. Sonorisation, éclairage, matériel DJ, tireuses à bières et bracelets publicitaires : vous trouverez ici l'équipement de location qui vous aidera à organiser une soirée réussie entre vous et vos invités. Notre excellente communication, nos équipements de qualité et nos services professionnels sont nos points forts qui garantiront le succès de votre fête.",
+    "sectionOne": "Qui sommes-nous ?",
+    "sectionOneDescription": "Nous sommes un groupe de jeunes enthousiastes qui prend plaisir à vivre dans le monde du divertissement. Depuis 2003, nous aidons, principalement des étudiants et petites sociétés, à organiser leurs événements et fêtes. Avec notre expérience et notre motivation, vous pouvez être sûr de compter sur nous.",
+    "sectionTwo": "Comment réserver et louer du matériel ?",
+    "sectionTwoDescription": "Visitez nos rubriques d'équipements de location et de services pour trouver ce dont vous avez besoin pour votre événement. Ensuite, vous pourrez utiliser notre page de contact pour nous communiquer exactement ce que vous voulez. Nous vous répondrons sous peu avec nos disponibilités et un prix. De plus, nous nous ferons un plaisir de vous conseiller pour trouver l'équipement qui vous conviendra le mieux.",
+    "closing": "Merci pour l'intérêt que vous portez à notre société, et nous espérons collaborer avec vous bientôt,",
+    "signOff": "Le Team E-NiTE Services"
   }
 }

@@ -9,6 +9,7 @@ import IconShow from './IconShow'
 import IconStars from './IconStars'
 import IconTelephone from './IconTelephone'
 import IconPlus from './IconPlus'
+import IconCart from './IconCart'
 // Socials:
 import IconFacebook from './social-icons/IconFacebook'
 import IconGithub from './social-icons/IconGithub'
@@ -55,6 +56,9 @@ export default function SelectIcon({
       break
     case 'plus':
       icon = <IconPlus classes={iconClasses} />
+      break
+    case 'cart':
+      icon = <IconCart classes={iconClasses} />
       break
     default:
       icon = <p>Error: No Icon</p>

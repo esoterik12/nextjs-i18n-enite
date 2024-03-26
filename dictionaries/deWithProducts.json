@@ -67,8 +67,11 @@
     }
   },
   "products": {
-    "title": "Unsere Produkte anzeigen",
-    "description": "Sehen Sie sich einzelne Produkte von E-NiTE an und fügen Sie sie Ihrer Buchung hinzu.",
+    "title": "Sehen Sie sich unsere Party-Pakete an",
+    "subtitle": "Wir haben speziell formatierte Komplettpakete erstellt, die nicht nur sofort Ihren Bedürfnissen entsprechen, sondern Ihnen auch helfen, Zeit und Geld zu sparen",
+    "description": "Alle Stromkabel, Verlängerungskabel und Zubehörteile sind in der Miete enthalten.",
+    "allProductsDescription": "Sie können jedes Paket mit dem Equipment vervollständigen, das Sie auf der Produktseite finden.",
+    "allProductsLink": "Alle Produkte entdecken",
     "addToOrderButton": "Hinzufügen",
     "data": [
       {
@@ -548,54 +551,54 @@
   },
   "services": {
     "title": "Unsere Dienstleistungen",
-  "description": "Sehen Sie sich alle professionellen Dienstleistungen an, die e-nite anbietet, um Ihr Event auf das nächste Level zu bringen.",
-  "servicesList": [
-    {
-      "serviceTitle": "Lieferung und Installation",
-      "serviceDescription": "Wenn Sie keine Zeit haben, die Ausrüstung selbst abzuholen oder aufzubauen, würden wir dies gerne für Sie übernehmen.",
-      "linkText": "Mehr erfahren",
-      "linkColor": "red",
-      "image": "/e-nite/Pack-2-Sound.jpg",
-      "pageLink": "/services/delivery",
-      "icon": "delivery"
-    },
-    {
-      "serviceTitle": "Professionelle DJs",
-      "serviceDescription": "Wählen Sie einen unserer Partner-Animatoren oder DJs, um Ihre Party zu starten!",
-      "linkText": "Mehr erfahren",
-      "linkColor": "blue",
-      "image": "/e-nite/DJ-Funky-Chap.jpg",
-      "pageLink": "/services/djs",
-      "icon": "music"
-    },
-    {
-      "serviceTitle": "Live-Shows",
-      "serviceDescription": "Wählen Sie einen unserer Partnerkünstler und Showmen, um Ihr Event unvergesslich zu machen!",
-      "linkText": "Mehr erfahren",
-      "linkColor": "red",
-      "image": "/e-nite/Jan-HimSelf-1.jpg",
-      "pageLink": "/services/liveshows",
-      "icon": "show"
-    },
-    {
-      "serviceTitle": "Fotografen",
-      "serviceDescription": "Brauchen Sie einen Fotografen, um Ihr Event zu verewigen? Entdecken Sie unseren qualifizierten Fotografen, der sich um all Ihre Foto- und Druckbedürfnisse kümmert.",
-      "linkText": "Mehr erfahren",
-      "linkColor": "blue",
-      "image": "/e-nite/e-nite-photographer-transformed.jpeg",
-      "pageLink": "/services/photographer",
-      "icon": "photo"
-    },
-    {
-      "serviceTitle": "Party-Armbänder",
-      "serviceDescription": "Entdecken Sie unsere neuen 100% anpassbaren Silikonarmbänder, die perfekte Note, um Ihr Event einzigartig zu machen!",
-      "linkText": "Mehr erfahren",
-      "linkColor": "red",
-      "image": "/e-nite/party-bracelets.jpg",
-      "pageLink": "/services/bracelets",
-      "icon": "stars"
-    }
-  ],
+    "description": "Sehen Sie sich alle professionellen Dienstleistungen an, die e-nite anbietet, um Ihr Event auf das nächste Level zu bringen.",
+    "servicesList": [
+      {
+        "serviceTitle": "Lieferung und Installation",
+        "serviceDescription": "Wenn Sie keine Zeit haben, die Ausrüstung selbst abzuholen oder aufzubauen, würden wir dies gerne für Sie übernehmen.",
+        "linkText": "Mehr erfahren",
+        "linkColor": "red",
+        "image": "/e-nite/Pack-2-Sound.jpg",
+        "pageLink": "/services/delivery",
+        "icon": "delivery"
+      },
+      {
+        "serviceTitle": "Professionelle DJs",
+        "serviceDescription": "Wählen Sie einen unserer Partner-Animatoren oder DJs, um Ihre Party zu starten!",
+        "linkText": "Mehr erfahren",
+        "linkColor": "blue",
+        "image": "/e-nite/DJ-Funky-Chap.jpg",
+        "pageLink": "/services/djs",
+        "icon": "music"
+      },
+      {
+        "serviceTitle": "Live-Shows",
+        "serviceDescription": "Wählen Sie einen unserer Partnerkünstler und Showmen, um Ihr Event unvergesslich zu machen!",
+        "linkText": "Mehr erfahren",
+        "linkColor": "red",
+        "image": "/e-nite/Jan-HimSelf-1.jpg",
+        "pageLink": "/services/liveshows",
+        "icon": "show"
+      },
+      {
+        "serviceTitle": "Fotografen",
+        "serviceDescription": "Brauchen Sie einen Fotografen, um Ihr Event zu verewigen? Entdecken Sie unseren qualifizierten Fotografen, der sich um all Ihre Foto- und Druckbedürfnisse kümmert.",
+        "linkText": "Mehr erfahren",
+        "linkColor": "blue",
+        "image": "/e-nite/e-nite-photographer-transformed.jpeg",
+        "pageLink": "/services/photographer",
+        "icon": "photo"
+      },
+      {
+        "serviceTitle": "Party-Armbänder",
+        "serviceDescription": "Entdecken Sie unsere neuen 100% anpassbaren Silikonarmbänder, die perfekte Note, um Ihr Event einzigartig zu machen!",
+        "linkText": "Mehr erfahren",
+        "linkColor": "red",
+        "image": "/e-nite/party-bracelets.jpg",
+        "pageLink": "/services/bracelets",
+        "icon": "stars"
+      }
+    ],
     "delivery": {
       "title": "Lieferdienste",
       "subtitle": "Hier sind die verschiedenen Typen von Diensten, die wir anbieten, um Ihnen die Organisation Ihrer Veranstaltungen zu erleichtern. Die untenstehenden Preise gelten für Lieferungen in Lausanne und der umliegenden Region. Für weiter entfernte Orte gelten zusätzliche Gebühren, bitte schauen Sie auf unserer Seite „Bedingungen“ für weitere Informationen.",
@@ -767,5 +770,15 @@
         "content": "Wenn Sie Fragen haben oder weitere Klärungen benötigen, zögern Sie bitte nicht, uns über unser Kontaktformular oder per E-Mail zu kontaktieren."
       }
     }
+  },
+  "about": {
+    "title": "Über Uns",
+    "description": "Ob es sich um einen Geburtstag, eine Hochzeit, eine Disco, eine Jahresabschlussfeier handelt oder einfach nur zum Spaß unter Freunden und Familie, Sie sind hier genau richtig. Ton, Beleuchtung, DJ-Equipment, Bierzapfanlagen: E-NiTE stellt all das Mietequipment zur Verfügung, das helfen wird, ein unvergessliches Ereignis zu schaffen. Unsere großartige Kommunikation, qualitativ hochwertiges Equipment und professionelle Dienstleistungen sind unsere Stärken, die den Erfolg Ihrer Veranstaltungen garantieren werden.",
+    "sectionOne": "Wer Sind Wir?",
+    "sectionOneDescription": "Wir sind eine Gruppe von jungen Enthusiasten, die die Welt der Unterhaltung genießen. Seit 2003 helfen wir Menschen, hauptsächlich Studenten und kleinen Unternehmen, ihre Veranstaltungen und Partys zu organisieren. Mit unserer Erfahrung und Motivation können Sie sicher sein, auf uns zählen zu können.",
+    "sectionTwo": "Wie Mietet Man Equipment?",
+    "sectionTwoDescription": "Schauen Sie sich unser Mietequipment und Dienstleistungen an, um zu entdecken, was wir anbieten. Danach können Sie unsere Kontaktseite nutzen, um uns genau mitzuteilen, was Sie benötigen, und wir werden Ihnen in kürzester Zeit mit unseren Verfügbarkeiten und einem endgültigen Angebot antworten. Natürlich geben wir Ihnen gerne einige Ratschläge zu dem Equipment und den Dienstleistungen, die am besten zu Ihren Anforderungen passen.",
+    "closing": "Vielen Dank für Ihr Interesse, und wir freuen uns darauf, gemeinsam Geschäfte zu machen.",
+    "signOff": "Das E-NiTE Services Team"
   }
 }

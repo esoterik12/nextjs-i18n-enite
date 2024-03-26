@@ -67,8 +67,11 @@
     }
   },
   "products": {
-    "title": "View our Products",
-    "description": "View individual e-nite products and add them to your booking.",
+    "title": "View our Party Packs",
+    "subtitle": "We have created specially formatted complete packs that will not only suit your needs straight away, but also to save time and money.",
+    "description": "All power cords, extension cables and accessories are included in the rental.",
+    "allProductsDescription": "You can complete any pack with the equipment found on the Products page.",
+    "allProductsLink": "Explore all Products",
     "addToOrderButton": "Add to Order",
     "data": [
       {
@@ -768,5 +771,15 @@
         "content": "If you have any questions or need further clarification, please do not hesitate to contact us through our contact form or email."
       }
     }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Whether it's a birthday, a wedding, a disco, an end-of-year party, or just for fun between friends and family, you have come to the right place. Sound, lighting, DJ equipment, beer taps: E-NiTE provides all the rental equipment that will help create a memorable event. Our great communication, quality equipment, and professional services are our strong points which will guarantee the success of your events.",
+    "sectionOne": "Who Are We?",
+    "sectionOneDescription": "We are a group of young enthusiasts who enjoy the world of entertainment. Since 2003, we have been helping people, mainly students and small companies, organize their events and parties. With our experience and motivation, you can be sure to count on us.",
+    "sectionTwo": "How to Rent Equipment?",
+    "sectionTwoDescription": "Have a look at our rental equipment and services to discover what we offer. You can then use our contact page to let us know exactly what you need and we'll get back to you in no time with our availabilities and a final quote. Naturally, we would gladly give you some advice on the equipment and services that best suit your requirements.",
+    "closing": "Thank you for your interest, and we look forward to doing business together.",
+    "signOff": "The E-NiTE Services Team"
   }
 }

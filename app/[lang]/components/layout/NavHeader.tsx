@@ -16,7 +16,7 @@ export default async function Header({ lang }: { lang: Locale }) {
       <MobileNavHeader lang={lang} />
       <nav className='hidden items-center justify-between md:flex'>
         {/* Logo */}
-        <div>
+        <div className='mr-12'>
           <Logo text='e-nite' image='/e-nite/e-niteLogoV1.png' lang={lang} />
         </div>
 

@@ -20,11 +20,12 @@ export default async function ServicesPage({
 
         {services.servicesList.map(item => (
           <ServicesContainer
+            key={item.pageLink}
             image={item.image}
             title={item.serviceTitle}
             description={item.serviceDescription}
             link={item.pageLink}
-            linkColor={item.linkColor}
+            linkColor='blue'
             buttonText={item.linkText}
           >
             <SelectIcon iconSelection={item.icon} iconClasses='w-6 mb-2 mr-2' />

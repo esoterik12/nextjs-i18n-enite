@@ -15,7 +15,7 @@ export default async function LandingPageMid({
           <h1 className='mb-2 text-4xl font-bold text-gray-900'>
             {landingPageMid.title}
           </h1>
-          <h2 className='mb-4 text-xl text-gray-700'>
+          <h2 className='mb-4 text-lg text-gray-700'>
             {landingPageMid.subTitle}
           </h2>
           <p className='text-lg text-gray-600'>{landingPageMid.description} </p>
