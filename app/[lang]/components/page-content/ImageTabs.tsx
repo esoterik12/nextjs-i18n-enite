@@ -10,7 +10,7 @@ const ImageTabs = ({ productsData }: { productsData: IProductItem[] }) => {
     <Tab.Group as='div' className=' flex flex-1 flex-col lg:mt-0 lg:self-start'>
       <div className='mx-auto mt-6  w-full max-w-2xl '>
         {/* Icons for image selection */}
-        <Tab.List className='grid grid-cols-5 gap-3'>
+        <Tab.List className='grid grid-cols-5 gap-6'>
           {productsData.map(product => (
             <Tab
               key={product.productId}

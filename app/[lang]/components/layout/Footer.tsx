@@ -3,6 +3,7 @@ import IconFacebook from '../icons/social-icons/IconFacebook'
 import IconInstagram from '../icons/social-icons/IconInstagram'
 import { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/utils/dictionary'
+import SelectIcon from '../icons/SelectIcon'
 
 const items = [
   {
@@ -104,9 +105,8 @@ export default async function Footer({ lang }: { lang: Locale }) {
         {/* Socials and Contact Footer Section */}
         <div className='flex flex-col justify-start md:justify-end'>
           <div className='flex justify-start gap-2  pt-4 text-4xl md:justify-end'>
-            {items.map(item => {
-              return <item.icon key={item.id} />
-            })}
+            <SelectIcon iconClasses='h-6 w-6' iconSelection='instagram' />
+            <SelectIcon iconClasses='h-6 w-6' iconSelection='facebook' />
           </div>
           <p className='mt-2 text-md sm:text-right'>contact@e-nite.com</p>
           <p className='mt-1 text-md sm:text-right'>+41 79 754 24 38</p>

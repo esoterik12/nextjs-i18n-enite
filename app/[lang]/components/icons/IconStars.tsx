@@ -1,4 +1,3 @@
-
 export default function IconStars({ classes }: { classes: string }) {
   return (
     <svg

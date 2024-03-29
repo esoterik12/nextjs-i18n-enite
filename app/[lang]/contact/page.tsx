@@ -16,7 +16,7 @@ export default async function ContactPage({
   return (
     <section className='py-6'>
       <div className='container'>
-        <h1 className='text-3xl font-bold'>{page.contact.title}</h1>
+        <h1 className='text-3xl mb-4 font-bold'>{page.contact.title}</h1>
         <p className='text-gray-500'>{page.contact.description}</p>
       </div>
 

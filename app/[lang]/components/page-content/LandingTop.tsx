@@ -12,9 +12,9 @@ export default async function LandingPageTop({
   products: IPackProductsJson
 }) {
   return (
-    <div className='container mx-auto mt-2 px-4'>
+    <div className='container mx-auto mt-2'>
       <div className='flex flex-wrap '>
-        <div className='w-full p-6 md:w-1/3'>
+        <div className='w-full pt-6 md:w-1/3 text-center md:text-left'>
           <h1 className='mb-2 mt-4 text-4xl font-bold text-gray-900'>
             {landingPageTop.title}
           </h1>

@@ -12,8 +12,8 @@ export default async function PacksPage({
 
   return (
     <section className='py-6'>
-      <div className='container'>
-        <h1 className='text-3xl font-bold'>{products.title}</h1>
+      <div className='container '>
+        <h1 className='text-3xl mb-4 font-bold '>{products.title}</h1>
         <p className='mt-1 text-gray-500 '>{products.subtitle}</p>
 
         <p className='mt-1 text-gray-500'>{products.allProductsDescription}</p>
@@ -35,7 +35,7 @@ export default async function PacksPage({
         <p className='mt-1 text-gray-500 '>{products.allProductsDescription}</p>
         <div className='mt-6'>
             <Link
-              href='/packs'
+              href='/products'
               className='rounded-xl bg-gray-900 p-3 text-white transition-colors duration-300 ease-in-out hover:bg-gray-600'
             >
               {products.allProductsLink}{' '}

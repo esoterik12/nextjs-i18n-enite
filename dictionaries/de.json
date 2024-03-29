@@ -706,6 +706,85 @@
           "productDescription": "Wenn Sie diesen Service wählen, liefern wir alle Ausrüstungen von Pack 4 zu Ihrem Veranstaltungsort und nehmen uns die Zeit, die Ausrüstung einzurichten (dauert ungefähr 2-3 Stunden). Wenn Sie möchten, dass wir am nächsten Tag alles zurückholen, bitte fügen Sie den Rücknahmepreis hinzu."
         }
       ]
+    },
+    "djsPage": {
+      "title": "Professionelle DJs",
+      "description": "Fragen Sie uns nach einem DJ und Sie erhalten einen professionellen Service, auf den Sie sich verlassen können, um Ihren Abend zu beleben und alle zum Tanzen zu bringen. Wir arbeiten eng mit qualifizierten DJs und Animatoren zusammen, jeder mit seinen eigenen Stilen und Spezialitäten. Bitte besuchen Sie deren jeweilige Seiten für Demos.",
+      "contactText": "Wenn Sie spezifische Fragen zu bestimmten DJs oder Animatoren haben, nehmen Sie bitte über unsere Kontaktseite Kontakt mit uns auf.",
+      "contactLink": "Kontaktieren Sie uns oder stellen Sie eine Anfrage auf unserer Kontaktseite."
+    },
+    "djs": [
+      {
+        "title": "DJ Funky Chap",
+        "image": "/e-nite/DJ-Funky-Chap.jpg",
+        "description": "Aus der Lausanner DJ-Szene seit vielen Jahren, beherrscht Funky Chap seine Decks im Rhythmus von Funk und Deep House. Er hatte auch die Chance, sein Können im Ausland auf Festivals wie „Burning Man“, „Burning Baer“ und „Afrika Burn“ unter Beweis zu stellen. Schauen Sie sich seine sozialen Seiten unten an, um seine Arbeit zu entdecken.",
+        "priceText": "CHF 120.00 / Stunde",
+        "links": [
+          {
+            "link": "https://soundcloud.com/funky-chap",
+            "linkText": "Funky Chap",
+            "platformType": "soundcloud"
+          },
+          {
+            "link": "https://soundcloud.com/sunset-grooves",
+            "linkText": "Sunset Grooves",
+            "platformType": "soundcloud"
+          }
+        ]
+      },
+      {
+        "title": "DJ Valerio Angeli",
+        "image": "/e-nite/DJ-Valerio-684x1024.jpg",
+        "description": "DJ All Style von den 60ern bis heute, einschließlich Dance, House, Nu-disco, EDM, Elektromusik. Für private Partys, Geburtstage, Hochzeiten, Clubnächte, Firmenveranstaltungen, Après-Ski usw...",
+        "priceText": "Ab CHF 250.00 pro Veranstaltung",
+        "links": [
+          {
+            "link": "https://en.djvalerioangeli.com/",
+            "linkText": "Website von DJ Valerio Angeli",
+            "platformType": "web"
+          },
+          {
+            "link": "https://soundcloud.com/dj-angels-1",
+            "linkText": "Soundcloud Seite",
+            "platformType": "soundcloud"
+          },
+          {
+            "link": "https://www.instagram.com/dj_valerio_angeli/",
+            "linkText": "Instagram",
+            "platformType": "instagram"
+          }
+        ]
+      },
+      {
+        "title": "DJ Pascal Lemieux",
+        "image": "/e-nite/DJ-Pascal-Lemieux-768x714.jpg",
+        "description": "Geboren 1976, wuchs DJ Pascal Lemieux in einer netten Nachbarschaft in Québec, Kanada, auf. Nach seinem Umzug nach Lausanne im Jahr 2003 entdeckt er Lounge-Musik, was ihn dazu brachte, selbst mit dem Mixen zu beginnen. Nach vielen Reisen nach Berlin und Ibiza sind seine Vorlieben durch seine Stile klar: Deep House, Tech House und Techno. Er mixt jetzt in berühmten Clubs wie D! Club und ABC und hat sein eigenes Label OVERLOOP.",
+        "priceText": "Preis auf Anfrage",
+        "links": [
+          {
+            "link": "https://soundcloud.com/pascallemieux",
+            "linkText": "Soundcloud Seite",
+            "platformType": "soundcloud"
+          }
+        ]
+      }
+    ],
+    "photographers": {
+      "title": "Fotografie-Dienstleistungen",
+      "description": "Wir arbeiten mit einem etablierten Fotografen zusammen, der über mehr als 15 Jahre Erfahrung verfügt. Seine Spezialität ist es, die echte Atmosphäre und Stimmung Ihrer Veranstaltungen durch Fotografie nachzubilden.",
+      "servicesOfferedTitle": "Angebotene Dienstleistungen:",
+      "servicesOffered": [
+        "Hochzeiten",
+        "Veranstaltungen",
+        "Portraits",
+        "Studioaufnahmen",
+        "Packshots",
+        "Mutterschaft",
+        "Architektur"
+      ],
+      "postShootingServicesTitle": "Dienstleistungen nach dem Shooting:",
+      "postShootingServicesDescription": "Wir kümmern uns um den gesamten „Nachbearbeitungs“-Teil, der das Aussortieren der Bilder, die Bearbeitung (falls gewünscht) sowie die Veröffentlichung (digitale oder Papierformate) umfasst. Zusätzlich können wir auch die Erstellung von Einladungen, Flyern usw. für all Ihre bevorstehenden Veranstaltungen übernehmen.",
+      "priceQuoteDescription": "Es ist schwierig für uns, unsere gesamte Preisliste bei einem so individuellen Service zu präsentieren, also nehmen Sie bitte Kontakt mit uns auf und wir werden Ihnen kurzfristig ein Preisangebot zukommen lassen. Sie werden nicht enttäuscht sein!"
     }
   },
   "conditions": {

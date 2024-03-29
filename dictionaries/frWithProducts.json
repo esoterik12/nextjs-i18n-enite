@@ -658,6 +658,85 @@
           "productDescription": "Si vous choisissez ce service, nous livrerons tout l'équipement du Pack 4 à l'emplacement de votre événement, et prendrons le temps de configurer l'équipement (nécessite environ 2-3 heures). Si vous souhaitez que nous reprenions tout l'équipement le lendemain, veuillez ajouter le prix du retour."
         }
       ]
+    },
+    "djsPage": {
+      "title": "Animateurs et DJs",
+      "description": "Vous trouverez ci-dessous nos différents DJs et animateurs qui mettront le feu à vos soirées et événements. Chacun a son style et ses spécialités, donc n'hésitez pas à visiter leurs sites internets pour les découvrir.",
+      "contactText": "Si vous avez des questions concernant les différents animateurs et DJs, veuillez utiliser notre page de Contact pour nous envoyer une émail.",
+      "contactLink": "Contactez-nous ou faites une demande sur notre page de contact."
+    },
+    "djs": [
+      {
+        "title": "DJ Funky Chap",
+        "image": "/e-nite/DJ-Funky-Chap.jpg",
+        "description": "DJ de la scène Lausannoise depuis des années, Funky Chap maitrise les platines au rythme de la funk et la deep house. Egalement reconnu à l’étranger, il a fait ses preuves dans des festivals internationaux tel que « Burning Man », « Burning Baer » et « Afrika Burn ». Découvrez ses pages plus bas ainsi que son label Sunset Grooves.",
+        "priceText": "CHF 120.00 / heure",
+        "links": [
+          {
+            "link": "https://soundcloud.com/funky-chap",
+            "linkText": "Funky Chap",
+            "platformType": "soundcloud"
+          },
+          {
+            "link": "https://soundcloud.com/sunset-grooves",
+            "linkText": "Sunset Grooves",
+            "platformType": "soundcloud"
+          }
+        ]
+      },
+      {
+        "title": "DJ Valerio Angeli",
+        "image": "/e-nite/DJ-Valerio-684x1024.jpg",
+        "description": "DJ All Style à partir des années 60's jusqu'à aujourd'hui y compris musique Dance, House, Nudisco, EDM, Electro. Pour soirées privées, anniversaires, mariages, soirées en discothèque, événements d'entreprises, après-ski, etc…",
+        "priceText": "À partir de CHF 250.00 par soirée",
+        "links": [
+          {
+            "link": "https://en.djvalerioangeli.com/",
+            "linkText": "Site Internet",
+            "platformType": "web"
+          },
+          {
+            "link": "https://soundcloud.com/dj-angels-1",
+            "linkText": "Soundcloud",
+            "platformType": "soundcloud"
+          },
+          {
+            "link": "https://www.instagram.com/dj_valerio_angeli/",
+            "linkText": "Instagram",
+            "platformType": "instagram"
+          }
+        ]
+      },
+      {
+        "title": "DJ Pascal Lemieux",
+        "image": "/e-nite/DJ-Pascal-Lemieux-768x714.jpg",
+        "description": "Pascal Lemieux a grandi dans la belle province du Québec. En 2003, Pascal quitte le Québec et traverse l'atlantique pour venir s'installer en Suisse. À Lausanne, il découvre la musique lounge via les compilations du Buddha-Bar et du Café del Mar. En 2006, il décide d'apprendre à mixer. Avec ses rencontres et ses nombreux voyages à Berlin comme à Ibiza, il affine ses préférences et oriente son style vers la Deep House, la Tech House et la Techno. En 2014. Il suit une formation Ableton chez VR School afin de produire c'est propres morceaux. Il transforme sa chambre en un véritable petit studio afin de créer et peaufine ses propres productions. Pascal mix maintenant au Club ABC du D! Club de Lausanne, pour la promotion de l'Afterseason Festival, pour des événements privés et lors d'événements spéciaux qu'il crée dans des endroits éphémères et différents via son label OVERLOOP.",
+        "priceText": "Prix sur demande",
+        "links": [
+          {
+            "link": "https://soundcloud.com/pascallemieux",
+            "linkText": "Soundcloud",
+            "platformType": "soundcloud"
+          }
+        ]
+      }
+    ],
+    "photographers": {
+      "title": "Services de Photographe",
+      "description": "Nous collaborons avec un photographe confirmé qui a plus de 15 ans d'expérience dans le monde de la photo. Sa spécialité est la mise en scène et la création d'ambiance pour embellir et faire ressortir la véritable nature de votre événement.",
+      "servicesOfferedTitle": "Services Offered:",
+      "servicesOffered": [
+        "Mariages",
+        "Événements",
+        "Portraits",
+        "Séances de studio",
+        "Packshots",
+        "Maternité",
+        "Architecture"
+      ],
+      "postShootingServicesTitle": "Services Post-Shooting :",
+      "postShootingServicesDescription": "Nous nous occupons également de toute la partie « après shooting », qui comprend le trie, les retouche ainsi que la publication souhaitée (numérique ou papier). De plus, sur demande, nous créons volontiers vos invitations, prospectus et flyers pour vos fêtes/mariages/événements.",
+      "priceQuoteDescription": "Il est difficile pour nous de présenter nos prix avec tant d'options, nous vous invitons donc à nous contacter pour un devis. Vous ne serez pas déçu par le prix !"
     }
   },
   "conditions": {

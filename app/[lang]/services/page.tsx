@@ -14,7 +14,7 @@ export default async function ServicesPage({
     <section className='p-6'>
       <div className='container justify-between'>
         <div>
-          <h1 className='text-3xl font-bold'>{services.title}</h1>
+          <h1 className='text-3xl mb-4 font-bold'>{services.title}</h1>
           <p className='text-gray-500'>{services.description}</p>
         </div>
 

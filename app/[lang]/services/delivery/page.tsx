@@ -12,7 +12,7 @@ export default async function DeliveryPage({
   return (
     <section className='py-6 px-6'>
       <div className='container'>
-        <h1 className='text-3xl font-bold'>{services.delivery.title}</h1>
+        <h1 className='text-3xl mb-4 font-bold'>{services.delivery.title}</h1>
         <p className='mb-2 text-gray-500'>{services.delivery.subtitle}</p>
         <p className='text-gray-500'>{services.delivery.description}</p>
       </div>

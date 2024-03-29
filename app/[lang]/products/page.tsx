@@ -14,7 +14,7 @@ export default async function AllProductsPage({
     <section className='py-6'>
       <div className='container lg:flex justify-between'>
         <div>
-          <h1 className='text-3xl font-bold'>{allProducts.title}</h1>
+          <h1 className='text-3xl mb-4 font-bold'>{allProducts.title}</h1>
           <p className='text-gray-500'>{allProducts.description}</p>
         </div>
 

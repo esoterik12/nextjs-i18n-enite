@@ -11,9 +11,12 @@ import IconTelephone from './IconTelephone'
 import IconPlus from './IconPlus'
 import IconCart from './IconCart'
 import IconHome from './IconHome'
+import IconWeb from './IconWeb'
+import IconRightArrowCircle from './IconRightArrowCircle'
+import IconLeftArrowCircle from './IconLeftArrowCircle'
 // Socials:
 import IconFacebook from './social-icons/IconFacebook'
-import IconGithub from './social-icons/IconGithub'
+import IconSoundcloud from './social-icons/IconSoundcloud'
 import IconInstagram from './social-icons/IconInstagram'
 
 interface ISelectIconProps {
@@ -63,6 +66,24 @@ export default function SelectIcon({
       break
     case 'cart':
       icon = <IconCart classes={iconClasses} />
+      break
+    case 'web':
+      icon = <IconWeb classes={iconClasses} />
+      break
+    case 'facebook':
+      icon = <IconFacebook classes={iconClasses} />
+      break
+    case 'instagram':
+      icon = <IconInstagram classes={iconClasses} />
+      break
+    case 'rightArrowCircle':
+      icon = <IconRightArrowCircle classes={iconClasses} />
+      break
+    case 'leftArrowCircle':
+      icon = <IconLeftArrowCircle classes={iconClasses} />
+      break
+    case 'soundcloud':
+      icon = <IconSoundcloud classes={iconClasses} />
       break
     default:
       icon = <p className='text-red-500'>Error: No Icon Found</p>

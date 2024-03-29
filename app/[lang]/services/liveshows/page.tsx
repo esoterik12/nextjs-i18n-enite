@@ -4,7 +4,7 @@ export default async function LiveshowsPage() {
   return (
     <section className='py-6'>
       <div className='container'>
-        <h1 className='text-3xl font-bold'>Live Show</h1>
+        <h1 className='text-3xl mb-4 font-bold'>Live Show</h1>
 
         <div className='flex flex-col md:flex-row'>
           <div>
