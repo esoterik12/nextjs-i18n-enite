@@ -56,7 +56,6 @@
       "subTitle": "Adaptez votre configuration de fête idéale à partir de notre vaste collection d'équipements de musique et de lumière.",
       "description": "Continuez à faire couler la bonne ambiance avec un robinet à bière dédié.",
       "buttonLink": "Decouvrez nos produits"
-
     },
     "contact": {
       "title": "Contactez Nous",
@@ -864,5 +863,20 @@
     "sectionTwoDescription": "Visitez nos rubriques d'équipements de location et de services pour trouver ce dont vous avez besoin pour votre événement. Ensuite, vous pourrez utiliser notre page de contact pour nous communiquer exactement ce que vous voulez. Nous vous répondrons sous peu avec nos disponibilités et un prix. De plus, nous nous ferons un plaisir de vous conseiller pour trouver l'équipement qui vous conviendra le mieux.",
     "closing": "Merci pour l'intérêt que vous portez à notre société, et nous espérons collaborer avec vous bientôt,",
     "signOff": "Le Team E-NiTE Services"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Utilisez le formulaire ci-dessous pour nous écrire et nous dire ce que vous recherchez :",
+    "name": "Nom Complet",
+    "email": "Email",
+    "services": "Services",
+    "servicesList": [
+      "Livraison & Installation",
+      "Photographe",
+      "DJs",
+      "Spectacle en Direct",
+      "Bracelets de Fête"
+    ],
+    "submit": "Envoyer"
   }
 }

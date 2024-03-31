@@ -33,7 +33,7 @@ export default async function LandingPageMid({
             src='/e-nite/products-combo-image.png'
             alt='JBP-Partybox'
             width={600}
-            height={200}
+            height={600}
           />
         </div>
       </div>

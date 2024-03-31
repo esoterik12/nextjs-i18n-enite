@@ -912,5 +912,20 @@
     "sectionTwoDescription": "Schauen Sie sich unser Mietequipment und Dienstleistungen an, um zu entdecken, was wir anbieten. Danach können Sie unsere Kontaktseite nutzen, um uns genau mitzuteilen, was Sie benötigen, und wir werden Ihnen in kürzester Zeit mit unseren Verfügbarkeiten und einem endgültigen Angebot antworten. Natürlich geben wir Ihnen gerne einige Ratschläge zu dem Equipment und den Dienstleistungen, die am besten zu Ihren Anforderungen passen.",
     "closing": "Vielen Dank für Ihr Interesse, und wir freuen uns darauf, gemeinsam Geschäfte zu machen.",
     "signOff": "Das E-NiTE Services Team"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "description": "Verwenden Sie das untenstehende Formular, um uns zu schreiben und uns zu sagen, wonach Sie suchen:",
+    "name": "Vollständiger Name",
+    "email": "E-Mail",
+    "services": "Dienstleistungen",
+    "servicesList": [
+      "Lieferung & Installation",
+      "Fotograf",
+      "DJs",
+      "Live-Show",
+      "Party-Armbänder"
+    ],
+    "submit": "Absenden"
   }
 }

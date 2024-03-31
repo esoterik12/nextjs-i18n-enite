@@ -909,5 +909,16 @@
     "sectionTwoDescription": "Have a look at our rental equipment and services to discover what we offer. You can then use our contact page to let us know exactly what you need and we'll get back to you in no time with our availabilities and a final quote. Naturally, we would gladly give you some advice on the equipment and services that best suit your requirements.",
     "closing": "Thank you for your interest, and we look forward to doing business together.",
     "signOff": "The E-NiTE Services Team"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Use the form below to write us and tell us what you are looking for:",
+    "name": "Full Name",
+    "email": "Email",
+    "services": "Services",
+    "servicesList": [
+      "Delivery & Installation", "Photographer", "DJs", "Live Show", "Party Bracelets"
+    ],
+    "submit": "Submit"
   }
 }

@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     // html lang is configured with params.lang
-    <html lang={params.lang}>
+    <html lang={params.lang} suppressHydrationWarning>
       <body className={inter.className}>
         <CartProvider>
         <ShoppingCart />
