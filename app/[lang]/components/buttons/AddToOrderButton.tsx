@@ -53,8 +53,8 @@ const AddToOrderButton = ({
         className='rounded-xl bg-gray-900 transition-colors duration-300 ml-2 mr-2 ease-in-out hover:bg-gray-600 disabled:bg-green-500'
       >
         {isInCart && (
-          <div className='font-medium text-white'>
-            <CheckMark classes='h-6 w-6' />
+          <div className='font-medium h-10 w-10 flex align-middle justify-center items-center text-white rounded-xl'>
+            <CheckMark classes='h-8 w-8' />
           </div>
         )}
 

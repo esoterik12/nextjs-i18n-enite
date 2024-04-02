@@ -864,13 +864,38 @@
   },
   "contact": {
     "title": "Contact Us",
-    "description": "Use the form below to write us and tell us what you are looking for:",
-    "name": "Full Name",
-    "email": "Email",
-    "services": "Services",
-    "servicesList": [
-      "Delivery & Installation", "Photographer", "DJs", "Live Show", "Party Bracelets"
-    ],
-    "submit": "Submit"
+    "viewMap": "View Map",
+    "notice": "Please do not present yourself without a meeting; please contact us first. Thank you!",
+    "form": {
+      "whatYouGetTitle": "What You Get When Making Your Request:",
+      "guaranteedResponse": "Guaranteed response within 12 hours on weekdays.",
+      "freeConsultation": "Free consultation on event requirements and technical advice.",
+      "personalizedRecommendations": "Personalized recommendations tailored to your event needs.",
+      "streamlineProcess": "Your requested services and event details will be transmitted to E-Nite to streamline the reservation process.",
+      "formTitle": "Complete the form to make your request to E-Nite Services:",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "services": "Services",
+      "servicesOptions": [
+        "Delivery & Installation",
+        "Delivery Only",
+        "Photographer",
+        "DJs",
+        "Live show",
+        "Party Bracelets"
+      ],
+      "beertap": "Beer Tap",
+      "beertapOptions": [
+        "Beer Tap and Gas Only",
+        "Beer Tap with Pack 4",
+        "No Beer Tap"
+      ],
+      "notes": "Notes",
+      "eventDate": "Event Date",
+      "submitButtonText": "Submit",
+      "submittingText": "Submitting..."
+    }
   }
 }

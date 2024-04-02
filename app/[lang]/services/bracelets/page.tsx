@@ -46,7 +46,7 @@ export default async function BraceletsPage({
               </h2>
               <ul className='list-inside list-disc'>
                 {services.photographers.servicesOffered.map(item => (
-                  <li className='text-gray-500'>{item}</li>
+                  <li key={item} className='text-gray-500'>{item}</li>
                 ))}
               </ul>
             </div>

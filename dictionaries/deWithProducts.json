@@ -862,17 +862,41 @@
   },
   "contact": {
     "title": "Kontaktieren Sie uns",
-    "description": "Verwenden Sie das untenstehende Formular, um uns zu schreiben und uns zu sagen, wonach Sie suchen:",
-    "name": "Vollständiger Name",
-    "email": "E-Mail",
-    "services": "Dienstleistungen",
-    "servicesList": [
-      "Lieferung & Installation",
-      "Fotograf",
-      "DJs",
-      "Live-Show",
-      "Party-Armbänder"
-    ],
-    "submit": "Absenden"
+    "telephone": "+41 79 754 24 38",
+    "email": "contact@e-nite.com",
+    "address": "Route de la Croix-Blanche 17, 1066 Epalinges",
+    "viewMap": "Karte anzeigen",
+    "notice": "Bitte erscheinen Sie nicht ohne Termin; kontaktieren Sie uns bitte zuerst. Danke!",
+    "form": {
+      "whatYouGetTitle": "Was Sie erhalten, wenn Sie Ihre Anfrage stellen:",
+      "guaranteedResponse": "Garantierte Antwort innerhalb von 12 Stunden an Werktagen.",
+      "freeConsultation": "Kostenlose Beratung zu Veranstaltungsanforderungen und technische Beratung.",
+      "personalizedRecommendations": "Persönliche Empfehlungen, die auf Ihre Veranstaltungsbedürfnisse zugeschnitten sind.",
+      "streamlineProcess": "Ihre angeforderten Dienstleistungen und Veranstaltungsdetails werden an E-Nite übermittelt, um den Reservierungsprozess zu vereinfachen.",
+      "formTitle": "Füllen Sie das Formular aus, um Ihre Anfrage an E-Nite Services zu stellen:",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phoneNumber": "Telefonnummer",
+      "services": "Dienstleistungen",
+      "servicesOptions": [
+        "Lieferung & Installation",
+        "Nur Lieferung",
+        "Fotograf",
+        "DJs",
+        "Live-Show",
+        "Party-Armbänder"
+      ],
+      "beertap": "Bierzapfanlage",
+      "beertapOptions": [
+        "Nur Bierzapfanlage und Gas",
+        "Bierzapfanlage mit Pack 4",
+        "Keine Bierzapfanlage"
+      ],
+      "notes": "Notizen",
+      "eventDate": "Veranstaltungsdatum",
+      "submitButtonText": "Absenden",
+      "submittingText": "Wird gesendet..."
+    }
   }
 }

@@ -28,6 +28,7 @@ export default async function DjsPage({
 
         {services.djs.map(item => (
           <DjsContainer
+            key={item.title}
             image={item.image}
             title={item.title}
             description={item.description}
@@ -37,8 +38,6 @@ export default async function DjsPage({
             <></>
           </DjsContainer>
         ))}
-
-
       </div>
     </section>
   )

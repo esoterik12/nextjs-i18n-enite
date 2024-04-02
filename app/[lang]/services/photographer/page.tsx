@@ -27,7 +27,7 @@ export default async function PhotographerPage({
               <h2 className='m-4 text-2xl font-semibold'>{services.photographers.servicesOfferedTitle}</h2>
               <ul className='list-inside list-disc'>
                 {services.photographers.servicesOffered.map((item) => (
-                  <li className='text-gray-500'>{item}</li>
+                  <li key={item} className='text-gray-500'>{item}</li>
                 ))}
 
               </ul>

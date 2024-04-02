@@ -866,17 +866,41 @@
   },
   "contact": {
     "title": "Contactez-nous",
-    "description": "Utilisez le formulaire ci-dessous pour nous écrire et nous dire ce que vous recherchez :",
-    "name": "Nom Complet",
-    "email": "Email",
-    "services": "Services",
-    "servicesList": [
-      "Livraison & Installation",
-      "Photographe",
-      "DJs",
-      "Spectacle en Direct",
-      "Bracelets de Fête"
-    ],
-    "submit": "Envoyer"
+    "telephone": "+41 79 754 24 38",
+    "email": "contact@e-nite.com",
+    "address": "Route de la Croix-Blanche 17, 1066 Epalinges",
+    "viewMap": "Voir la carte",
+    "notice": "Veuillez ne pas vous présenter sans rendez-vous ; veuillez nous contacter d'abord. Merci !",
+    "form": {
+      "whatYouGetTitle": "Ce que vous obtenez en faisant votre demande :",
+      "guaranteedResponse": "Réponse garantie dans les 12 heures les jours ouvrables.",
+      "freeConsultation": "Consultation gratuite sur les exigences de l'événement et conseils techniques.",
+      "personalizedRecommendations": "Recommandations personnalisées adaptées à vos besoins événementiels.",
+      "streamlineProcess": "Vos services demandés et les détails de l'événement seront transmis à E-Nite pour simplifier le processus de réservation.",
+      "formTitle": "Complétez le formulaire pour faire votre demande aux Services E-Nite :",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "email": "Email",
+      "phoneNumber": "Téléphone",
+      "services": "Services",
+      "servicesOptions": [
+        "Livraison & Installation",
+        "Livraison seulement",
+        "Photographe",
+        "DJs",
+        "Spectacle en direct",
+        "Bracelets de fête"
+      ],
+      "beertap": "Tireuse à bière",
+      "beertapOptions": [
+        "Tireuse à bière et gaz seulement",
+        "Tireuse à bière avec Pack 4",
+        "Pas de tireuse à bière"
+      ],
+      "notes": "Notes",
+      "eventDate": "Date de l'événement",
+      "submitButtonText": "Envoyer",
+      "submittingText": "Envoi en cours..."
+    }
   }
 }

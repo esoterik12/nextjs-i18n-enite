@@ -5,9 +5,8 @@
 import React from 'react'
 import { FieldError } from 'react-hook-form'
 
-interface IInputFieldProps {
+interface ITextareaInputProps {
   id: string
-  type: string
   label: string
   placeholder: string
   containerClasses?: string
@@ -17,14 +16,11 @@ interface IInputFieldProps {
   maxLength?: number
 }
 
-// Using React.ForwardRefExoticComponent to properly type the component with forwarded refs
-// React.forwardRef in TypeScript: specify two generic types: ref type / props type
-const InputField: React.ForwardRefExoticComponent<
-  IInputFieldProps & React.RefAttributes<HTMLInputElement>
-> = React.forwardRef<HTMLInputElement, IInputFieldProps>(
+const TextareaInput: React.ForwardRefExoticComponent<
+  ITextareaInputProps & React.RefAttributes<HTMLTextAreaElement>
+> = React.forwardRef<HTMLTextAreaElement, ITextareaInputProps>(
   (
     {
-      type,
       id,
       label,
       placeholder,
@@ -45,9 +41,8 @@ const InputField: React.ForwardRefExoticComponent<
           {label}
         </label>
       )}
-      <input
+      <textarea
         ref={ref}
-        type={type}
         id={id}
         placeholder={placeholder}
         className={`${inputClasses} ml-1 block rounded-md border border-gray-300 p-1 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-400`}
@@ -62,6 +57,6 @@ const InputField: React.ForwardRefExoticComponent<
   )
 )
 
-InputField.displayName = 'InputField'
+TextareaInput.displayName = 'Textarea'
 
-export { InputField }
+export { TextareaInput }

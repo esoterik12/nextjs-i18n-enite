@@ -2,11 +2,16 @@ import { Locale } from '@/i18n.config'
 import { MouseEventHandler } from "react";
 
 export interface IContactFormTypes {
-  name: string
+  firstName: string
+  lastName: string
   email: string
-  reason: string
-  notes: string
+  phone: string
+  // reason: string
+  // notes: string
   selectedServices: string[]
+  beertapOption: string
+  notes: string
+  date: Date
 }
 
 export interface ILogoProps {

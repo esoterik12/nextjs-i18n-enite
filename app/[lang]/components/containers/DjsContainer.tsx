@@ -49,7 +49,7 @@ export default function DjsContainer({
             <p className='ml-2 text-lg'>{priceButtonText}</p>
           </Link>
           {links.map(link => (
-            <Link href={link.link}>
+            <Link href={link.link} key={link.link}>
               <div className='flex flex-row text-gray-500'>
                 <SelectIcon
                   iconSelection={link.platformType}
