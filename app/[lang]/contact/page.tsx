@@ -82,9 +82,7 @@ export default async function ContactPage({
           </li>
         </ul>
 
-        <h1 className='mt-6 py-3 text-xl font-semibold text-gray-600'>
-          {contact.form.formTitle}
-        </h1>
+        
       </div>
 
       <div className=''>

@@ -49,6 +49,10 @@
       "title": "Nos Packs de Fête",
       "subTitle": "Votre solution ultime de location d'équipements de fête",
       "description": "Chez e-nite, nous croyons que chaque fête devrait être inoubliable. C'est pourquoi nous offrons une large gamme d'équipements musicaux de haute qualité à louer, accompagnés de services professionnels de DJ et de photographie pour rendre vos événements vraiment spéciaux. Que vous planifiez une petite réunion ou une grande célébration, nous avons tout ce dont vous avez besoin pour faire de votre soirée un succès.",
+      "descriptionOne": "Des fêtes inoubliables",
+      "descriptionTwo": "Une large gamme d'équipements musicaux de haute qualité",
+      "descriptionThree": "Services professionnels de DJ et de photographie",
+      "descriptionFour": "Parfait pour les anniversaires, mariages, fêtes, événements d'entreprise et plus encore",
       "buttonLink": "Découvrez nos Packs"
     },
     "landingPageMid": {
@@ -898,9 +902,19 @@
         "Pas de tireuse à bière"
       ],
       "notes": "Notes",
-      "eventDate": "Date de l'événement",
-      "submitButtonText": "Envoyer",
-      "submittingText": "Envoi en cours..."
+      "eventDate": "Date de l'Événement",
+      "submitButtonText": "Soumettre",
+      "conditionsCheck": "J'ai lu et j'accepte les",
+      "conditionsCheckLink": "conditions.",
+      "submittingText": "Envoi en cours...",
+      "cartSummaryEmpty": {
+        "title": "Résumé de la Demande",
+        "emptyText": "Votre panier est vide.",
+        "actionOne": "Ajoutez un pack ou des produits depuis les liens ci-dessous,",
+        "actionTwo": "ou fournissez vos exigences spécifiques dans la section des notes.",
+        "packsLink": "Packs",
+        "productsLink": "Produits"
+      }
     }
   }
 }

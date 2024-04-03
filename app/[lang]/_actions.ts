@@ -12,7 +12,8 @@ export async function sendContact(formData: IContactFormTypes) {
     selectedServices: formData.selectedServices,
     beertapOption: formData.beertapOption,
     notes: formData.notes,
-    date: formData.date
+    date: formData.date,
+    conditionsRead: formData.conditionsRead
   })
 
   await new Promise(resolve => setTimeout(resolve, 1500))
@@ -35,6 +36,7 @@ export async function sendContact(formData: IContactFormTypes) {
         <p>Beer Tap Option: ${result.data.beertapOption}</p>
         <p>Event Notes: ${result.data.notes}</p>
         <p>Event Date: ${result.data.date}</p>
+        <p>Contact has read the terms: ${result.data.conditionsRead}</p>
       `
     }
 

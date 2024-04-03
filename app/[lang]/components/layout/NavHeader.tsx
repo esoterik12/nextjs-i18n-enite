@@ -12,11 +12,11 @@ export default async function Header({ lang }: { lang: Locale }) {
   const { footer } = await getDictionary(lang)
 
   return (
-    <header className='z-10 py-3'>
+    <header className='z-10 py-2'>
       <MobileNavHeader lang={lang} />
       <nav className='hidden items-center justify-between md:flex'>
         {/* Logo */}
-        <div className='mr-12'>
+        <div className='mr-7'>
           <Logo text='e-nite' image='/e-nite/e-niteLogoV1.png' lang={lang} />
         </div>
 

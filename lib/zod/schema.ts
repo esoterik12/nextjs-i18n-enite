@@ -11,5 +11,8 @@ export const formSchema = z.object({
     .string()
     .min(5, 'Please provide a description of your event.')
     .max(1000, 'The description cannot exceed 1000 characters.'),
-  date: z.string()
+  date: z.string(),
+  conditionsRead: z.boolean().refine(val => val === true, {
+    message: "You must read and accept the terms and conditions.",
+  }),
 })

@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
-export default function AnimatedBannerMobile({
+export default function AnimatedBanner({
   children
 }: {
   children: React.ReactNode

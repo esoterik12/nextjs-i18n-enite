@@ -14,12 +14,12 @@ const ImageTabs = ({ productsData }: { productsData: IProductItem[] }) => {
           {productsData.map(product => (
             <Tab
               key={product.productId}
-              className='relative flex h-12 cursor-pointer items-center justify-center rounded-md bg-white text-sm font-medium text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-sky-500 focus:ring-opacity-50 focus:ring-offset-4'
+              className='h-12 sm:h-16 relative flex cursor-pointer items-center justify-center align-middle rounded-md bg-white text-sm font-medium text-gray-900 hover:bg-gray-50 focus:outline-none focus:ring focus:ring-sky-500 focus:ring-opacity-50 focus:ring-offset-4 md:h-16'
             >
               {({ selected }) => (
-                <>
-                  <div className='hidden  sm:block'>
-                    <p className='absolute inset-0  overflow-hidden rounded-md font-bold '>
+                <div className=''>
+                  <div className='hidden sm:block'>
+                    <p className='absolute inset-0 overflow-hidden rounded-md font-bold '>
                       {product.productTitle}
                     </p>
                     <p className='mt-4 '>
@@ -35,11 +35,11 @@ const ImageTabs = ({ productsData }: { productsData: IProductItem[] }) => {
                     />
                   </div>
                   <div className='block sm:hidden'>
-                    <p className='overflow absolute inset-0 flex mt-1 justify-center rounded-md align-middle font-bold '>
+                    <p className='overflow absolute inset-0 mt-1 flex justify-center rounded-md align-middle font-bold '>
                       Pack #{product.productId}
                     </p>
                   </div>
-                </>
+                </div>
               )}
             </Tab>
           ))}

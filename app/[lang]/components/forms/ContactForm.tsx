@@ -15,40 +15,12 @@ import { useSelector } from 'react-redux'
 import { RootStateType } from '@/lib/redux'
 import CartSummaryEmpty from '../products/CartSummaryEmpty'
 import { TextareaInput } from './TextareaInput'
-
-interface FormOptions {
-  servicesOptions: string[]
-  beerTapOptions: string[]
-}
-
-interface ContactFormProps {
-  whatYouGetTitle: string
-  guaranteedResponse: string
-  freeConsultation: string
-  personalizedRecommendations: string
-  streamlineProcess: string
-  formTitle: string
-  firstName: string
-  lastName: string
-  email: string
-  phoneNumber: string
-  services: string
-  servicesOptions: FormOptions['servicesOptions']
-  beertap: string
-  beertapOptions: FormOptions['beerTapOptions']
-  notes: string
-  eventDate: string
-  submitButtonText: string
-  submittingText: string
-}
-
-interface ContactFormComponentProps {
-  contactForm: ContactFormProps
-}
+import { IContactFormComponentProps } from '@/lib/types'
+import Link from 'next/link'
 
 export default function ContactForm({
   contactForm
-}: ContactFormComponentProps) {
+}: IContactFormComponentProps) {
   const [serverResponse, setServerResponse] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const cart = useSelector((state: RootStateType) => state.cart)
@@ -64,7 +36,8 @@ export default function ContactForm({
     resolver: zodResolver(formSchema),
     defaultValues: {
       selectedServices: [],
-      beertapOption: 'No Beer Tap'
+      beertapOption: 'No Beer Tap',
+      conditionsRead: false
     }
   })
 
@@ -90,11 +63,9 @@ export default function ContactForm({
 
   if (loading) {
     return (
-      <div className='container mx-auto flex h-screen items-center justify-center px-4 py-8'>
-        <div className='text-center'>
+      <div className='flex items-center justify-center px-4 pt-8 '>
+        <div className='h-24 w-full max-w-sm rounded-xl border border-gray-200 bg-white p-4 text-center shadow-sm'>
           <p className='mb-4 text-lg text-gray-500'>Loading...</p>
-          {/* Placeholder for a spinner */}
-          <div className='h-8 w-8 animate-spin rounded-full border-b-2 border-t-2 border-blue-500'></div>
         </div>
       </div>
     )
@@ -102,9 +73,9 @@ export default function ContactForm({
 
   if (serverResponse) {
     return (
-      <div className='container mx-auto flex h-screen items-center justify-center px-4 py-8'>
-        <div className='mx-auto max-w-md rounded-lg border border-gray-200 bg-white p-4 text-center shadow-sm'>
-          <p className='text-md text-gray-700'>{serverResponse}</p>
+      <div className='flex items-center justify-center px-4 pt-8 '>
+        <div className='h-24 w-full max-w-sm rounded-xl border border-gray-200 bg-white p-4 text-center shadow-sm'>
+          <p className='text-sm text-gray-700'>{serverResponse}</p>{' '}
         </div>
       </div>
     )
@@ -112,6 +83,9 @@ export default function ContactForm({
 
   return (
     <div className='container mt-8 '>
+      <h1 className='mt-6 py-3 text-xl font-semibold text-gray-600'>
+        {contactForm.formTitle}
+      </h1>
       {/* Left Side Form Section */}
       {/* Grid of 2 columns, 3 rows - not including note text area under */}
       <div className='grid grid-cols-1 gap-x-4 lg:grid-cols-2'>
@@ -193,7 +167,9 @@ export default function ContactForm({
 
             {/* Beer Tap Radio Buttons */}
             <div className='ml-1 mt-4 '>
-              <h4 className='font-medium text-gray-500'>{contactForm.beertap}</h4>
+              <h4 className='font-medium text-gray-500'>
+                {contactForm.beertap}
+              </h4>
               {contactForm.beertapOptions.map(item => (
                 <label key={item} className='flex items-center space-x-2'>
                   <input
@@ -221,6 +197,7 @@ export default function ContactForm({
             />
           </div>
 
+          {/* Date Input */}
           <div className=''>
             <InputField
               type='date'
@@ -229,6 +206,26 @@ export default function ContactForm({
               placeholder='The date of your event'
               {...register('date')}
               error={errors.date}
+            />
+          </div>
+
+          {/* Conditions Checkbox */}
+          <div>
+            <Controller
+              name='conditionsRead'
+              control={control} // from useForm, links to form's logic and state management
+              rules={{ required: true }}
+              render={(
+                { field } // field object contains properties, methods to manage input state (value, onChange)
+              ) => (
+                <label className='m-1 flex flex-row text-gray-500'>
+                  <input type='checkbox' {...register('conditionsRead')} />
+                  <p className='ml-2'>
+                    {contactForm.conditionsCheck}{' '}
+                    <Link className='text-blue-500 hover:underline' href='/conditions'>{contactForm.conditionsCheckLink}</Link>
+                  </p>
+                </label>
+              )}
             />
           </div>
 
@@ -244,7 +241,7 @@ export default function ContactForm({
           {cart?.items && cart.items.length > 0 ? (
             <CartSummary />
           ) : (
-            <CartSummaryEmpty />
+            <CartSummaryEmpty cartSummaryText={contactForm.cartSummaryEmpty}/>
           )}
         </div>
       </div>

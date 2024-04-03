@@ -5,6 +5,7 @@ import LandingPageTop from './components/page-content/LandingTop'
 import LandingPageMid from './components/page-content/LandingMid'
 import Image from 'next/image'
 import Link from 'next/link'
+import AnimatedBannerMobile from './components/layout/AnimatedBanner'
 
 // getting lang params
 export default async function Home({
@@ -25,26 +26,19 @@ export default async function Home({
           <p className='text-2xl text-gray-200 shadow-lg'>
             {page.home.subTitle}
           </p>
-          <p className='text-LG text-gray-100 shadow-lg'>
-            {page.home.description}
-          </p>
         </AnimatedBanner>
       </div>
+
       {/* Mobile Title Splash: ENABLED FOR MOBILE */}
-      <div className='container flex flex-col items-center justify-center text-center md:hidden'>
-        <Image
-          alt='e-nite logo'
-          src='/e-nite/e-niteLogoV1.png'
-          width={150}
-          height={100}
-          className='mb-6'
-        />
-        <p className='mb-4 text-2xl text-gray-700'>
-          <span className='inline-block bg-gradient-to-r from-red-700 via-red-500 to-red-400 bg-clip-text text-transparent'>
+      <div className='flex flex-col items-center justify-center text-center md:hidden'>
+        <AnimatedBannerMobile>
+          <h1 className='mb-2 text-4xl font-bold text-white shadow-lg'>
+            {page.home.title}
+          </h1>
+          <p className='text-xl text-gray-200 shadow-lg'>
             {page.home.subTitle}
-          </span>
-        </p>
-        <p className='text-gray-500'>{page.home.description}</p>
+          </p>
+        </AnimatedBannerMobile>
       </div>
 
       {/* Main Landing Content: */}
@@ -55,7 +49,7 @@ export default async function Home({
       />
 
       {/* Services Center Text */}
-      <div className='container mb-12 mt-12 flex flex-col text-center'>
+      <div className='container mb-12 mt-3 flex flex-col text-center'>
         <h1 className='mb-2 text-4xl font-semibold'>
           {page.home.servicesContent.title}
         </h1>

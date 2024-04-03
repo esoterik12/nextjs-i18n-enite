@@ -49,6 +49,10 @@
       "title": "Our Party Packs",
       "subTitle": "Your Ultimate Party Equipment Rental Solution",
       "description": "At e-nite, we believe every party should be unforgettable. That's why we offer a wide range of high-quality musical equipment for rent, alongside professional DJ and photography services to make your events truly special. Whether you're planning a small gathering or a large celebration, we have everything you need to make your night a hit.",
+      "descriptionOne": "Unforgettable parties",
+      "descriptionTwo": "A wide range of high-quality musical equipment",
+      "descriptionThree": "Professional DJ and photography services",
+      "descriptionFour": "Perfect for birthdays, weddings, holidays, corporate events, and more",
       "buttonLink": "Explore Our Packs"
     },
     "landingPageMid": {
@@ -895,7 +899,17 @@
       "notes": "Notes",
       "eventDate": "Event Date",
       "submitButtonText": "Submit",
-      "submittingText": "Submitting..."
+      "conditionsCheck": "I have read and accept the",
+      "conditionsCheckLink": "conditions.",
+      "submittingText": "Submitting...",
+      "cartSummaryEmpty": {
+        "title": "Request Summary",
+        "emptyText": "Your cart is empty.",
+        "actionOne": "Add a pack or products from the links below,",
+        "actionTwo": "or provide your specific requirements in the notes section.",
+        "packsLink": "Packs",
+        "productsLink": "Products"
+      }
     }
   }
 }

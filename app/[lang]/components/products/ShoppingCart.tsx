@@ -7,13 +7,14 @@ import { useDispatch, useSelector } from 'react-redux'
 import { cartActions } from '@/lib/redux/cart-slice'
 import { RootStateType } from '@/lib/redux'
 import { ICartItem } from '@/lib/types'
+import Link from 'next/link'
 
 const ShoppingCart = () => {
   const cart = useSelector((state: RootStateType) => state.cart)
   const dispatch = useDispatch()
 
   const handleCheckout = async () => {
-    // Add functionality here
+    dispatch(cartActions.closeCart())
     return
   }
 
@@ -178,7 +179,7 @@ const ShoppingCart = () => {
                         onClick={handleCheckout}
                         className='flex h-12 w-full items-center justify-center rounded-md border border-transparent bg-sky-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-sky-700 disabled:cursor-not-allowed disabled:opacity-75'
                       >
-                        Complete Order
+                        <Link href='/contact'>Complete Request</Link>
                       </button>
                     </div>
                   </div>

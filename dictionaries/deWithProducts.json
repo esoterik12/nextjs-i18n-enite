@@ -49,6 +49,10 @@
       "title": "Unsere Party-Pakete",
       "subTitle": "Ihre ultimative Lösung für Party-Equipment-Vermietung",
       "description": "Bei e-nite glauben wir, dass jede Party unvergesslich sein sollte. Deshalb bieten wir eine breite Palette an hochwertigem Musikequipment zur Miete an, zusammen mit professionellen DJ- und Fotografie-Services, um Ihre Veranstaltungen wirklich besonders zu machen. Ob Sie eine kleine Zusammenkunft oder eine große Feier planen, wir haben alles, was Sie brauchen, um Ihre Nacht zum Erfolg zu machen.",
+      "descriptionOne": "Unvergessliche Partys",
+      "descriptionTwo": "Eine breite Palette von hochwertigen Musikequipment",
+      "descriptionThree": "Professionelle DJ- und Fotografiedienstleistungen",
+      "descriptionFour": "Perfekt für Geburtstage, Hochzeiten, Feiertage, Firmenveranstaltungen und mehr",
       "buttonLink": "Entdecken Sie unsere Pakete"
     },
     "landingPageMid": {
@@ -895,8 +899,18 @@
       ],
       "notes": "Notizen",
       "eventDate": "Veranstaltungsdatum",
-      "submitButtonText": "Absenden",
-      "submittingText": "Wird gesendet..."
+      "submitButtonText": "Einreichen",
+      "conditionsCheck": "Ich habe gelesen und akzeptiere die",
+      "conditionsCheckLink": "Bedingungen.",
+      "submittingText": "Wird gesendet...",
+      "cartSummaryEmpty": {
+        "title": "Anfrage Zusammenfassung",
+        "emptyText": "Ihr Warenkorb ist leer.",
+        "actionOne": "Fügen Sie ein Paket oder Produkte über die untenstehenden Links hinzu,",
+        "actionTwo": "oder geben Sie Ihre spezifischen Anforderungen im Notizenbereich an.",
+        "packsLink": "Pakete",
+        "productsLink": "Produkte"
+      }
     }
   }
 }

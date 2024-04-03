@@ -6,12 +6,55 @@ export interface IContactFormTypes {
   lastName: string
   email: string
   phone: string
-  // reason: string
-  // notes: string
   selectedServices: string[]
   beertapOption: string
   notes: string
   date: Date
+  conditionsRead: boolean
+}
+
+export interface FormOptions {
+  servicesOptions: string[]
+  beerTapOptions: string[]
+}
+
+export interface ICartSummaryEmpty {
+  title: string
+  emptyText: string
+  actionOne: string
+  actionTwo: string
+  packsLink: string
+  productsLink: string
+}
+
+
+export interface ContactFormProps {
+  whatYouGetTitle: string
+  guaranteedResponse: string
+  freeConsultation: string
+  personalizedRecommendations: string
+  streamlineProcess: string
+  formTitle: string
+  firstName: string
+  lastName: string
+  email: string
+  phoneNumber: string
+  services: string
+  servicesOptions: FormOptions['servicesOptions']
+  beertap: string
+  beertapOptions: FormOptions['beerTapOptions']
+  notes: string
+  eventDate: string
+  submitButtonText: string
+  conditionsCheck: string
+  conditionsCheckLink: string
+  submittingText: string
+  cartSummaryEmpty: ICartSummaryEmpty
+}
+
+// Root object for ContractForm props for JSON i18n
+export interface IContactFormComponentProps {
+  contactForm: ContactFormProps
 }
 
 export interface ILogoProps {

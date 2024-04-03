@@ -37,7 +37,7 @@ export default async function MobileNavHeader({ lang }: { lang: Locale }) {
       </div>
 
       {/* Buttons */}
-      <div className='m-4 flex flex-row items-center justify-between gap-12'>
+      <div className='mt-1 flex flex-row items-center justify-between gap-12'>
         <Link href='/'>
           <SelectIcon iconClasses='h-6 w-6' iconSelection='home' />
         </Link>
