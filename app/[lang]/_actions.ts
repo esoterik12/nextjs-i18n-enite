@@ -22,7 +22,7 @@ export async function sendContact(formData: IContactFormTypes) {
     console.log('success in _actions.ts: ', result.data)
 
     // Sendgrid //
-    sgMail.setApiKey(process.env.SENDGRID_API_KEY || '')
+    sgMail.setApiKey(process.env.SENDGRID_API_KEY!)
     const msg = {
       to: 'luke.hide@gmail.com', 
       from: 'luke.hide@gmail.com', 

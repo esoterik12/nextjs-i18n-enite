@@ -59,6 +59,7 @@ const DeliveryCard = ({
               </span>{' '}
             </p>
           </div>
+          
           {/* Additional Return Section */}
           <div className='m-3 flex flex-row '>
             <AddToOrderButton product={deliveryReturnProduct}>
@@ -97,16 +98,6 @@ const DeliveryCard = ({
         </div>
       </div>
 
-      {/* <div className='mt-4 flex items-center justify-center md:mt-0'>
-        <AddToOrderButton product={deliveryOnlyProduct}>
-          <SelectIcon iconSelection='plus' iconClasses='h-6 m-2 text-white' />
-        </AddToOrderButton>
-        <AddToOrderButton product={deliveryReturnProduct}>
-          <p className='m-2 ml-4 mr-4 font-medium text-white'>
-            {addButtonText}
-          </p>
-        </AddToOrderButton>
-      </div> */}
     </div>
   )
 }

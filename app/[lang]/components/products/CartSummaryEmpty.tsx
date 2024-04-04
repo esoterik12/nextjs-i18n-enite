@@ -4,9 +4,9 @@ import { ICartSummaryEmpty } from '@/lib/types'
 
 const CartSummaryEmpty = ({ cartSummaryText }: { cartSummaryText: ICartSummaryEmpty }) => {
   return (
-    <div className='ml-4 mt-1 rounded-xl text-center shadow-md'>
+    <div className='ml-4 m-6 lg:mt-1 rounded-xl text-center shadow-md'>
       <p className='mb-1 font-medium text-gray-500'>{cartSummaryText.title}</p>
-      <div className='flow-root h-[500px] overflow-y-auto'>
+      <div className='flow-root h-[170px] lg:h-[500px] overflow-y-auto'>
         <p className='mt-4 text-xl text-red-400'>{cartSummaryText.emptyText}</p>
         <p className='text-sm text-gray-500'>
           {cartSummaryText.actionOne}

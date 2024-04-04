@@ -1,7 +1,6 @@
 import React from 'react'
 import ImageTabs from './ImageTabs'
 import { IPackProductsJson } from '@/lib/types'
-import CustomButton from '../buttons/CustomButton'
 import Link from 'next/link'
 
 export default async function LandingPageTop({

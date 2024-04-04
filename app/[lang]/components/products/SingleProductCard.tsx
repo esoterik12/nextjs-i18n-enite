@@ -20,7 +20,7 @@ const SingleProductCard = ({ product, addButtonText }: IProductCardTypes) => {
   return (
     <div className='flex min-w-[295px] flex-col justify-between rounded-3xl p-6 shadow-md transition duration-300 ease-in-out hover:shadow-lg'>
       <div className='flex w-full justify-between'>
-        <h2 className='text-[20px] font-bold capitalize leading-[28px]'>
+        <h2 className='mr-2 w-2/3 text-[20px] font-bold capitalize leading-[28px]'>
           {product.title}
         </h2>
         <p className='flex text-[24px] font-extrabold'>
@@ -29,7 +29,7 @@ const SingleProductCard = ({ product, addButtonText }: IProductCardTypes) => {
           <span className='mt-4 self-start text-[12px] font-medium'>/day</span>
         </p>
       </div>
-      <div className='relative mb-6 mt-2 block h-60 w-full object-contain'>
+      <div className='relative mb-6 mt-6 block h-60 w-full object-contain'>
         <Image
           src={product.image}
           alt={product.title}

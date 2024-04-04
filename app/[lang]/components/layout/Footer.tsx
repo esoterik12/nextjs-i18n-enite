@@ -43,11 +43,6 @@ export default async function Footer({ lang }: { lang: Locale }) {
                   {footer.productsLinks.productsLink}
                 </li>
               </Link>
-              <Link href='/guides'>
-                <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
-                  {footer.productsLinks.guidesLink}
-                </li>
-              </Link>
             </ul>
           </div>
 
