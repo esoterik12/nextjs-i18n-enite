@@ -16,8 +16,6 @@ export async function sendContact(formData: IContactFormTypes) {
     conditionsRead: formData.conditionsRead
   })
 
-  await new Promise(resolve => setTimeout(resolve, 1500))
-
   if (result.success) {
     console.log('success in _actions.ts: ', result.data)
 
@@ -40,14 +38,33 @@ export async function sendContact(formData: IContactFormTypes) {
       `
     }
 
-    sgMail
-      .send(msg)
-      .then(() => {
-        console.log('Email sent')
-      })
-      .catch(error => {
-        console.error(error)
-      })
+    try {
+      await sgMail.send(msg);
+      console.log('Email sent');
+    } catch (error: unknown) { // Catching error as unknown type for better type safety
+      console.error('Failed to send email due to an unexpected error.');
+    
+      // Check if the error is an instance of Error and log the message
+      if (error instanceof Error) {
+        console.error('Error message:', error.message);
+        // If the error is from SendGrid and includes a response, log it
+        if ('response' in error && error.response) {
+          console.error('SendGrid error response:', error.response);
+        }
+      } else {
+        // If the error is not an Error object, it could still be informative
+        console.error('Unexpected error:', error);
+      }
+    }
+
+    // sgMail
+    //   .send(msg)
+    //   .then(() => {
+    //     console.log('Email sent')
+    //   })
+    //   .catch(error => {
+    //     console.error(error)
+    //   })
 
     // End sendgrid //
 
