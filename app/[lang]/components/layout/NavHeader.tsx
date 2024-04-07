@@ -9,7 +9,6 @@ import CartButton from '../buttons/CartButton'
 export default async function Header({ lang }: { lang: Locale }) {
   // gets navigation page destructured from getDictionary return object
   const { navigation } = await getDictionary(lang)
-  const { footer } = await getDictionary(lang)
 
   return (
     <header className='z-10 py-2'>
@@ -17,7 +16,7 @@ export default async function Header({ lang }: { lang: Locale }) {
       <nav className='hidden items-center justify-between md:flex'>
         {/* Logo */}
         <div className='mr-7'>
-          <Logo text='e-nite' image='/e-nite/e-niteLogoV1.png' lang={lang} />
+          <Logo text='e-nite' image='/e-nite/android-chrome-512x512.png' lang={lang} />
         </div>
 
         {/* NavLinks */}

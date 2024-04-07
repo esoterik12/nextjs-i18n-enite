@@ -9,9 +9,9 @@ export default async function LandingPageMid({
   landingPageMid: any
 }) {
   return (
-    <div className='container mx-auto mt-12 px-4'>
+    <div className='container px-4'>
       <div className='flex flex-wrap '>
-        <div className='w-full p-6 md:w-1/3 text-center md:text-left'>
+        <div className='w-full p-6 text-center md:w-1/3 md:text-left'>
           <h1 className='mb-2 text-4xl font-bold text-gray-900'>
             {landingPageMid.title}
           </h1>
@@ -28,12 +28,13 @@ export default async function LandingPageMid({
             </Link>
           </div>
         </div>
-        <div className='flex w-full flex-row items-center justify-center p-6 md:w-2/3'>
+        <div className='flex flex-row items-center justify-center p-6 md:w-2/3'>
           <Image
             src='/e-nite/products-combo-image.png'
             alt='JBP-Partybox'
             width={600}
-            height={600}
+            height={200}
+            className='w-full h-auto'
           />
         </div>
       </div>

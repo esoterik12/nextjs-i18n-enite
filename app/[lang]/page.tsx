@@ -98,7 +98,7 @@ export default async function Home({
       />
 
       {/* Services Center Text */}
-      <div className='container mb-12 mt-3 flex flex-col text-center'>
+      <div className='container mb-12 mt-12 flex flex-col text-center'>
         <h1 className='mb-2 text-4xl font-semibold'>
           {page.home.servicesContent.title}
         </h1>

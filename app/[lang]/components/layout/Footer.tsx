@@ -26,10 +26,10 @@ export default async function Footer({ lang }: { lang: Locale }) {
   return (
     <div className='py-y container mt-6 w-full  text-gray-400'>
       <div className='mx-auto flex grid-cols-2 flex-col justify-between border-b-2 border-gray-600 py-8 sm:flex-row md:grid-cols-6'>
-        <div className='flex flex-row gap-4'>
+        <div className='flex flex-row gap-8'>
           <div>
             {/* Products Footer Section */}
-            <p className='pt-2 text-sm font-semibold uppercase text-gray-300'>
+            <p className='pt-2 text-sm font-semibold  text-gray-400 underline'>
               {footer.productsHeader}
             </p>
             <ul>
@@ -48,7 +48,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
 
           {/* Services Footer Section */}
           <div>
-            <p className='pt-2 text-sm font-semibold uppercase text-gray-300'>
+            <p className='pt-2 text-sm font-semibold  text-gray-400 underline'>
               {footer.servicesHeader}
             </p>
             <ul>
@@ -82,7 +82,7 @@ export default async function Footer({ lang }: { lang: Locale }) {
 
           {/* Company Footer Section */}
           <div>
-            <p className='pt-2 text-sm font-semibold uppercase text-gray-300'>
+            <p className='pt-2 text-sm font-semibold  text-gray-400 underline'>
               {footer.companyHeader}
             </p>
             <ul>

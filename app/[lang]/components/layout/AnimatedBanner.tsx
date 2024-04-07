@@ -20,7 +20,7 @@ export default function AnimatedBannerMobile({
             src='/e-nite/PartyBluePink-transformed-small.png'
             priority
             // fill
-            width={1500}
+            width={2000}
             height={200}
           />
         </div>
