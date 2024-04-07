@@ -8,28 +8,32 @@ import Link from 'next/link'
 import AnimatedBannerMobile from './components/layout/AnimatedBanner'
 import { Metadata } from 'next'
 
+// Update with support for i18n
 export const metadata: Metadata = {
   title: 'e-nite | Party Services',
   description:
-    'At e-nite, we have been creating unforgettable parties since 2003. A wide range of high-quality party equipment for rent, alongside professional DJ and photography services to make your events truly special. A birthday, wedding, or corporate event, we have everything you need to create lasting memories.',
+    'Unforgettable parties since 2003. Sound and light equipment for rent, professional DJ and photography for birthdays, weddings, or corporate events.',
   keywords: [
     'e-nite',
     'party services',
+    'speakers',
+    'speaker rental',
+    'sound equipment',
     'event equipment rental',
     'professional DJ services',
     'photography services'
   ],
   openGraph: {
-    url: 'https://example.com',
+    url: 'https://nextjs-i18n-enite-test.vercel.app/en',
     type: 'website',
     title: 'E-Nite | Party Services',
     description:
-      'At e-nite, we have been creating unforgettable parties since 2003. A wide range of high-quality party equipment for rent, alongside professional DJ and photography services to make your events truly special. A birthday, wedding, or corporate event, we have everything you need to create lasting memories.',
+    'Unforgettable parties since 2003. Sound and light equipment for rent, professional DJ and photography for birthdays, weddings, or corporate events.',
     images: [
       {
-        url: 'https://example.com/images/banner.jpg',
-        width: 1200,
-        height: 630,
+        url: 'https://nextjs-i18n-enite-test.vercel.app/_next/image?url=%2Fe-nite%2Fe-niteLogoV1.png&w=128&q=75',
+        width: 120,
+        height: 63,
         alt: 'E-Nite Party Services'
       }
     ]
@@ -38,21 +42,18 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'E-Nite | Party Services',
     description:
-      'At e-nite, we have been creating unforgettable parties since 2003. A wide range of high-quality party equipment for rent, alongside professional DJ and photography services to make your events truly special. A birthday, wedding, or corporate event, we have everything you need to create lasting memories.',
+    'Unforgettable parties since 2003. Sound and light equipment for rent, professional DJ and photography for birthdays, weddings, or corporate events.',
     creator: '@e-nite',
     site: '@e-nite',
     images: [
       {
-        url: 'https://example.com/images/banner.jpg',
-        width: 1200,
-        height: 630,
+        url: 'https://nextjs-i18n-enite-test.vercel.app/_next/image?url=%2Fe-nite%2Fe-niteLogoV1.png&w=128&q=75',
+        width: 120,
+        height: 63,
         alt: 'E-Nite Party Services'
       }
     ]
   },
-  alternates: {
-    canonical: 'https://example.com'
-  }
 }
 
 // getting lang params

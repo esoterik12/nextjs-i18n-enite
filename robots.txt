@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:C
+
+Sitemap: https://nextjs-i18n-enite-test.vercel.app/sitemap.xml
