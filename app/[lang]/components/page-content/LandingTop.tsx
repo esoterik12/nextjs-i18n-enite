@@ -20,7 +20,7 @@ export default async function LandingPageTop({
           <h2 className='mb-4 text-2xl text-gray-700'>
             {landingPageTop.subTitle}
           </h2>
-          <ul className='ml-8 space-y-4 md:list-disc'>
+          <ul className='sm:ml-8 space-y-4 md:list-disc'>
             <li className='text-lg text-gray-600'>
               {landingPageTop.descriptionOne}
             </li>
@@ -35,7 +35,7 @@ export default async function LandingPageTop({
             </li>
           </ul>
 
-          <div className='ml-8 mt-9'>
+          <div className='sm:first-letter:ml-8 mt-9'>
             <Link
               href='/packs'
               className='rounded-xl bg-gray-900 p-3 text-white transition-colors duration-300 ease-in-out hover:bg-gray-600'

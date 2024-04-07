@@ -6,6 +6,54 @@ import LandingPageMid from './components/page-content/LandingMid'
 import Image from 'next/image'
 import Link from 'next/link'
 import AnimatedBannerMobile from './components/layout/AnimatedBanner'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'e-nite | Party Services',
+  description:
+    'At e-nite, we have been creating unforgettable parties since 2003. A wide range of high-quality party equipment for rent, alongside professional DJ and photography services to make your events truly special. A birthday, wedding, or corporate event, we have everything you need to create lasting memories.',
+  keywords: [
+    'e-nite',
+    'party services',
+    'event equipment rental',
+    'professional DJ services',
+    'photography services'
+  ],
+  openGraph: {
+    url: 'https://example.com',
+    type: 'website',
+    title: 'E-Nite | Party Services',
+    description:
+      'At e-nite, we have been creating unforgettable parties since 2003. A wide range of high-quality party equipment for rent, alongside professional DJ and photography services to make your events truly special. A birthday, wedding, or corporate event, we have everything you need to create lasting memories.',
+    images: [
+      {
+        url: 'https://example.com/images/banner.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'E-Nite Party Services'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'E-Nite | Party Services',
+    description:
+      'At e-nite, we have been creating unforgettable parties since 2003. A wide range of high-quality party equipment for rent, alongside professional DJ and photography services to make your events truly special. A birthday, wedding, or corporate event, we have everything you need to create lasting memories.',
+    creator: '@e-nite',
+    site: '@e-nite',
+    images: [
+      {
+        url: 'https://example.com/images/banner.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'E-Nite Party Services'
+      }
+    ]
+  },
+  alternates: {
+    canonical: 'https://example.com'
+  }
+}
 
 // getting lang params
 export default async function Home({

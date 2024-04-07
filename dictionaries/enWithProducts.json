@@ -18,7 +18,9 @@
     "servicesLinks": {
       "deliveryLink": "Delivery",
       "djsLink": "DJs",
-      "photographers": "Photographers"
+      "photographers": "Photographers",
+      "liveShows": "Live Shows",
+      "bracelets": "Party Bracelets"
     },
     "companyHeader": "Company",
     "companyLinks": {

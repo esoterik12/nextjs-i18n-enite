@@ -15,7 +15,7 @@ export default async function MobileNavHeader({ lang }: { lang: Locale }) {
     <nav className='flex flex-col items-center md:hidden'>
       {/* NavLinks */}
       <div className='flex-row'>
-        <ul className='flex gap-x-5 text-sm'>
+        <ul className='flex gap-x-5 text-xs m-2'>
           {/* KEY: These links include the lang / locale in their href */}
           <li>
             <NavLink href={`/${lang}/contact`}>{navigation.contact}</NavLink>
@@ -26,6 +26,11 @@ export default async function MobileNavHeader({ lang }: { lang: Locale }) {
           <li>
             <NavLink href={`/${lang}/products`}>
               {navigation.allProducts}
+            </NavLink>
+          </li>{' '}
+          <li>
+            <NavLink href={`/${lang}/services`}>
+              {navigation.services}
             </NavLink>
           </li>{' '}
           <li>

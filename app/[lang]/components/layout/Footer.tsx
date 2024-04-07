@@ -52,19 +52,29 @@ export default async function Footer({ lang }: { lang: Locale }) {
               {footer.servicesHeader}
             </p>
             <ul>
-              <Link href='/services'>
+              <Link href='/services/delivery'>
                 <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
                   {footer.servicesLinks.deliveryLink}
                 </li>{' '}
               </Link>
-              <Link href='/services'>
+              <Link href='/services/djs'>
                 <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
                   {footer.servicesLinks.djsLink}
                 </li>{' '}
               </Link>
-              <Link href='/services'>
+              <Link href='/services/photographer'>
                 <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
                   {footer.servicesLinks.photographers}
+                </li>{' '}
+              </Link>
+              <Link href='/services/liveshows'>
+                <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                  {footer.servicesLinks.liveShows}
+                </li>{' '}
+              </Link>
+              <Link href='/services/bracelets'>
+                <li className='py-1 text-sm text-gray-500 hover:cursor-pointer hover:text-gray-400'>
+                  {footer.servicesLinks.bracelets}
                 </li>{' '}
               </Link>
             </ul>

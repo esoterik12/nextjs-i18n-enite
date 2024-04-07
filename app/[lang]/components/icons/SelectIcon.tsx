@@ -14,6 +14,8 @@ import IconHome from './IconHome'
 import IconWeb from './IconWeb'
 import IconRightArrowCircle from './IconRightArrowCircle'
 import IconLeftArrowCircle from './IconLeftArrowCircle'
+import IconX from './IconX'
+import IconXCircle from './IconXCircle'
 // Socials:
 import IconFacebook from './social-icons/IconFacebook'
 import IconSoundcloud from './social-icons/IconSoundcloud'
@@ -84,6 +86,12 @@ export default function SelectIcon({
       break
     case 'soundcloud':
       icon = <IconSoundcloud classes={iconClasses} />
+      break
+    case 'x':
+      icon = <IconX classes={iconClasses} />
+      break
+    case 'xCircle':
+      icon = <IconXCircle classes={iconClasses} />
       break
     default:
       icon = <p className='text-red-500'>Error: No Icon Found</p>

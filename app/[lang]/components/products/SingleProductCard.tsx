@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import AddToOrderButton from '../buttons/AddToOrderButton'
 import { ISingleProductItem } from '@/lib/types'
+import ProductDetailsModal from './ProductDetailsModal'
 
 interface IProductCardTypes {
   product: ISingleProductItem
@@ -39,9 +40,10 @@ const SingleProductCard = ({ product, addButtonText }: IProductCardTypes) => {
           sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
         />
       </div>
-      <div className='relative mt-2 flex w-full'>
+      {/* <div className='relative mt-2 flex w-full'>
         <p className='mt-6 flex text-[14px]'>{product.description}</p>
-      </div>
+      </div> */}
+      <ProductDetailsModal product={product} />
       <div className='mt-4 flex items-center justify-center'>
         <AddToOrderButton product={singleProductCartItem}>
           <p className='m-2 ml-4 mr-4 font-medium text-white'>

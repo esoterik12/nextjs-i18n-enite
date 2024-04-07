@@ -4,7 +4,7 @@ import { IProductItem } from '@/lib/types'
 
 interface IProductCardTypes {
   product: IProductItem,
-  addButtonText: string
+  addButtonText: string,
 }
 
 

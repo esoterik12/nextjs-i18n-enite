@@ -22,8 +22,8 @@ export async function sendContact(formData: IContactFormTypes) {
     // Sendgrid //
     sgMail.setApiKey(process.env.SENDGRID_API_KEY!)
     const msg = {
-      to: 'luke.hide@gmail.com', 
-      from: 'luke.hide@gmail.com', 
+      to: 'luke.hide@gmail.com',
+      from: 'luke.hide@gmail.com',
       subject: 'Contact Request from E-Nite Services',
       text: 'We have recieved a contact request from E-Nite Sevices.',
       html: `
@@ -39,32 +39,22 @@ export async function sendContact(formData: IContactFormTypes) {
     }
 
     try {
-      await sgMail.send(msg);
-      console.log('Email sent');
-    } catch (error: unknown) { // Catching error as unknown type for better type safety
-      console.error('Failed to send email due to an unexpected error.');
-    
-      // Check if the error is an instance of Error and log the message
+      await sgMail.send(msg)
+      console.log('Email sent')
+    } catch (error: unknown) {
+      console.error('Failed to send email due to an unexpected error.')
+
       if (error instanceof Error) {
-        console.error('Error message:', error.message);
-        // If the error is from SendGrid and includes a response, log it
+        console.error('Error message:', error.message)
+        // If the error is from SendGrid and includes a response
         if ('response' in error && error.response) {
-          console.error('SendGrid error response:', error.response);
+          console.error('SendGrid error response:', error.response)
         }
       } else {
-        // If the error is not an Error object, it could still be informative
-        console.error('Unexpected error:', error);
+        // Not an Error object
+        console.error('Unexpected error:', error)
       }
     }
-
-    // sgMail
-    //   .send(msg)
-    //   .then(() => {
-    //     console.log('Email sent')
-    //   })
-    //   .catch(error => {
-    //     console.error(error)
-    //   })
 
     // End sendgrid //
 

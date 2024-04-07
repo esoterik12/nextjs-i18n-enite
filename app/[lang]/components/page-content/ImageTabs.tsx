@@ -7,8 +7,8 @@ import Image from 'next/image'
 
 const ImageTabs = ({ productsData }: { productsData: IProductItem[] }) => {
   return (
-    <Tab.Group as='div' className=' flex flex-1 flex-col lg:mt-0 lg:self-start'>
-      <div className='mx-auto mt-6  w-full max-w-2xl '>
+    <Tab.Group as='div' className=' flex flex-1 flex-col h-full lg:mt-0 lg:self-start'>
+      <div className='mx-auto mt-6 w-full max-w-2xl '>
         {/* Icons for image selection */}
         <Tab.List className='grid grid-cols-5 gap-6'>
           {productsData.map(product => (
@@ -49,7 +49,7 @@ const ImageTabs = ({ productsData }: { productsData: IProductItem[] }) => {
       {/* Main Image */}
       <Tab.Panels className='aspect-h-3 aspect-w-4 flex items-center justify-center'>
         {productsData.map(product => (
-          <Tab.Panel key={product.productId}>
+          <Tab.Panel key={product.productId} className='h-[300px] sm:h-[560px]'>
             <Image
               src={product.productImage}
               alt='product image'
