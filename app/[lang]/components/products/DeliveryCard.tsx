@@ -33,11 +33,11 @@ const DeliveryCard = ({
   }
 
   return (
-    <div className='flex min-w-[295px] flex-col justify-between rounded-3xl p-6 shadow-md transition duration-300 ease-in-out hover:shadow-lg'>
+    <div className='flex min-w-[295px] flex-col justify-between rounded-3xl shadow-md transition duration-300 ease-in-out hover:shadow-lg sm:p-6'>
       <div className='flex flex-col justify-between md:flex-row'>
         {/* Text Left Side */}
-        <div className='mt-6 w-3/4 flex-col'>
-          <h2 className='text-[26px] font-bold capitalize'>
+        <div className='flex-col sm:w-3/4'>
+          <h2 className='m-4 text-[26px] font-bold capitalize'>
             {product.productTitle}
           </h2>
           {/* Delivery Only Section */}{' '}
@@ -59,15 +59,16 @@ const DeliveryCard = ({
               </span>{' '}
             </p>
           </div>
-          
           {/* Additional Return Section */}
           <div className='m-3 flex flex-row '>
-            <AddToOrderButton product={deliveryReturnProduct}>
-              <SelectIcon
-                iconSelection='plus'
-                iconClasses='h-6 m-2 text-white'
-              />
-            </AddToOrderButton>
+            <div className='max-h-6'>
+              <AddToOrderButton product={deliveryReturnProduct}>
+                <SelectIcon
+                  iconSelection='plus'
+                  iconClasses='max-h-6 w-6 m-2 text-white'
+                />
+              </AddToOrderButton>{' '}
+            </div>
             <p className=' ml-3 text-[16px] font-semibold'>
               {additonalReturnText}{' '}
               <span className='self-start text-[12px] font-semibold text-gray-400'>
@@ -78,15 +79,15 @@ const DeliveryCard = ({
               </span>{' '}
             </p>
           </div>
-          <div className='relative ml-6 flex w-full'>
-            <p className='mt-4 flex text-[14px]'>
+          <div className='m-6 flex'>
+            <p className='mt-2 flex text-[14px]'>
               {product.productDescription}
             </p>
           </div>
         </div>
 
         {/* Image Right Side */}
-        <div className='relative block h-96 w-full object-contain'>
+        <div className='relative m-4 h-64 object-contain sm:h-96 sm:w-full'>
           <Image
             src={product.productImage}
             alt={product.productTitle}
@@ -97,7 +98,6 @@ const DeliveryCard = ({
           />
         </div>
       </div>
-
     </div>
   )
 }

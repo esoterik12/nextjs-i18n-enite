@@ -3,7 +3,6 @@ import { getDictionary } from '@/lib/utils/dictionary'
 import AnimatedBanner from './components/layout/AnimatedBanner'
 import LandingPageTop from './components/page-content/LandingTop'
 import LandingPageMid from './components/page-content/LandingMid'
-import Image from 'next/image'
 import Link from 'next/link'
 import AnimatedBannerMobile from './components/layout/AnimatedBanner'
 import { Metadata } from 'next'
@@ -28,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'E-Nite | Party Services',
     description:
-    'Unforgettable parties since 2003. Sound and light equipment for rent, professional DJ and photography for birthdays, weddings, or corporate events.',
+      'Unforgettable parties since 2003. Sound and light equipment for rent, professional DJ and photography for birthdays, weddings, or corporate events.',
     images: [
       {
         url: 'https://nextjs-i18n-enite-test.vercel.app/_next/image?url=%2Fe-nite%2Fe-niteLogoV1.png&w=128&q=75',
@@ -42,7 +41,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'E-Nite | Party Services',
     description:
-    'Unforgettable parties since 2003. Sound and light equipment for rent, professional DJ and photography for birthdays, weddings, or corporate events.',
+      'Unforgettable parties since 2003. Sound and light equipment for rent, professional DJ and photography for birthdays, weddings, or corporate events.',
     creator: '@e-nite',
     site: '@e-nite',
     images: [
@@ -53,7 +52,7 @@ export const metadata: Metadata = {
         alt: 'E-Nite Party Services'
       }
     ]
-  },
+  }
 }
 
 // getting lang params

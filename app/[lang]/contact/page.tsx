@@ -22,44 +22,42 @@ export default async function ContactPage({
         {/* <p className='text-gray-500'>{contact.description}</p> */}
       </div>
 
-      <div className='container rounded-xl bg-white'>
-        <div className='block flex-row items-center md:flex'>
-          <div className='mb- mr-6 w-full space-y-4 p-2 md:w-1/2'>
-            <div className='flex items-center '>
-              <IconTelephone classes='text-blue-500 h-6 w-6 mr-4' />
-              <h1 className='text-xl'>+41 79 754 24 38</h1>
-            </div>
-            <div className='flex items-center'>
-              <IconAddress classes='text-blue-500 h-6 w-6 mr-4' />
-              <h1 className='text-xl'>contact@e-nite.com</h1>
-            </div>
-            <div className='flex items-center'>
-              <IconEmail classes='text-blue-500 h-6 w-6 mr-4' />
-              <h1 className='text-xl'>
-                Route de la Croix-Blanche 17, 1066 Epalinges{' '}
-                <Link
-                  href='/'
-                  className='block text-lg text-blue-500 md:hidden'
-                >
-                  ({contact.viewMap})
-                </Link>
-              </h1>
-            </div>
-
-            <div
-              className='container rounded-xl  border-pink-500 bg-pink-50 p-8 text-pink-700'
-              role='alert'
-            >
-              <p className='text-md text-center'>{contact.notice}</p>
-            </div>
+      <div className='container flex flex-wrap rounded-xl bg-white md:flex-nowrap'>
+        <div className='w-full space-y-4 p-2 md:w-1/2'>
+          <div className='flex items-center'>
+            <IconTelephone classes='text-blue-500 h-6 w-6 mr-4' />
+            <h1 className='text-xl'>+41 79 754 24 38</h1>
           </div>
+          <div className='flex items-center'>
+            <IconAddress classes='text-blue-500 h-6 w-6 mr-4' />
+            <h1 className='text-xl'>contact@e-nite.com</h1>
+          </div>
+          <div className='flex items-center'>
+            <IconEmail classes='text-blue-500 h-6 w-6 mr-4' />
+            <h1 className='text-xl'>
+              Route de la Croix-Blanche 17, 1066 Epalinges
+              <Link href='/' className='block text-lg text-blue-500 md:hidden'>
+                ({contact.viewMap})
+              </Link>
+            </h1>
+          </div>
+          <div
+            className='container rounded-xl border-pink-500 bg-pink-50 p-8 text-pink-700'
+            role='alert'
+          >
+            <p className='text-md text-center'>{contact.notice}</p>
+          </div>
+        </div>
 
+        <div className='w-full md:w-1/2 p-2'>
           <iframe
+            width='100%'
             height='240'
             src='https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=Route%20de%20la%20Croix-Blance%2017,%201066%20Epalinges+(E-Nite)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed'
             title='Google Maps Location'
-            sandbox='allow-scripts allow-same-origin allow-popups' // Sandbox permissions
-            className='hidden rounded-xl md:block md:w-1/2'
+            sandbox='allow-scripts allow-same-origin allow-popups'
+            className='rounded-xl'
+            style={{ width: '100%', height: '100%' }} // Ensure the iframe is fully responsive
           ></iframe>
         </div>
       </div>
@@ -77,16 +75,12 @@ export default async function ContactPage({
           <li>{contact.form.guaranteedResponse}</li>
           <li>{contact.form.freeConsultation}</li>
           <li>{contact.form.personalizedRecommendations}</li>
-          <li>
-            {contact.form.streamlineProcess}
-          </li>
+          <li>{contact.form.streamlineProcess}</li>
         </ul>
-
-        
       </div>
 
       <div className=''>
-        <ContactForm contactForm={contact.form}/>
+        <ContactForm contactForm={contact.form} />
       </div>
     </section>
   )

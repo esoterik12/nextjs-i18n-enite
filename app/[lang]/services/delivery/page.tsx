@@ -17,7 +17,7 @@ export default async function DeliveryPage({
         <p className='text-gray-500'>{services.delivery.description}</p>
       </div>
 
-      <div className='container grid w-full grid-cols-1 gap-8 px-6 pt-6'>
+      <div className='container grid w-full grid-cols-1 gap-4 mt-2 sm:px-6 sm:pt-6'>
         {services.delivery.deliveryData.map(item => (
           <DeliveryCard
             product={item}

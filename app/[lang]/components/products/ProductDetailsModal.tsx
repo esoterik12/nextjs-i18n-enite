@@ -1,12 +1,12 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import { Fragment, ReactNode } from 'react'
+import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import SelectIcon from '../icons/SelectIcon'
 import { ISingleProductItem } from '@/lib/types'
-import Link from 'next/link'
 import AddToOrderButton from '../buttons/AddToOrderButton'
+import YouTubeEmbed from '../page-content/YouTubeEmbed'
 
 interface IProductDetailsModal {
   product: ISingleProductItem
@@ -14,6 +14,7 @@ interface IProductDetailsModal {
 
 const ProductDetailsModal = ({ product }: IProductDetailsModal) => {
   const [isOpen, setIsOpen] = React.useState(false)
+  const [showDemo, setShowDemo] = React.useState(false)
 
   // Created to match types of <AddToOrderButton> component
   const singleProductCartItem = {
@@ -22,6 +23,11 @@ const ProductDetailsModal = ({ product }: IProductDetailsModal) => {
     productPrice: product.price,
     productDescription: product.description,
     productImage: product.image
+  }
+
+  function closeModal() {
+    setIsOpen(false)
+    setShowDemo(false)
   }
 
   return (
@@ -33,7 +39,7 @@ const ProductDetailsModal = ({ product }: IProductDetailsModal) => {
         <Dialog
           as='div'
           className='relative z-20'
-          onClose={() => setIsOpen(false)}
+          onClose={closeModal}
         >
           <Transition.Child
             as={Fragment}
@@ -57,42 +63,52 @@ const ProductDetailsModal = ({ product }: IProductDetailsModal) => {
                 leaveFrom='opacity-100 scale-100'
                 leaveTo='opacity-0 scale-95'
               >
-                <Dialog.Panel className='relative mt-24 flex max-h-[90vh] w-full max-w-2xl transform flex-col gap-5 overflow-y-auto rounded-2xl bg-white p-6 text-left shadow-xl transition-all'>
+                <Dialog.Panel className='relative mt-12 flex max-h-[90vh] w-full max-w-2xl transform flex-col gap-5 overflow-y-auto rounded-2xl bg-white p-6 text-left shadow-xl transition-all'>
                   <div className='flex justify-between'>
                     <h2 className='text-center text-[18px] font-semibold'>
                       {product.title}
                     </h2>
-                    <button onClick={() => setIsOpen(false)}>
+                    <button onClick={closeModal}>
                       <SelectIcon
                         iconClasses='h-6 w-6 hover:text-gray-400 transition-color transition transition-300'
                         iconSelection='x'
                       />
                     </button>
                   </div>
-                  <div className='flex flex-row'>
-                    <Image
-                      src={product.image}
-                      alt={product.title}
-                      width={150}
-                      height={150}
-                      className='hidden md:block'
-                    />
-                    <div>
-                      <p className='p-3 text-sm text-gray-600'>
-                        {product.description}
-                      </p>
-                      <div className='flex items-center justify-center align-middle'>
-                        {product.demoLink && (
-                          <p className='p-1 text-sm'>
-                            <span className='inline-block bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-500 bg-clip-text font-semibold text-transparent transition duration-300 ease-in-out hover:scale-105'>
-                              <Link href={product.demoLink}>Video Demo</Link>
-                            </span>
-                          </p>
-                        )} 
 
+                  <div className='flex items-center justify-center align-middle'>
+                    {product.demoLink && (
+                      <p className='p-0 text-sm'>
+                        <span className='inline-block bg-gradient-to-r from-blue-700 via-blue-600 to-indigo-500 bg-clip-text font-semibold text-transparent transition duration-300 ease-in-out hover:scale-105'>
+                          <button onClick={() => setShowDemo(!showDemo)}>
+                            {showDemo ? 'Hide Video Demo' : 'Show Video Demo'}
+                          </button>
+                        </span>
+                      </p>
+                    )}
+                  </div>
+
+                  {showDemo && product.demoLink ? (
+                    <YouTubeEmbed youtubeSourceId={product.demoLink} />
+                  ) : (
+                    <div className='flex h-auto w-auto flex-row'>
+                      <Image
+                        src={product.image}
+                        alt={product.title}
+                        width={150}
+                        height={150}
+                        className='hidden h-auto w-auto md:block'
+                      />
+
+                      {/* Description & Video Demo Link */}
+
+                      <div>
+                        <p className='p-3 text-sm text-gray-600'>
+                          {product.description}
+                        </p>
                       </div>
                     </div>
-                  </div>
+                  )}
 
                   {/* Table for Details: */}
                   <div className='flex flex-col items-center justify-center align-middle'>
