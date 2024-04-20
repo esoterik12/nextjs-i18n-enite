@@ -6,7 +6,7 @@ export default async function PhotographerPage({
   params: { lang }
 }: {
   params: { lang: Locale }
-}) {
+}) { 
 
   const { services } = await getDictionary(lang)
 

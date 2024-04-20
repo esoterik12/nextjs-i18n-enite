@@ -9,7 +9,7 @@ const Logo = async ({ image, text, lang }: ILogoProps) => {
         href={`/${lang}`}
         className='flex flex-row items-center gap-1 text-xl font-bold tracking-wide'
       >
-        <Image src={image} alt={text} width={60} height={60} className='p-1'/>
+        <Image src={image} alt={text} width={50} height={50} className='p-1'/>
         <p className='ml-2'>{text}</p>
       </Link>
     </div>

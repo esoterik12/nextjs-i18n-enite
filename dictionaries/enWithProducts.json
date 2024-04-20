@@ -744,6 +744,35 @@
       "postShootingServicesDescription": "We take care of the entire “post-shooting” part, which includes sorting out pictures, editing (if desired) as well as publication (digital or paper formats). Additionally, we can also take care of creating invitations, flyers, etc… for all your upcoming events.",
       "priceQuoteTitle": "Price Quote",
       "priceQuoteDescription": "It is difficult for us to present our entire price list with such customized service, so please do get in touch with us and we will get back to you shortly with a price quote. You will not be disappointed!"
+    },
+    "liveShows": {
+      "title": "Live Shows",
+      "description": "Discover a world where professionalism meets artistry, and where each event transforms into an unforgettable experience for your guests. We invite you to explore the unique styles and specialties of our curated selection of artists and entertainers. For further inquiries or personalized recommendations, please don't hesitate to reach out to us via our contact page.",
+      "heading": "Jan Himself",
+      "headingLineOne": "Embark on a journey with Jan Himself, a confluence of unique character, innovative concept, and unparalleled performance artistry.",
+      "headingLineTwo": "Step into the enthralling universe of Jan Himself and experience:",
+      "showsOffered": [
+        "Diabolo Show - A mesmerizing spectacle of skill and precision",
+        "Magic Show - Where the impossible becomes possible right before your eyes",
+        "LED Show - A dazzling display of light and movement, harmoniously synchronized"
+      ],
+      "headingLineThree": "Whether it's a corporate event, gala, or open-air show, Jan Himself brings a touch of magic and memorable entertainment to every occasion.",
+      "janQuotes": [
+        "“King of the Diabolos” - lauded by Tribune de Genève",
+        "“The best I ever saw” - Gordhon Heuckeroth, star of Holland's Got Talent",
+        "“Unforgettable” - the legendary Dieter Bohlen of Super Talent (DE)"
+      ],
+      "closing": "Jan Himself: Crafting the extraordinary, beyond perfection.",
+      "links": [
+        {
+          "text": "Explore Videos",
+          "link": "http://www.upinthehair.ch/fre/video"
+        },
+        {
+          "text": "Discover More on the Official Website",
+          "link": "https://www.janhimself.com/"
+        }
+      ]
     }
   },
   "conditions": {

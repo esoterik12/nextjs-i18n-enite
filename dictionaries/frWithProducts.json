@@ -742,6 +742,35 @@
       "postShootingServicesTitle": "Services Post-Shooting :",
       "postShootingServicesDescription": "Nous nous occupons également de toute la partie « après shooting », qui comprend le trie, les retouche ainsi que la publication souhaitée (numérique ou papier). De plus, sur demande, nous créons volontiers vos invitations, prospectus et flyers pour vos fêtes/mariages/événements.",
       "priceQuoteDescription": "Il est difficile pour nous de présenter nos prix avec tant d'options, nous vous invitons donc à nous contacter pour un devis. Vous ne serez pas déçu par le prix !"
+    },
+    "liveShows": {
+      "title": "Spectacles en Direct",
+      "description": "Découvrez un monde où le professionnalisme rencontre l'art, et où chaque événement se transforme en une expérience inoubliable pour vos invités. Nous vous invitons à explorer les styles uniques et les spécialités de notre sélection soignée d'artistes et de divertisseurs. Pour plus de renseignements ou des recommandations personnalisées, n'hésitez pas à nous contacter via notre page de contact.",
+      "heading": "Jan Himself",
+      "headingLineOne": "Embarquez dans un voyage avec Jan Himself, une confluence de caractère unique, de concept innovant et d'art de la performance sans pareil.",
+      "headingLineTwo": "Entrez dans l'univers captivant de Jan Himself et vivez :",
+      "showsOffered": [
+        "Spectacle de Diabolo - Un spectacle fascinant de compétence et de précision",
+        "Spectacle de Magie - Là où l'impossible devient possible sous vos yeux",
+        "Spectacle LED - Un étalage éblouissant de lumière et de mouvement, harmonieusement synchronisé"
+      ],
+      "headingLineThree": "Que ce soit pour un événement d'entreprise, un gala ou un spectacle en plein air, Jan Himself apporte une touche de magie et de divertissement mémorable à chaque occasion.",
+      "janQuotes": [
+        "« Le roi des Diabolos » - loué par la Tribune de Genève",
+        "« Le meilleur que j'ai jamais vu » - Gordhon Heuckeroth, star de Holland's Got Talent",
+        "« Inoubliable » - le légendaire Dieter Bohlen de Super Talent (DE)"
+      ],
+      "closing": "Jan Himself : Créer l'extraordinaire, au-delà de la perfection.",
+      "links": [
+        {
+          "text": "Explorez les Vidéos",
+          "link": "http://www.upinthehair.ch/fre/video"
+        },
+        {
+          "text": "Découvrez Plus sur le Site Officiel",
+          "link": "https://www.janhimself.com/"
+        }
+      ]
     }
   },
   "conditions": {

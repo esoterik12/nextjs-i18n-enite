@@ -738,6 +738,35 @@
       "postShootingServicesTitle": "Dienstleistungen nach dem Shooting:",
       "postShootingServicesDescription": "Wir kümmern uns um den gesamten „Nachbearbeitungs“-Teil, der das Aussortieren der Bilder, die Bearbeitung (falls gewünscht) sowie die Veröffentlichung (digitale oder Papierformate) umfasst. Zusätzlich können wir auch die Erstellung von Einladungen, Flyern usw. für all Ihre bevorstehenden Veranstaltungen übernehmen.",
       "priceQuoteDescription": "Es ist schwierig für uns, unsere gesamte Preisliste bei einem so individuellen Service zu präsentieren, also nehmen Sie bitte Kontakt mit uns auf und wir werden Ihnen kurzfristig ein Preisangebot zukommen lassen. Sie werden nicht enttäuscht sein!"
+    },
+    "liveShows": {
+      "title": "Live Shows",
+      "description": "Entdecken Sie eine Welt, in der Professionalität auf Kunst trifft und jedes Ereignis sich in ein unvergessliches Erlebnis für Ihre Gäste verwandelt. Wir laden Sie ein, die einzigartigen Stile und Spezialitäten unserer kuratierten Auswahl an Künstlern und Entertainern zu erkunden. Für weitere Anfragen oder persönliche Empfehlungen zögern Sie bitte nicht, uns über unsere Kontaktseite zu erreichen.",
+      "heading": "Jan Himself",
+      "headingLineOne": "Begeben Sie sich auf eine Reise mit Jan Himself, einer Verschmelzung einzigartiger Charakter, innovativer Konzept und unvergleichlicher Performance-Kunst.",
+      "headingLineTwo": "Treten Sie ein in das fesselnde Universum von Jan Himself und erleben Sie:",
+      "showsOffered": [
+        "Diabolo-Show - Ein faszinierendes Spektakel aus Geschick und Präzision",
+        "Zaubershow - Wo das Unmögliche direkt vor Ihren Augen möglich wird",
+        "LED-Show - Eine blendende Darstellung von Licht und Bewegung, harmonisch synchronisiert"
+      ],
+      "headingLineThree": "Ob Firmenveranstaltung, Gala oder Open-Air-Show, Jan Himself bringt einen Hauch von Magie und unvergessliche Unterhaltung zu jedem Anlass.",
+      "janQuotes": [
+        "„König der Diabolos“ - gelobt von der Tribune de Genève",
+        "„Der beste, den ich je sah“ - Gordhon Heuckeroth, Star von Holland's Got Talent",
+        "„Unvergesslich“ - der legendäre Dieter Bohlen von Super Talent (DE)"
+      ],
+      "closing": "Jan Himself: Das Außergewöhnliche schaffen, jenseits der Perfektion.",
+      "links": [
+        {
+          "text": "Videos erkunden",
+          "link": "http://www.upinthehair.ch/fre/video"
+        },
+        {
+          "text": "Mehr auf der offiziellen Webseite entdecken",
+          "link": "https://www.janhimself.com/"
+        }
+      ]
     }
   },
   "conditions": {
