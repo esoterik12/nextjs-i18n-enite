@@ -29,7 +29,7 @@ export default async function LiveshowsPage({
 
               <ul className='mb-6 list-inside list-disc text-gray-600'>
                 {services.liveShows.showsOffered.map(item => (
-                  <li>{item}</li>
+                  <li key={item}>{item}</li>
                 ))}
               </ul>
 
@@ -37,7 +37,7 @@ export default async function LiveshowsPage({
 
               <div className='mb-8 space-y-4 italic text-gray-500'>
                 {services.liveShows.janQuotes.map(item => (
-                  <p>{item}</p>
+                  <p key={item}>{item}</p>
                 ))}
               </div>
 
@@ -49,6 +49,7 @@ export default async function LiveshowsPage({
                 {services.liveShows.links.map(link => (
                   <a
                     href={link.link}
+                    key={link.text}
                     className='text-blue-500 underline hover:text-blue-700'
                   >
                     {link.text}
